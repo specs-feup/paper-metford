@@ -1,0 +1,201 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.OverallTest:
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.LinearLayout.setVisibility(int)' on a null object reference
+	at com.beemdevelopment.aegis.ui.MainActivity.updateErrorBar(MainActivity.java:922)
+	at com.beemdevelopment.aegis.ui.MainActivity.onResume(MainActivity.java:714)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1456)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:811)
+	at android.app.Activity.performResume(Activity.java:8129)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4434)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4476)
+	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testOverall(com.beemdevelopment.aegis.OverallTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.LinearLayout.setVisibility(int)' on a null object reference
+	at com.beemdevelopment.aegis.ui.MainActivity.updateErrorBar(MainActivity.java:922)
+	at com.beemdevelopment.aegis.ui.MainActivity.onResume(MainActivity.java:714)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1456)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:811)
+	at android.app.Activity.performResume(Activity.java:8129)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4434)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4476)
+	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Current state was null unexpectedly. Last stage = STARTED
+	at androidx.test.internal.util.Checks.checkNotNull(Checks.java:45)
+	at androidx.test.core.app.ActivityScenario.moveToState(ActivityScenario.java:652)
+	at androidx.test.core.app.ActivityScenario.close(ActivityScenario.java:416)
+	at androidx.test.ext.junit.rules.ActivityScenarioRule.after(ActivityScenarioRule.java:114)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:59)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at dagger.hilt.android.internal.testing.MarkThatRulesRanRule$1.evaluate(MarkThatRulesRanRule.java:108)
+	at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:136)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:923)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testOverall(com.beemdevelopment.aegis.OverallTest):
+java.lang.NullPointerException: Current state was null unexpectedly. Last stage = STARTED
+	at androidx.test.internal.util.Checks.checkNotNull(Checks.java:45)
+	at androidx.test.core.app.ActivityScenario.moveToState(ActivityScenario.java:652)
+	at androidx.test.core.app.ActivityScenario.close(ActivityScenario.java:416)
+	at androidx.test.ext.junit.rules.ActivityScenarioRule.after(ActivityScenarioRule.java:114)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:59)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at dagger.hilt.android.internal.testing.MarkThatRulesRanRule$1.evaluate(MarkThatRulesRanRule.java:108)
+	at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:136)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:923)
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 8.098
+There were 2 failures:
+1) testOverall(com.beemdevelopment.aegis.OverallTest)
+androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 1290, 2802 and precision: 16, 16' on view 'view.getId() is <2131296377/com.beemdevelopment.aegis.debug:id/btnNext>'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:81)
+	... 14 trimmed
+Caused by: java.lang.RuntimeException: Unable to resume activity {com.beemdevelopment.aegis.debug/com.beemdevelopment.aegis.ui.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.LinearLayout.setVisibility(int)' on a null object reference
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4444)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4476)
+	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.LinearLayout.setVisibility(int)' on a null object reference
+	at com.beemdevelopment.aegis.ui.MainActivity.updateErrorBar(MainActivity.java:922)
+	at com.beemdevelopment.aegis.ui.MainActivity.onResume(MainActivity.java:714)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1456)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:811)
+	at android.app.Activity.performResume(Activity.java:8129)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4434)
+	... 29 more
+2) testOverall(com.beemdevelopment.aegis.OverallTest)
+java.lang.NullPointerException: Current state was null unexpectedly. Last stage = STARTED
+	at androidx.test.internal.util.Checks.checkNotNull(Checks.java:45)
+	at androidx.test.core.app.ActivityScenario.moveToState(ActivityScenario.java:652)
+	at androidx.test.core.app.ActivityScenario.close(ActivityScenario.java:416)
+	at androidx.test.ext.junit.rules.ActivityScenarioRule.after(ActivityScenarioRule.java:114)
+	at org.junit.rules.ExternalResource$1.evaluate(ExternalResource.java:59)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at dagger.hilt.android.internal.testing.MarkThatRulesRanRule$1.evaluate(MarkThatRulesRanRule.java:108)
+	at androidx.test.rule.GrantPermissionRule$RequestPermissionStatement.evaluate(GrantPermissionRule.java:136)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:923)
+
+FAILURES!!!
+Tests run: 1,  Failures: 2
+
+
+INSTRUMENTATION_CODE: -1

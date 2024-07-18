@@ -1,0 +1,56 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.DeepLinkTest:
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.setText(java.lang.CharSequence)' on a null object reference
+	at com.beemdevelopment.aegis.ui.EditEntryActivity.onCreate(EditEntryActivity.java:1244)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testDeepLinkIntent(com.beemdevelopment.aegis.DeepLinkTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.setText(java.lang.CharSequence)' on a null object reference
+	at com.beemdevelopment.aegis.ui.EditEntryActivity.onCreate(EditEntryActivity.java:1244)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

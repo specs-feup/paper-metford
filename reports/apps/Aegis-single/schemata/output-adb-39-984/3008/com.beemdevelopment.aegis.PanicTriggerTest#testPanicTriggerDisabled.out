@@ -1,0 +1,131 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.PanicTriggerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.PanicTriggerTest:
+INSTRUMENTATION_STATUS: test=testPanicTriggerDisabled
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.PanicTriggerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: com.beemdevelopment.aegis.vault.VaultRepositoryException: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.AegisTest.initVault(AegisTest.java:105)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:84)
+	at com.beemdevelopment.aegis.PanicTriggerTest.before(PanicTriggerTest.java:29)
+	... 10 trimmed
+Caused by: com.beemdevelopment.aegis.vault.VaultRepositoryException: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.vault.VaultRepository.save(VaultRepository.java:150)
+	at com.beemdevelopment.aegis.vault.VaultManager.save(VaultManager.java:201)
+	at com.beemdevelopment.aegis.vault.VaultManager.initNew(VaultManager.java:99)
+	at com.beemdevelopment.aegis.AegisTest.initVault(AegisTest.java:103)
+	... 13 more
+Caused by: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.vault.VaultFile.setContent(VaultFile.java:139)
+	at com.beemdevelopment.aegis.vault.VaultRepository.save(VaultRepository.java:138)
+	... 16 more
+Caused by: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.crypto.MasterKey.encrypt(MasterKey.java:44)
+	at com.beemdevelopment.aegis.vault.VaultFileCredentials.encrypt(VaultFileCredentials.java:38)
+	at com.beemdevelopment.aegis.vault.VaultFile.setContent(VaultFile.java:135)
+	... 17 more
+Caused by: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.android.org.conscrypt.OpenSSLAeadCipherAES.checkSupportedKeySize(OpenSSLAeadCipherAES.java:45)
+	at com.android.org.conscrypt.OpenSSLCipher.checkAndSetEncodedKey(OpenSSLCipher.java:480)
+	at com.android.org.conscrypt.OpenSSLCipher.engineInit(OpenSSLCipher.java:295)
+	at javax.crypto.Cipher.tryTransformWithProvider(Cipher.java:2984)
+	at javax.crypto.Cipher.tryCombinations(Cipher.java:2891)
+	at javax.crypto.Cipher$SpiAndProviderUpdater.updateAndGetSpiAndProvider(Cipher.java:2796)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:773)
+	at javax.crypto.Cipher.init(Cipher.java:1143)
+	at javax.crypto.Cipher.init(Cipher.java:1084)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.createCipher(CryptoUtils.java:98)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.createEncryptCipher(CryptoUtils.java:64)
+	at com.beemdevelopment.aegis.crypto.MasterKey.encrypt(MasterKey.java:41)
+	... 19 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testPanicTriggerDisabled(com.beemdevelopment.aegis.PanicTriggerTest):
+java.lang.RuntimeException: com.beemdevelopment.aegis.vault.VaultRepositoryException: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.AegisTest.initVault(AegisTest.java:105)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:84)
+	at com.beemdevelopment.aegis.PanicTriggerTest.before(PanicTriggerTest.java:29)
+	... 10 trimmed
+Caused by: com.beemdevelopment.aegis.vault.VaultRepositoryException: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.vault.VaultRepository.save(VaultRepository.java:150)
+	at com.beemdevelopment.aegis.vault.VaultManager.save(VaultManager.java:201)
+	at com.beemdevelopment.aegis.vault.VaultManager.initNew(VaultManager.java:99)
+	at com.beemdevelopment.aegis.AegisTest.initVault(AegisTest.java:103)
+	... 13 more
+Caused by: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.vault.VaultFile.setContent(VaultFile.java:139)
+	at com.beemdevelopment.aegis.vault.VaultRepository.save(VaultRepository.java:138)
+	... 16 more
+Caused by: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.crypto.MasterKey.encrypt(MasterKey.java:44)
+	at com.beemdevelopment.aegis.vault.VaultFileCredentials.encrypt(VaultFileCredentials.java:38)
+	at com.beemdevelopment.aegis.vault.VaultFile.setContent(VaultFile.java:135)
+	... 17 more
+Caused by: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.android.org.conscrypt.OpenSSLAeadCipherAES.checkSupportedKeySize(OpenSSLAeadCipherAES.java:45)
+	at com.android.org.conscrypt.OpenSSLCipher.checkAndSetEncodedKey(OpenSSLCipher.java:480)
+	at com.android.org.conscrypt.OpenSSLCipher.engineInit(OpenSSLCipher.java:295)
+	at javax.crypto.Cipher.tryTransformWithProvider(Cipher.java:2984)
+	at javax.crypto.Cipher.tryCombinations(Cipher.java:2891)
+	at javax.crypto.Cipher$SpiAndProviderUpdater.updateAndGetSpiAndProvider(Cipher.java:2796)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:773)
+	at javax.crypto.Cipher.init(Cipher.java:1143)
+	at javax.crypto.Cipher.init(Cipher.java:1084)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.createCipher(CryptoUtils.java:98)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.createEncryptCipher(CryptoUtils.java:64)
+	at com.beemdevelopment.aegis.crypto.MasterKey.encrypt(MasterKey.java:41)
+	... 19 more
+
+INSTRUMENTATION_STATUS: test=testPanicTriggerDisabled
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.354
+There was 1 failure:
+1) testPanicTriggerDisabled(com.beemdevelopment.aegis.PanicTriggerTest)
+java.lang.RuntimeException: com.beemdevelopment.aegis.vault.VaultRepositoryException: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.AegisTest.initVault(AegisTest.java:105)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:84)
+	at com.beemdevelopment.aegis.PanicTriggerTest.before(PanicTriggerTest.java:29)
+	... 10 trimmed
+Caused by: com.beemdevelopment.aegis.vault.VaultRepositoryException: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.vault.VaultRepository.save(VaultRepository.java:150)
+	at com.beemdevelopment.aegis.vault.VaultManager.save(VaultManager.java:201)
+	at com.beemdevelopment.aegis.vault.VaultManager.initNew(VaultManager.java:99)
+	at com.beemdevelopment.aegis.AegisTest.initVault(AegisTest.java:103)
+	... 13 more
+Caused by: com.beemdevelopment.aegis.vault.VaultFileException: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.vault.VaultFile.setContent(VaultFile.java:139)
+	at com.beemdevelopment.aegis.vault.VaultRepository.save(VaultRepository.java:138)
+	... 16 more
+Caused by: com.beemdevelopment.aegis.crypto.MasterKeyException: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.beemdevelopment.aegis.crypto.MasterKey.encrypt(MasterKey.java:44)
+	at com.beemdevelopment.aegis.vault.VaultFileCredentials.encrypt(VaultFileCredentials.java:38)
+	at com.beemdevelopment.aegis.vault.VaultFile.setContent(VaultFile.java:135)
+	... 17 more
+Caused by: java.security.InvalidKeyException: Unsupported key size: 1 bytes (must be 16 or 32)
+	at com.android.org.conscrypt.OpenSSLAeadCipherAES.checkSupportedKeySize(OpenSSLAeadCipherAES.java:45)
+	at com.android.org.conscrypt.OpenSSLCipher.checkAndSetEncodedKey(OpenSSLCipher.java:480)
+	at com.android.org.conscrypt.OpenSSLCipher.engineInit(OpenSSLCipher.java:295)
+	at javax.crypto.Cipher.tryTransformWithProvider(Cipher.java:2984)
+	at javax.crypto.Cipher.tryCombinations(Cipher.java:2891)
+	at javax.crypto.Cipher$SpiAndProviderUpdater.updateAndGetSpiAndProvider(Cipher.java:2796)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:773)
+	at javax.crypto.Cipher.init(Cipher.java:1143)
+	at javax.crypto.Cipher.init(Cipher.java:1084)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.createCipher(CryptoUtils.java:98)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.createEncryptCipher(CryptoUtils.java:64)
+	at com.beemdevelopment.aegis.crypto.MasterKey.encrypt(MasterKey.java:41)
+	... 19 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

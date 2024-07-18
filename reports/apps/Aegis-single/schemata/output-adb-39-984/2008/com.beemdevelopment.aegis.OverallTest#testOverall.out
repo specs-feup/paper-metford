@@ -1,0 +1,38 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.OverallTest:
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Vault manager is not initialized
+	at com.beemdevelopment.aegis.vault.VaultManager.getVault(VaultManager.java:306)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:147)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testOverall(com.beemdevelopment.aegis.OverallTest):
+java.lang.IllegalStateException: Vault manager is not initialized
+	at com.beemdevelopment.aegis.vault.VaultManager.getVault(VaultManager.java:306)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:147)
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 112.924
+There was 1 failure:
+1) testOverall(com.beemdevelopment.aegis.OverallTest)
+java.lang.IllegalStateException: Vault manager is not initialized
+	at com.beemdevelopment.aegis.vault.VaultManager.getVault(VaultManager.java:306)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:147)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

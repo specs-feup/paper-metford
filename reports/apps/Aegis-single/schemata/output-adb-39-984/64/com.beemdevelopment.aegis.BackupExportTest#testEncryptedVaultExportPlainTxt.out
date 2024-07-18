@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.BackupExportTest:
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.vectors.VaultEntries.get(VaultEntries.java:32)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:84)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:153)
+	... 15 trimmed
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:105)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:27)
+	at com.beemdevelopment.aegis.vectors.VaultEntries.get(VaultEntries.java:22)
+	... 18 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testEncryptedVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest):
+java.lang.RuntimeException: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.vectors.VaultEntries.get(VaultEntries.java:32)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:84)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:153)
+	... 15 trimmed
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:105)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:27)
+	at com.beemdevelopment.aegis.vectors.VaultEntries.get(VaultEntries.java:22)
+	... 18 more
+
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 1.89
+There was 1 failure:
+1) testEncryptedVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest)
+java.lang.RuntimeException: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.vectors.VaultEntries.get(VaultEntries.java:32)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:84)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:153)
+	... 15 trimmed
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:105)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:27)
+	at com.beemdevelopment.aegis.vectors.VaultEntries.get(VaultEntries.java:22)
+	... 18 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

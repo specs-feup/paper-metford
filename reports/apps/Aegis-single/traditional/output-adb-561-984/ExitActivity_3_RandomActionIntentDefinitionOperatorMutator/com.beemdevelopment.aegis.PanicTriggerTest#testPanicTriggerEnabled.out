@@ -1,0 +1,78 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.PanicTriggerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.PanicTriggerTest:
+INSTRUMENTATION_STATUS: test=testPanicTriggerEnabled
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.PanicTriggerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.SEND flg=0x10818000 }
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2067)
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+	at androidx.test.runner.MonitoringInstrumentation.execStartActivity(MonitoringInstrumentation.java:605)
+	at android.app.Activity.startActivityForResult(Activity.java:5314)
+	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:728)
+	at android.app.Activity.startActivityForResult(Activity.java:5272)
+	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:709)
+	at android.app.Activity.startActivity(Activity.java:5658)
+	at android.app.Activity.startActivity(Activity.java:5611)
+	at com.beemdevelopment.aegis.ui.ExitActivity.exitAppAndRemoveFromRecents(ExitActivity.java:23)
+	at com.beemdevelopment.aegis.ui.PanicResponderActivity.finishApp(PanicResponderActivity.java:50)
+	at com.beemdevelopment.aegis.ui.PanicResponderActivity.onCreate(PanicResponderActivity.java:42)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testPanicTriggerEnabled(com.beemdevelopment.aegis.PanicTriggerTest):
+android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.intent.action.SEND flg=0x10818000 }
+	at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:2067)
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1727)
+	at androidx.test.runner.MonitoringInstrumentation.execStartActivity(MonitoringInstrumentation.java:605)
+	at android.app.Activity.startActivityForResult(Activity.java:5314)
+	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:728)
+	at android.app.Activity.startActivityForResult(Activity.java:5272)
+	at androidx.activity.ComponentActivity.startActivityForResult(ComponentActivity.java:709)
+	at android.app.Activity.startActivity(Activity.java:5658)
+	at android.app.Activity.startActivity(Activity.java:5611)
+	at com.beemdevelopment.aegis.ui.ExitActivity.exitAppAndRemoveFromRecents(ExitActivity.java:23)
+	at com.beemdevelopment.aegis.ui.PanicResponderActivity.finishApp(PanicResponderActivity.java:50)
+	at com.beemdevelopment.aegis.ui.PanicResponderActivity.onCreate(PanicResponderActivity.java:42)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testPanicTriggerEnabled
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

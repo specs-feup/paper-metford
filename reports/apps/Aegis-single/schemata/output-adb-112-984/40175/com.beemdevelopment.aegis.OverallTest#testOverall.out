@@ -1,0 +1,264 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.OverallTest:
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at com.beemdevelopment.aegis.ui.EditEntryActivity.onCreate(EditEntryActivity.java:1138)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testOverall(com.beemdevelopment.aegis.OverallTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at com.beemdevelopment.aegis.ui.EditEntryActivity.onCreate(EditEntryActivity.java:1138)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 719, 2837 and precision: 16, 16' on view 'view.getId() is <2131296503/com.beemdevelopment.aegis.debug:id/fab_enter>'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at com.beemdevelopment.aegis.OverallTest.addEntry(OverallTest.java:184)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:97)
+	... 14 trimmed
+Caused by: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.beemdevelopment.aegis.debug/com.beemdevelopment.aegis.ui.EditEntryActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at com.beemdevelopment.aegis.ui.EditEntryActivity.onCreate(EditEntryActivity.java:1138)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	... 29 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testOverall(com.beemdevelopment.aegis.OverallTest):
+androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 719, 2837 and precision: 16, 16' on view 'view.getId() is <2131296503/com.beemdevelopment.aegis.debug:id/fab_enter>'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at com.beemdevelopment.aegis.OverallTest.addEntry(OverallTest.java:184)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:97)
+	... 14 trimmed
+Caused by: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.beemdevelopment.aegis.debug/com.beemdevelopment.aegis.ui.EditEntryActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at com.beemdevelopment.aegis.ui.EditEntryActivity.onCreate(EditEntryActivity.java:1138)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	... 29 more
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 10.715
+There was 1 failure:
+1) testOverall(com.beemdevelopment.aegis.OverallTest)
+androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 719, 2837 and precision: 16, 16' on view 'view.getId() is <2131296503/com.beemdevelopment.aegis.debug:id/fab_enter>'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at com.beemdevelopment.aegis.OverallTest.addEntry(OverallTest.java:184)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:97)
+	... 14 trimmed
+Caused by: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.beemdevelopment.aegis.debug/com.beemdevelopment.aegis.ui.EditEntryActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3449)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3601)
+	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void com.google.android.material.textfield.TextInputEditText.addTextChangedListener(android.text.TextWatcher)' on a null object reference
+	at com.beemdevelopment.aegis.ui.EditEntryActivity.onCreate(EditEntryActivity.java:1138)
+	at android.app.Activity.performCreate(Activity.java:7994)
+	at android.app.Activity.performCreate(Activity.java:7978)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1309)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnCreate(MonitoringInstrumentation.java:779)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3422)
+	... 29 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,62 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.DeepLinkTest:
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at com.beemdevelopment.aegis.ui.MainActivity.startEditEntryActivityForNew(MainActivity.java:519)
+	at com.beemdevelopment.aegis.ui.MainActivity.handleIncomingIntent(MainActivity.java:1421)
+	at com.beemdevelopment.aegis.ui.MainActivity.onResume(MainActivity.java:1554)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1456)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:811)
+	at android.app.Activity.performResume(Activity.java:8129)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4434)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4476)
+	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testDeepLinkIntent(com.beemdevelopment.aegis.DeepLinkTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at com.beemdevelopment.aegis.ui.MainActivity.startEditEntryActivityForNew(MainActivity.java:519)
+	at com.beemdevelopment.aegis.ui.MainActivity.handleIncomingIntent(MainActivity.java:1421)
+	at com.beemdevelopment.aegis.ui.MainActivity.onResume(MainActivity.java:1554)
+	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1456)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnResume(MonitoringInstrumentation.java:811)
+	at android.app.Activity.performResume(Activity.java:8129)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4434)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4476)
+	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

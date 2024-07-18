@@ -1,0 +1,49 @@
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Bad value in PersistableBundle key=action value=[Landroid.os.Parcelable;@f4451de
+	at android.os.PersistableBundle.<init>(PersistableBundle.java:137)
+	at android.os.PersistableBundle.<init>(PersistableBundle.java:110)
+	at android.content.pm.ShortcutInfo.fixUpIntentExtras(ShortcutInfo.java:483)
+	at android.content.pm.ShortcutInfo.<init>(ShortcutInfo.java:455)
+	at android.content.pm.ShortcutInfo.<init>(ShortcutInfo.java:62)
+	at android.content.pm.ShortcutInfo$Builder.build(ShortcutInfo.java:1353)
+	at com.beemdevelopment.aegis.AegisApplicationBase.initAppShortcuts(AegisApplicationBase.java:87)
+	at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:60)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+	at androidx.test.runner.MonitoringInstrumentation.callApplicationOnCreate(MonitoringInstrumentation.java:483)
+	at com.beemdevelopment.aegis.AegisTestRunner.callApplicationOnCreate(AegisTestRunner.java:43)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed before executing the test(s):
+java.lang.IllegalArgumentException: Bad value in PersistableBundle key=action value=[Landroid.os.Parcelable;@f4451de
+	at android.os.PersistableBundle.<init>(PersistableBundle.java:137)
+	at android.os.PersistableBundle.<init>(PersistableBundle.java:110)
+	at android.content.pm.ShortcutInfo.fixUpIntentExtras(ShortcutInfo.java:483)
+	at android.content.pm.ShortcutInfo.<init>(ShortcutInfo.java:455)
+	at android.content.pm.ShortcutInfo.<init>(ShortcutInfo.java:62)
+	at android.content.pm.ShortcutInfo$Builder.build(ShortcutInfo.java:1353)
+	at com.beemdevelopment.aegis.AegisApplicationBase.initAppShortcuts(AegisApplicationBase.java:87)
+	at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:60)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+	at androidx.test.runner.MonitoringInstrumentation.callApplicationOnCreate(MonitoringInstrumentation.java:483)
+	at com.beemdevelopment.aegis.AegisTestRunner.callApplicationOnCreate(AegisTestRunner.java:43)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

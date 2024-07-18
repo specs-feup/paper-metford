@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.DeepLinkTest:
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent_Bad
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: 64 > 48
+	at java.util.Arrays.copyOfRange(Arrays.java:3444)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.encrypt(CryptoUtils.java:91)
+	at com.beemdevelopment.aegis.vault.slots.Slot.setKey(Slot.java:70)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.setKey(PasswordSlot.java:66)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:137)
+	at com.beemdevelopment.aegis.AegisTest.initEmptyEncryptedVault(AegisTest.java:88)
+	at com.beemdevelopment.aegis.DeepLinkTest.before(DeepLinkTest.java:32)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testDeepLinkIntent_Bad(com.beemdevelopment.aegis.DeepLinkTest):
+java.lang.IllegalArgumentException: 64 > 48
+	at java.util.Arrays.copyOfRange(Arrays.java:3444)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.encrypt(CryptoUtils.java:91)
+	at com.beemdevelopment.aegis.vault.slots.Slot.setKey(Slot.java:70)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.setKey(PasswordSlot.java:66)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:137)
+	at com.beemdevelopment.aegis.AegisTest.initEmptyEncryptedVault(AegisTest.java:88)
+	at com.beemdevelopment.aegis.DeepLinkTest.before(DeepLinkTest.java:32)
+
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent_Bad
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.191
+There was 1 failure:
+1) testDeepLinkIntent_Bad(com.beemdevelopment.aegis.DeepLinkTest)
+java.lang.IllegalArgumentException: 64 > 48
+	at java.util.Arrays.copyOfRange(Arrays.java:3444)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.encrypt(CryptoUtils.java:91)
+	at com.beemdevelopment.aegis.vault.slots.Slot.setKey(Slot.java:70)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.setKey(PasswordSlot.java:66)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:137)
+	at com.beemdevelopment.aegis.AegisTest.initEmptyEncryptedVault(AegisTest.java:88)
+	at com.beemdevelopment.aegis.DeepLinkTest.before(DeepLinkTest.java:32)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

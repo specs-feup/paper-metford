@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.BackupExportTest:
+INSTRUMENTATION_STATUS: test=testPlainVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=32; index=-2
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:25)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:14)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:19)
+	at com.beemdevelopment.aegis.otp.TotpInfo.getOtp(TotpInfo.java:33)
+	at com.beemdevelopment.aegis.BackupExportTest.checkReadEntries(BackupExportTest.java:393)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:380)
+	at com.beemdevelopment.aegis.BackupExportTest.testPlainVaultExportPlainTxt(BackupExportTest.java:121)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testPlainVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest):
+java.lang.ArrayIndexOutOfBoundsException: length=32; index=-2
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:25)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:14)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:19)
+	at com.beemdevelopment.aegis.otp.TotpInfo.getOtp(TotpInfo.java:33)
+	at com.beemdevelopment.aegis.BackupExportTest.checkReadEntries(BackupExportTest.java:393)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:380)
+	at com.beemdevelopment.aegis.BackupExportTest.testPlainVaultExportPlainTxt(BackupExportTest.java:121)
+
+INSTRUMENTATION_STATUS: test=testPlainVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 8.427
+There was 1 failure:
+1) testPlainVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest)
+java.lang.ArrayIndexOutOfBoundsException: length=32; index=-2
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:25)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:14)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:19)
+	at com.beemdevelopment.aegis.otp.TotpInfo.getOtp(TotpInfo.java:33)
+	at com.beemdevelopment.aegis.BackupExportTest.checkReadEntries(BackupExportTest.java:393)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:380)
+	at com.beemdevelopment.aegis.BackupExportTest.testPlainVaultExportPlainTxt(BackupExportTest.java:121)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

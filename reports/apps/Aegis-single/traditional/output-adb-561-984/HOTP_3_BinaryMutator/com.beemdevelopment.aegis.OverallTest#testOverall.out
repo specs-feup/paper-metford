@@ -1,0 +1,95 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.OverallTest:
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=20; index=-2
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:25)
+	at com.beemdevelopment.aegis.otp.HotpInfo.getOtp(HotpInfo.java:37)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.updateCode(EntryHolder.java:251)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refreshCode(EntryHolder.java:238)
+	at com.beemdevelopment.aegis.ui.views.EntryAdapter$4.onClick(EntryAdapter.java:518)
+	at android.view.View.performClick(View.java:7448)
+	at com.beemdevelopment.aegis.AegisTest$1.perform(AegisTest.java:183)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemAtPositionViewAction.perform(RecyclerViewActions.java:313)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testOverall(com.beemdevelopment.aegis.OverallTest):
+java.lang.ArrayIndexOutOfBoundsException: length=20; index=-2
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:25)
+	at com.beemdevelopment.aegis.otp.HotpInfo.getOtp(HotpInfo.java:37)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.updateCode(EntryHolder.java:251)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refreshCode(EntryHolder.java:238)
+	at com.beemdevelopment.aegis.ui.views.EntryAdapter$4.onClick(EntryAdapter.java:518)
+	at android.view.View.performClick(View.java:7448)
+	at com.beemdevelopment.aegis.AegisTest$1.perform(AegisTest.java:183)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemAtPositionViewAction.perform(RecyclerViewActions.java:313)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 109.926
+There was 1 failure:
+1) testOverall(com.beemdevelopment.aegis.OverallTest)
+java.lang.ArrayIndexOutOfBoundsException: length=20; index=-2
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:25)
+	at com.beemdevelopment.aegis.otp.HotpInfo.getOtp(HotpInfo.java:37)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.updateCode(EntryHolder.java:251)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refreshCode(EntryHolder.java:238)
+	at com.beemdevelopment.aegis.ui.views.EntryAdapter$4.onClick(EntryAdapter.java:518)
+	at android.view.View.performClick(View.java:7448)
+	at com.beemdevelopment.aegis.AegisTest$1.perform(AegisTest.java:183)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemAtPositionViewAction.perform(RecyclerViewActions.java:313)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,86 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.BackupExportTest:
+INSTRUMENTATION_STATUS: test=testPlainVaultExportEncryptedJson
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Unable to read back vault file
+	at com.beemdevelopment.aegis.BackupExportTest.readVault(BackupExportTest.java:361)
+	at com.beemdevelopment.aegis.BackupExportTest.testPlainVaultExportEncryptedJson(BackupExportTest.java:135)
+	... 15 trimmed
+Caused by: com.beemdevelopment.aegis.vault.slots.SlotIntegrityException: javax.crypto.AEADBadTagException: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT
+	at com.beemdevelopment.aegis.vault.slots.Slot.getKey(Slot.java:57)
+	at com.beemdevelopment.aegis.BackupExportTest.readVault(BackupExportTest.java:353)
+	... 17 more
+Caused by: javax.crypto.AEADBadTagException: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.android.org.conscrypt.OpenSSLAeadCipher.throwAEADBadTagExceptionIfAvailable(OpenSSLAeadCipher.java:273)
+	at com.android.org.conscrypt.OpenSSLAeadCipher.doFinalInternal(OpenSSLAeadCipher.java:302)
+	at com.android.org.conscrypt.OpenSSLCipher.engineDoFinal(OpenSSLCipher.java:374)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2055)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.decrypt(CryptoUtils.java:112)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.decrypt(CryptoUtils.java:100)
+	at com.beemdevelopment.aegis.vault.slots.Slot.getKey(Slot.java:53)
+	... 18 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testPlainVaultExportEncryptedJson(com.beemdevelopment.aegis.BackupExportTest):
+java.lang.RuntimeException: Unable to read back vault file
+	at com.beemdevelopment.aegis.BackupExportTest.readVault(BackupExportTest.java:361)
+	at com.beemdevelopment.aegis.BackupExportTest.testPlainVaultExportEncryptedJson(BackupExportTest.java:135)
+	... 15 trimmed
+Caused by: com.beemdevelopment.aegis.vault.slots.SlotIntegrityException: javax.crypto.AEADBadTagException: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT
+	at com.beemdevelopment.aegis.vault.slots.Slot.getKey(Slot.java:57)
+	at com.beemdevelopment.aegis.BackupExportTest.readVault(BackupExportTest.java:353)
+	... 17 more
+Caused by: javax.crypto.AEADBadTagException: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.android.org.conscrypt.OpenSSLAeadCipher.throwAEADBadTagExceptionIfAvailable(OpenSSLAeadCipher.java:273)
+	at com.android.org.conscrypt.OpenSSLAeadCipher.doFinalInternal(OpenSSLAeadCipher.java:302)
+	at com.android.org.conscrypt.OpenSSLCipher.engineDoFinal(OpenSSLCipher.java:374)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2055)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.decrypt(CryptoUtils.java:112)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.decrypt(CryptoUtils.java:100)
+	at com.beemdevelopment.aegis.vault.slots.Slot.getKey(Slot.java:53)
+	... 18 more
+
+INSTRUMENTATION_STATUS: test=testPlainVaultExportEncryptedJson
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 13.531
+There was 1 failure:
+1) testPlainVaultExportEncryptedJson(com.beemdevelopment.aegis.BackupExportTest)
+java.lang.RuntimeException: Unable to read back vault file
+	at com.beemdevelopment.aegis.BackupExportTest.readVault(BackupExportTest.java:361)
+	at com.beemdevelopment.aegis.BackupExportTest.testPlainVaultExportEncryptedJson(BackupExportTest.java:135)
+	... 15 trimmed
+Caused by: com.beemdevelopment.aegis.vault.slots.SlotIntegrityException: javax.crypto.AEADBadTagException: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT
+	at com.beemdevelopment.aegis.vault.slots.Slot.getKey(Slot.java:57)
+	at com.beemdevelopment.aegis.BackupExportTest.readVault(BackupExportTest.java:353)
+	... 17 more
+Caused by: javax.crypto.AEADBadTagException: error:1e000065:Cipher functions:OPENSSL_internal:BAD_DECRYPT
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.android.org.conscrypt.OpenSSLAeadCipher.throwAEADBadTagExceptionIfAvailable(OpenSSLAeadCipher.java:273)
+	at com.android.org.conscrypt.OpenSSLAeadCipher.doFinalInternal(OpenSSLAeadCipher.java:302)
+	at com.android.org.conscrypt.OpenSSLCipher.engineDoFinal(OpenSSLCipher.java:374)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2055)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.decrypt(CryptoUtils.java:112)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.decrypt(CryptoUtils.java:100)
+	at com.beemdevelopment.aegis.vault.slots.Slot.getKey(Slot.java:53)
+	... 18 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

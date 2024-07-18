@@ -1,0 +1,80 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.BackupExportTest:
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Unable to read txt export file
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:377)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:163)
+	... 15 trimmed
+Caused by: java.io.FileNotFoundException: /storage/emulated/0/Android/data/com.beemdevelopment.aegis.debug/cache/export-641112dbae52d9af/aegis-export-20231215-200645.json: open failed: ENOENT (No such file or directory)
+	at libcore.io.IoBridge.open(IoBridge.java:492)
+	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:372)
+	... 17 more
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:254)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7542)
+	at libcore.io.IoBridge.open(IoBridge.java:478)
+	... 19 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testEncryptedVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest):
+java.lang.RuntimeException: Unable to read txt export file
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:377)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:163)
+	... 15 trimmed
+Caused by: java.io.FileNotFoundException: /storage/emulated/0/Android/data/com.beemdevelopment.aegis.debug/cache/export-641112dbae52d9af/aegis-export-20231215-200645.json: open failed: ENOENT (No such file or directory)
+	at libcore.io.IoBridge.open(IoBridge.java:492)
+	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:372)
+	... 17 more
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:254)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7542)
+	at libcore.io.IoBridge.open(IoBridge.java:478)
+	... 19 more
+
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 8.5
+There was 1 failure:
+1) testEncryptedVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest)
+java.lang.RuntimeException: Unable to read txt export file
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:377)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:163)
+	... 15 trimmed
+Caused by: java.io.FileNotFoundException: /storage/emulated/0/Android/data/com.beemdevelopment.aegis.debug/cache/export-641112dbae52d9af/aegis-export-20231215-200645.json: open failed: ENOENT (No such file or directory)
+	at libcore.io.IoBridge.open(IoBridge.java:492)
+	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:372)
+	... 17 more
+Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+	at libcore.io.Linux.open(Native Method)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:254)
+	at libcore.io.ForwardingOs.open(ForwardingOs.java:166)
+	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:7542)
+	at libcore.io.IoBridge.open(IoBridge.java:478)
+	... 19 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.vault.VaultRepositoryTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.vault.VaultRepositoryTest:
+INSTRUMENTATION_STATUS: test=testToggleEncryption
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.vault.VaultRepositoryTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: 64 > 48
+	at java.util.Arrays.copyOfRange(Arrays.java:3444)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.encrypt(CryptoUtils.java:91)
+	at com.beemdevelopment.aegis.vault.slots.Slot.setKey(Slot.java:70)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.setKey(PasswordSlot.java:66)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:137)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.vault.VaultRepositoryTest.before(VaultRepositoryTest.java:27)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testToggleEncryption(com.beemdevelopment.aegis.vault.VaultRepositoryTest):
+java.lang.IllegalArgumentException: 64 > 48
+	at java.util.Arrays.copyOfRange(Arrays.java:3444)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.encrypt(CryptoUtils.java:91)
+	at com.beemdevelopment.aegis.vault.slots.Slot.setKey(Slot.java:70)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.setKey(PasswordSlot.java:66)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:137)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.vault.VaultRepositoryTest.before(VaultRepositoryTest.java:27)
+
+INSTRUMENTATION_STATUS: test=testToggleEncryption
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.192
+There was 1 failure:
+1) testToggleEncryption(com.beemdevelopment.aegis.vault.VaultRepositoryTest)
+java.lang.IllegalArgumentException: 64 > 48
+	at java.util.Arrays.copyOfRange(Arrays.java:3444)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.encrypt(CryptoUtils.java:91)
+	at com.beemdevelopment.aegis.vault.slots.Slot.setKey(Slot.java:70)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.setKey(PasswordSlot.java:66)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:137)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.vault.VaultRepositoryTest.before(VaultRepositoryTest.java:27)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

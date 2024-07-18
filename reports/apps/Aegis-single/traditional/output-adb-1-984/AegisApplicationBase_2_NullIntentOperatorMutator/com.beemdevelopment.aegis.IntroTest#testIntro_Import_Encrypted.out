@@ -1,0 +1,37 @@
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, java.lang.String)' on a null object reference
+	at com.beemdevelopment.aegis.AegisApplicationBase.initAppShortcuts(AegisApplicationBase.java:79)
+	at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:59)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+	at androidx.test.runner.MonitoringInstrumentation.callApplicationOnCreate(MonitoringInstrumentation.java:483)
+	at com.beemdevelopment.aegis.AegisTestRunner.callApplicationOnCreate(AegisTestRunner.java:43)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed before executing the test(s):
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, java.lang.String)' on a null object reference
+	at com.beemdevelopment.aegis.AegisApplicationBase.initAppShortcuts(AegisApplicationBase.java:79)
+	at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:59)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1192)
+	at androidx.test.runner.MonitoringInstrumentation.callApplicationOnCreate(MonitoringInstrumentation.java:483)
+	at com.beemdevelopment.aegis.AegisTestRunner.callApplicationOnCreate(AegisTestRunner.java:43)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6712)
+	at android.app.ActivityThread.access$1300(ActivityThread.java:237)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1913)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

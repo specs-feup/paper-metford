@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.PanicTriggerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.PanicTriggerTest:
+INSTRUMENTATION_STATUS: test=testPanicTriggerDisabled
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.PanicTriggerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=256; index=256
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:395)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:240)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:123)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:51)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:59)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:62)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.PanicTriggerTest.before(PanicTriggerTest.java:29)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testPanicTriggerDisabled(com.beemdevelopment.aegis.PanicTriggerTest):
+java.lang.ArrayIndexOutOfBoundsException: length=256; index=256
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:395)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:240)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:123)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:51)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:59)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:62)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.PanicTriggerTest.before(PanicTriggerTest.java:29)
+
+INSTRUMENTATION_STATUS: test=testPanicTriggerDisabled
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.19
+There was 1 failure:
+1) testPanicTriggerDisabled(com.beemdevelopment.aegis.PanicTriggerTest)
+java.lang.ArrayIndexOutOfBoundsException: length=256; index=256
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:395)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:240)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:123)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:51)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:59)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:62)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.PanicTriggerTest.before(PanicTriggerTest.java:29)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.vault.VaultRepositoryTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.vault.VaultRepositoryTest:
+INSTRUMENTATION_STATUS: test=testToggleEncryption
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.vault.VaultRepositoryTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=256; index=272
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:434)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:240)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:123)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:51)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:59)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:62)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.vault.VaultRepositoryTest.before(VaultRepositoryTest.java:27)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testToggleEncryption(com.beemdevelopment.aegis.vault.VaultRepositoryTest):
+java.lang.ArrayIndexOutOfBoundsException: length=256; index=272
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:434)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:240)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:123)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:51)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:59)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:62)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.vault.VaultRepositoryTest.before(VaultRepositoryTest.java:27)
+
+INSTRUMENTATION_STATUS: test=testToggleEncryption
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.193
+There was 1 failure:
+1) testToggleEncryption(com.beemdevelopment.aegis.vault.VaultRepositoryTest)
+java.lang.ArrayIndexOutOfBoundsException: length=256; index=272
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:434)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:240)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:123)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:51)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:59)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:62)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.vault.VaultRepositoryTest.before(VaultRepositoryTest.java:27)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

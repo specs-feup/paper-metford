@@ -1,0 +1,125 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.OverallTest:
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=20; index=-1
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:51)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:32)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:43)
+	at com.beemdevelopment.aegis.otp.TotpInfo.getOtp(TotpInfo.java:42)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.updateCode(EntryHolder.java:548)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refreshCode(EntryHolder.java:534)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refresh(EntryHolder.java:528)
+	at com.beemdevelopment.aegis.ui.views.EntryAdapter.refresh(EntryAdapter.java:325)
+	at com.beemdevelopment.aegis.ui.views.EntryListView.refresh(EntryListView.java:374)
+	at com.beemdevelopment.aegis.ui.views.EntryListView$2.onRefresh(EntryListView.java:245)
+	at com.beemdevelopment.aegis.helpers.UiRefresher$1.run(UiRefresher.java:41)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:16)
+	at androidx.test.espresso.action.CloseKeyboardAction.tryToCloseKeyboard(CloseKeyboardAction.java:13)
+	at androidx.test.espresso.action.CloseKeyboardAction.perform(CloseKeyboardAction.java:2)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testOverall(com.beemdevelopment.aegis.OverallTest):
+java.lang.ArrayIndexOutOfBoundsException: length=20; index=-1
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:51)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:32)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:43)
+	at com.beemdevelopment.aegis.otp.TotpInfo.getOtp(TotpInfo.java:42)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.updateCode(EntryHolder.java:548)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refreshCode(EntryHolder.java:534)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refresh(EntryHolder.java:528)
+	at com.beemdevelopment.aegis.ui.views.EntryAdapter.refresh(EntryAdapter.java:325)
+	at com.beemdevelopment.aegis.ui.views.EntryListView.refresh(EntryListView.java:374)
+	at com.beemdevelopment.aegis.ui.views.EntryListView$2.onRefresh(EntryListView.java:245)
+	at com.beemdevelopment.aegis.helpers.UiRefresher$1.run(UiRefresher.java:41)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:16)
+	at androidx.test.espresso.action.CloseKeyboardAction.tryToCloseKeyboard(CloseKeyboardAction.java:13)
+	at androidx.test.espresso.action.CloseKeyboardAction.perform(CloseKeyboardAction.java:2)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 90.429
+There was 1 failure:
+1) testOverall(com.beemdevelopment.aegis.OverallTest)
+java.lang.ArrayIndexOutOfBoundsException: length=20; index=-1
+	at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:51)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:32)
+	at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:43)
+	at com.beemdevelopment.aegis.otp.TotpInfo.getOtp(TotpInfo.java:42)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.updateCode(EntryHolder.java:548)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refreshCode(EntryHolder.java:534)
+	at com.beemdevelopment.aegis.ui.views.EntryHolder.refresh(EntryHolder.java:528)
+	at com.beemdevelopment.aegis.ui.views.EntryAdapter.refresh(EntryAdapter.java:325)
+	at com.beemdevelopment.aegis.ui.views.EntryListView.refresh(EntryListView.java:374)
+	at com.beemdevelopment.aegis.ui.views.EntryListView$2.onRefresh(EntryListView.java:245)
+	at com.beemdevelopment.aegis.helpers.UiRefresher$1.run(UiRefresher.java:41)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopMainThreadUntilIdle(UiControllerImpl.java:16)
+	at androidx.test.espresso.action.CloseKeyboardAction.tryToCloseKeyboard(CloseKeyboardAction.java:13)
+	at androidx.test.espresso.action.CloseKeyboardAction.perform(CloseKeyboardAction.java:2)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

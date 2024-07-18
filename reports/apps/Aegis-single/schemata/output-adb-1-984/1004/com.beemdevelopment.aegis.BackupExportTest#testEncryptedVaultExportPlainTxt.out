@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.BackupExportTest:
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: Entries are not equivalent: ({"type":"totp","uuid":"24b27b0c-bbae-4e06-9448-89a95077fc90","name":"Mason","issuer":"Deno","note":"","favorite":false,"icon":null,"info":{"secret":"4SJHB4GSD43FZBAI7C2HLRJGPQ","algo":"SHA1","digits":6,"period":30}}) ({"type":"totp","uuid":"3fcb471f-0597-4f91-9141-84e5cf6f8cc4","name":"Mason","issuer":"Deno","note":"","favorite":false,"icon":null,"info":{"secret":"4SJHB4GSD43FZBAI7C2HLRJGPQ","algo":"SHA1","digits":6,"period":30}}) expected:<[11457]2> but was:<[56420]2>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.beemdevelopment.aegis.BackupExportTest.checkReadEntries(BackupExportTest.java:393)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:380)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:163)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testEncryptedVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest):
+org.junit.ComparisonFailure: Entries are not equivalent: ({"type":"totp","uuid":"24b27b0c-bbae-4e06-9448-89a95077fc90","name":"Mason","issuer":"Deno","note":"","favorite":false,"icon":null,"info":{"secret":"4SJHB4GSD43FZBAI7C2HLRJGPQ","algo":"SHA1","digits":6,"period":30}}) ({"type":"totp","uuid":"3fcb471f-0597-4f91-9141-84e5cf6f8cc4","name":"Mason","issuer":"Deno","note":"","favorite":false,"icon":null,"info":{"secret":"4SJHB4GSD43FZBAI7C2HLRJGPQ","algo":"SHA1","digits":6,"period":30}}) expected:<[11457]2> but was:<[56420]2>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.beemdevelopment.aegis.BackupExportTest.checkReadEntries(BackupExportTest.java:393)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:380)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:163)
+
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportPlainTxt
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 7.625
+There was 1 failure:
+1) testEncryptedVaultExportPlainTxt(com.beemdevelopment.aegis.BackupExportTest)
+org.junit.ComparisonFailure: Entries are not equivalent: ({"type":"totp","uuid":"24b27b0c-bbae-4e06-9448-89a95077fc90","name":"Mason","issuer":"Deno","note":"","favorite":false,"icon":null,"info":{"secret":"4SJHB4GSD43FZBAI7C2HLRJGPQ","algo":"SHA1","digits":6,"period":30}}) ({"type":"totp","uuid":"3fcb471f-0597-4f91-9141-84e5cf6f8cc4","name":"Mason","issuer":"Deno","note":"","favorite":false,"icon":null,"info":{"secret":"4SJHB4GSD43FZBAI7C2HLRJGPQ","algo":"SHA1","digits":6,"period":30}}) expected:<[11457]2> but was:<[56420]2>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at com.beemdevelopment.aegis.BackupExportTest.checkReadEntries(BackupExportTest.java:393)
+	at com.beemdevelopment.aegis.BackupExportTest.readTxtExport(BackupExportTest.java:380)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportPlainTxt(BackupExportTest.java:163)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

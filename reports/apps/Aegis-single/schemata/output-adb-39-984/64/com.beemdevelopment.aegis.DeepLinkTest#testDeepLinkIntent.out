@@ -1,0 +1,71 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.DeepLinkTest:
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.DeepLinkTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:161)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:151)
+	at com.beemdevelopment.aegis.DeepLinkTest.testDeepLinkIntent(DeepLinkTest.java:37)
+	... 11 trimmed
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:159)
+	... 14 more
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:105)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:27)
+	... 17 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testDeepLinkIntent(com.beemdevelopment.aegis.DeepLinkTest):
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:161)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:151)
+	at com.beemdevelopment.aegis.DeepLinkTest.testDeepLinkIntent(DeepLinkTest.java:37)
+	... 11 trimmed
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:159)
+	... 14 more
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:105)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:27)
+	... 17 more
+
+INSTRUMENTATION_STATUS: test=testDeepLinkIntent
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.407
+There was 1 failure:
+1) testDeepLinkIntent(com.beemdevelopment.aegis.DeepLinkTest)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:161)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:151)
+	at com.beemdevelopment.aegis.DeepLinkTest.testDeepLinkIntent(DeepLinkTest.java:37)
+	... 11 trimmed
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:159)
+	... 14 more
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:105)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:27)
+	... 17 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

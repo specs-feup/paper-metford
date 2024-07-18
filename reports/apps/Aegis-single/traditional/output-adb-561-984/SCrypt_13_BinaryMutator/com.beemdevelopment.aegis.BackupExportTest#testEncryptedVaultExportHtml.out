@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.BackupExportTest:
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportHtml
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.BackupExportTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=256; index=272
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:193)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:121)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:86)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:40)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:46)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:51)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportHtml(BackupExportTest.java:191)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testEncryptedVaultExportHtml(com.beemdevelopment.aegis.BackupExportTest):
+java.lang.ArrayIndexOutOfBoundsException: length=256; index=272
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:193)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:121)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:86)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:40)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:46)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:51)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportHtml(BackupExportTest.java:191)
+
+INSTRUMENTATION_STATUS: test=testEncryptedVaultExportHtml
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 2.222
+There was 1 failure:
+1) testEncryptedVaultExportHtml(com.beemdevelopment.aegis.BackupExportTest)
+java.lang.ArrayIndexOutOfBoundsException: length=256; index=272
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.SMix(SCrypt.java:193)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.MFcrypt(SCrypt.java:121)
+	at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:86)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:40)
+	at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:46)
+	at com.beemdevelopment.aegis.vault.slots.PasswordSlot.deriveKey(PasswordSlot.java:51)
+	at com.beemdevelopment.aegis.AegisTest.generateCredentials(AegisTest.java:136)
+	at com.beemdevelopment.aegis.AegisTest.initEncryptedVault(AegisTest.java:83)
+	at com.beemdevelopment.aegis.BackupExportTest.testEncryptedVaultExportHtml(BackupExportTest.java:191)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

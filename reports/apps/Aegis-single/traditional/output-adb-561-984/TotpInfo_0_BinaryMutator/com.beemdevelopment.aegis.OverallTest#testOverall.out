@@ -1,0 +1,71 @@
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.beemdevelopment.aegis.OverallTest:
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.beemdevelopment.aegis.OverallTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:161)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:151)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:89)
+	... 14 trimmed
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:159)
+	... 17 more
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:87)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:17)
+	... 20 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testOverall(com.beemdevelopment.aegis.OverallTest):
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:161)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:151)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:89)
+	... 14 trimmed
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:159)
+	... 17 more
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:87)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:17)
+	... 20 more
+
+INSTRUMENTATION_STATUS: test=testOverall
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 8.704
+There was 1 failure:
+1) testOverall(com.beemdevelopment.aegis.OverallTest)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:161)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:151)
+	at com.beemdevelopment.aegis.OverallTest.testOverall(OverallTest.java:89)
+	... 14 trimmed
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at com.beemdevelopment.aegis.AegisTest.generateEntry(AegisTest.java:159)
+	... 17 more
+Caused by: com.beemdevelopment.aegis.otp.OtpInfoException: bad period: 30
+	at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:87)
+	at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:17)
+	... 20 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
