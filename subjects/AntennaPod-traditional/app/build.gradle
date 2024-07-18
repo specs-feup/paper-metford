@@ -1,0 +1,213 @@
+plugins {
+    id('com.android.application')
+    id('com.github.triplet.play') version '3.8.3' apply false
+}
+apply from: "../common.gradle"
+apply from: "../playFlavor.gradle"
+
+android {
+    namespace "de.danoeh.antennapod"
+
+    defaultConfig {
+        // Version code schema:
+        // "1.2.3-beta4"    -> 1020304
+        // "1.2.3"          -> 1020395
+        versionCode 3020001
+        versionName "3.2.0-beta1"
+
+        def commit = ""
+        try {
+            def hashStdOut = new ByteArrayOutputStream()
+            exec {
+                commandLine "git", "rev-parse", "--short", "HEAD"
+                standardOutput = hashStdOut
+            }
+            commit = hashStdOut.toString().trim()
+        } catch (Exception ignore) {
+        }
+        buildConfigField "String", "COMMIT_HASH", ('"' + (commit.isEmpty() ? "Unknown commit" : commit) + '"')
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [eventBusIndex: 'de.danoeh.antennapod.ApEventBusIndex']
+            }
+        }
+    }
+
+    signingConfigs {
+        releaseConfig {
+            enableV1Signing true
+            enableV2Signing true
+            storeFile file(project.getProperties().getOrDefault("releaseStoreFile", "keystore"))
+            storePassword project.getProperties().getOrDefault("releaseStorePassword", "password")
+            keyAlias project.getProperties().getOrDefault("releaseKeyAlias", "alias")
+            keyPassword project.getProperties().getOrDefault("releaseKeyPassword", "password")
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            resValue "string", "provider_authority", "de.danoeh.antennapod.debug.provider"
+        }
+        release {
+            resValue "string", "provider_authority", "de.danoeh.antennapod.provider"
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.releaseConfig
+        }
+    }
+
+    lint {
+        disable 'ObsoleteLintCustomCheck', 'CheckResult', 'UnusedAttribute', 'BatteryLife', 'InflateParams',
+                'RestrictedApi', 'TrustAllX509TrustManager', 'ExportedReceiver', 'AllowBackup', 'VectorDrawableCompat',
+                'StaticFieldLeak', 'UseCompoundDrawables', 'NestedWeights', 'Overdraw', 'UselessParent', 'TextFields',
+                'AlwaysShowAction', 'Autofill', 'ClickableViewAccessibility', 'ContentDescription',
+                'KeyboardInaccessibleWidget', 'LabelFor', 'SetTextI18n', 'HardcodedText', 'RelativeOverlap',
+                'RtlCompat', 'RtlHardcoded', 'MissingMediaBrowserServiceIntentFilter', 'VectorPath',
+                'InvalidPeriodicWorkRequestInterval', 'NotifyDataSetChanged', 'RtlEnabled'
+    }
+
+    androidResources {
+        additionalParameters "--no-version-vectors"
+    }
+}
+
+dependencies {
+    implementation project(":core")
+    implementation project(":event")
+    implementation project(':model')
+    implementation project(':net:common')
+    implementation project(':net:discovery')
+    implementation project(':net:download:service-interface')
+    implementation project(':net:sync:gpoddernet')
+    implementation project(':net:sync:model')
+    implementation project(':parser:feed')
+    implementation project(':playback:base')
+    implementation project(':playback:cast')
+    implementation project(':storage:database')
+    implementation project(':storage:preferences')
+    implementation project(':ui:app-start-intent')
+    implementation project(':ui:common')
+    implementation project(':ui:glide')
+    implementation project(':ui:i18n')
+    implementation project(':ui:statistics')
+
+    annotationProcessor "androidx.annotation:annotation:$annotationVersion"
+    implementation "androidx.appcompat:appcompat:$appcompatVersion"
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation "androidx.core:core:$coreVersion"
+    implementation "androidx.fragment:fragment:$fragmentVersion"
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation "androidx.media:media:$mediaVersion"
+    implementation "androidx.palette:palette:$paletteVersion"
+    implementation "androidx.preference:preference:$preferenceVersion"
+    implementation "androidx.recyclerview:recyclerview:$recyclerViewVersion"
+    implementation "androidx.viewpager2:viewpager2:$viewPager2Version"
+    implementation "androidx.work:work-runtime:$workManagerVersion"
+    implementation "com.google.android.material:material:$googleMaterialVersion"
+
+    implementation "org.apache.commons:commons-lang3:$commonslangVersion"
+    implementation "commons-io:commons-io:$commonsioVersion"
+    implementation "org.jsoup:jsoup:$jsoupVersion"
+    implementation "com.github.bumptech.glide:glide:$glideVersion"
+    implementation "com.squareup.okhttp3:okhttp:$okhttpVersion"
+    implementation "com.squareup.okhttp3:okhttp-urlconnection:$okhttpVersion"
+    implementation "com.squareup.okio:okio:$okioVersion"
+    implementation "org.greenrobot:eventbus:$eventbusVersion"
+    annotationProcessor "org.greenrobot:eventbus-annotation-processor:$eventbusVersion"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion"
+    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
+
+    implementation "com.joanzapata.iconify:android-iconify-fontawesome:$iconifyVersion"
+    implementation "com.joanzapata.iconify:android-iconify-material:$iconifyVersion"
+    implementation 'com.leinardi.android:speed-dial:3.2.0'
+    implementation 'com.github.ByteHamster:SearchPreference:v2.0.0'
+    implementation 'com.github.skydoves:balloon:1.5.3'
+    implementation 'com.github.xabaras:RecyclerViewSwipeDecorator:1.3'
+    implementation "com.annimon:stream:$annimonStreamVersion"
+
+    // Non-free dependencies:
+    playImplementation 'com.google.android.play:core:1.8.0'
+    compileOnly "com.google.android.wearable:wearable:$wearableSupportVersion"
+
+    androidTestImplementation "org.awaitility:awaitility:$awaitilityVersion"
+    androidTestImplementation 'com.nanohttpd:nanohttpd:2.1.1'
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espressoVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-intents:$espressoVersion"
+    androidTestImplementation "androidx.test:runner:$runnerVersion"
+    androidTestImplementation "androidx.test:rules:$rulesVersion"
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+}
+
+if (project.hasProperty("antennaPodPlayPublisherCredentials")) {
+    apply plugin: 'com.github.triplet.play'
+    play {
+        track.set('alpha')
+        serviceAccountCredentials.set(file(antennaPodPlayPublisherCredentials))
+    }
+}
+
+task copyLicense(type: Copy) {
+    from "../LICENSE"
+    into "src/main/assets/"
+    rename { String fileName ->
+        fileName + ".txt"
+    }
+}
+
+preBuild.dependsOn copyLicense
+
+configurations.all {
+    resolutionStrategy {
+        force 'androidx.activity:activity:1.5.1'
+        force 'androidx.annotation:annotation-experimental:1.1.0'
+        force 'androidx.appcompat:appcompat-resources:1.5.1'
+        force 'androidx.collection:collection:1.1.0'
+        force 'org.apache.commons:commons-lang3:3.7'
+        force 'androidx.concurrent:concurrent-futures:1.1.0'
+        force 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+        force 'androidx.arch.core:core-common:2.2.0'
+        force 'androidx.test:core:1.5.0'
+        force 'androidx.customview:customview:1.1.0'
+        force 'androidx.documentfile:documentfile:1.0.1'
+        force 'androidx.drawerlayout:drawerlayout:1.1.1'
+        force 'org.hamcrest:hamcrest-core:2.2'
+        force 'org.hamcrest:hamcrest-library:2.2'
+        force 'com.google.code.findbugs:jsr305:3.0.2'
+        force 'junit:junit:4.13.2'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-common:1.8.10'
+        force 'androidx.appcompat:appcompat:1.5.1'
+        force 'androidx.core:core:1.8.0'
+        force 'androidx.fragment:fragment:1.5.5'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10'
+        force 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+        force 'androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1'
+        force 'androidx.lifecycle:lifecycle-livedata-core:2.6.1'
+        force 'androidx.lifecycle:lifecycle-process:2.6.1'
+        force 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
+        force 'androidx.lifecycle:lifecycle-service:2.6.1'
+        force 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+        force 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1'
+        force 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+        force 'com.google.android.material:material:1.7.0'
+        force 'androidx.media:media:1.4.3'
+        force 'androidx.test:monitor:1.6.0'
+        force 'com.squareup.moshi:moshi:1.7.0'
+        force 'com.squareup.okhttp3:okhttp:3.12.10'
+        force 'com.squareup.okio:okio:1.17.5'
+        force 'com.google.android.gms:play-services-base:18.0.1'
+        force 'androidx.preference:preference:1.1.1'
+        force 'io.reactivex.rxjava2:rxjava:2.2.6'
+        force 'androidx.savedstate:savedstate:1.2.1'
+        force 'androidx.lifecycle:lifecycle-common:2.6.1'
+        force 'androidx.savedstate:savedstate-ktx:1.2.1'
+        force 'androidx.sqlite:sqlite-framework:2.1.0'
+        force 'androidx.sqlite:sqlite:2.1.0'
+        force 'androidx.startup:startup-runtime:1.1.1'
+        force 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+        force 'androidx.databinding:viewbinding:7.4.2'
+        force 'androidx.viewpager2:viewpager2:1.1.0-beta01'
+    }
+}
