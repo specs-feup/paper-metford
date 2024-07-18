@@ -1,0 +1,613 @@
+> Task :clean UP-TO-DATE
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:extractDebugProto
+> Task :app:extractIncludeDebugProto
+> Task :app:extractProto
+> Task :app:generateDebugProto
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+
+> Task :app:processDebugMainManifest
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/AndroidManifest.xml:19:5-146:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:19 to replace other declarations but no other declaration present
+
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:processDebugManifestForPackage
+> Task :app:mergeLibDexDebug
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:stripDebugDebugSymbols
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+
+> Task :app:mergeDebugResources
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hi-rIN/strings.xml:294:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:227:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:341:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:229:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:357:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:162:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:256:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:383:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fa-rIR/strings.xml:262:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:360:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:425:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rPT/strings.xml:217:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:222:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:373:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:201:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:337:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:194:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:297:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:314:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:386:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:231:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:224:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:349:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:397:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:356:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:343:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:391:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:232:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:369:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:361:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rTW/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-bg-rBG/strings.xml:249:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:178:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:274:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+
+> Task :app:extractIncludeReleaseProto
+> Task :app:extractReleaseProto
+> Task :app:generateReleaseProto
+> Task :app:javaPreCompileRelease
+> Task :app:generateReleaseResValues
+> Task :app:checkReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac FAILED
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/crypto/bc/SCrypt.java:530: error: ';' expected
+java.lang.System.arraycopy(B, B.length + 16, X1, 0, 16)
+                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/importers/AndOtpImporter.java:328: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(context).setTitle(com.beemdevelopment.aegis.R.string.choose_andotp_importer).setSingleChoiceItems(choices, 0, null).setPositiveButton(android.R.string.ok, null).create())
+                                                                                                                                                                                                                                                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/importers/TotpAuthenticatorImporter.java:171: error: ';' expected
+                    }).create())
+                                ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/importers/TotpAuthenticatorImporter.java:181: error: ';' expected
+                        }).setNegativeButton(com.beemdevelopment.aegis.R.string.no, null).create())
+                                                                                                   ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/otp/HotpInfo.java:95: error: ';' expected
+                setCounter(getCounter() - 1)
+                                            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/services/LaunchScannerTileService.java:55: error: ';' expected
+            intent.putExtra("action", new Parcelable[0])
+                                                        ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/services/LaunchScannerTileService.java:59: error: ';' expected
+            intent.putExtra("action", "")
+                                         ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/helpers/FabScrollHelper.java:64: error: ';' expected
+                    }).start()
+                              ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/AegisApplicationBase.java:134: error: ';' expected
+    intent.putExtra("action", new Parcelable[0])
+                                                ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/AegisApplicationBase.java:138: error: ';' expected
+    intent.putExtra("action", "")
+                                 ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ImportEntriesActivity.java:75: error: ';' expected
+            setSupportActionBar(findViewById(732221))
+                                                     ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ImportEntriesActivity.java:166: error: ';' expected
+fab.setOnClickListener(null)
+                            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ImportEntriesActivity.java:199: error: ';' expected
+    }).create())
+                ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ImportEntriesActivity.java:207: error: ';' expected
+        }).setNegativeButton(com.beemdevelopment.aegis.R.string.no, null).create())
+                                                                                   ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/IconPickerDialog.java:233: error: ';' expected
+view.findViewById(com.beemdevelopment.aegis.R.id.btn_icon_pack).setOnClickListener(null)
+                                                                                        ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:327: error: ';' expected
+button.setOnClickListener(null)
+                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:460: error: ';' expected
+button.setOnClickListener(null)
+                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:699: error: ';' expected
+numberPicker.setMaxValue(numbers.length + 1)
+                                            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:710: error: ';' expected
+numberPicker.setValue((currentVersionCount / 5) + 1)
+                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:716: error: ';' expected
+numberPicker.setValue((currentVersionCount * 5) - 1)
+                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:865: error: ';' expected
+button.setOnClickListener(null)
+                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:906: error: ';' expected
+}).create())
+            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:916: error: ';' expected
+}).setNeutralButton(context.getString(com.beemdevelopment.aegis.R.string.details), null).create())
+                                                                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:975: error: ';' expected
+button.setOnClickListener(null)
+                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:1029: error: ';' expected
+}).create())
+            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:1042: error: ';' expected
+}).setNegativeButton(com.beemdevelopment.aegis.R.string.no, null).create())
+                                                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:1133: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(context).setTitle(com.beemdevelopment.aegis.R.string.choose_application).setView(view).setPositiveButton(android.R.string.ok, null).create())
+                                                                                                                                                                                                                                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/dialogs/Dialogs.java:1211: error: ';' expected
+btnNeutral.setOnClickListener(null)
+                                   ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/slides/WelcomeSlide.java:44: error: ';' expected
+                view.findViewById(com.beemdevelopment.aegis.R.id.btnImport).setOnClickListener(null)
+                                                                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ScannerActivity.java:91: error: ';' expected
+            setSupportActionBar(findViewById(732221))
+                                                     ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ScannerActivity.java:357: error: ';' expected
+        android.widget.Toast.makeText(this, getResources().getQuantityString(com.beemdevelopment.aegis.R.plurals.google_qr_export_scanned, export.getBatchSize(), _batchIndex - 1, export.getBatchSize()), android.widget.Toast.LENGTH_SHORT).show()
+                                                                                                                                                                                                                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ScannerActivity.java:368: error: ';' expected
+    android.widget.Toast.makeText(this, getString(com.beemdevelopment.aegis.R.string.google_qr_export_unexpected, _batchIndex - 1, batchIndex + 1), android.widget.Toast.LENGTH_SHORT).show()
+                                                                                                                                                                                             ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ScannerActivity.java:374: error: ';' expected
+        android.widget.Toast.makeText(this, getString(com.beemdevelopment.aegis.R.string.google_qr_export_unexpected, _batchIndex + 1, batchIndex - 1), android.widget.Toast.LENGTH_SHORT).show()
+                                                                                                                                                                                                 ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ScannerActivity.java:411: error: ';' expected
+intent.putExtra("entries", new Parcelable[0])
+                                             ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/ScannerActivity.java:415: error: ';' expected
+intent.putExtra("entries", (java.util.ArrayList<com.beemdevelopment.aegis.vault.VaultEntry>) null)
+                                                                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/IntroBaseActivity.java:101: error: ';' expected
+        _btnPrevious.setOnClickListener(null)
+                                             ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/IntroBaseActivity.java:141: error: ';' expected
+_btnNext.setOnClickListener(null)
+                                 ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/IntroBaseActivity.java:370: error: ';' expected
+_btnPrevious.setVisibility((pos != 0) && (pos != (_slides.size() + 1)) ? android.view.View.VISIBLE : android.view.View.INVISIBLE)
+                                                                                                                                 ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/SlideIndicator.java:291: error: ';' expected
+canvas.translate((getWidth() / 2.0F) + offset, getHeight() / 2.0F)
+                                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/SlideIndicator.java:297: error: ';' expected
+canvas.translate((getWidth() * 2.0F) - offset, getHeight() / 2.0F)
+                                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/SlideIndicator.java:303: error: ';' expected
+canvas.translate((getWidth() / 2.0F) - offset, getHeight() * 2.0F)
+                                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/SlideIndicator.java:341: error: ';' expected
+canvas.drawCircle(0, 0, dotDp * 2, _paint)
+                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/intro/SlideIndicator.java:351: error: ';' expected
+canvas.translate(dotDp - spaceDp, 0)
+                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/AuthActivity.java:258: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showErrorDialog(this, com.beemdevelopment.aegis.R.string.vault_load_error, _vaultManager.getVaultFileError(), null)
+                                                                                                                                                                ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/AuthActivity.java:311: error: ';' expected
+decryptButton.setOnClickListener(null)
+                                      ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/AuthActivity.java:334: error: ';' expected
+biometricsButton.setOnClickListener(null)
+                                         ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/AuthActivity.java:495: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(this).setTitle(getString(com.beemdevelopment.aegis.R.string.unlock_vault_error)).setMessage(getString(com.beemdevelopment.aegis.R.string.unlock_vault_error_description)).setCancelable(false).setPositiveButton(android.R.string.ok, null).create())
+                                                                                                                                                                                                                                                                                                                                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/PreferencesActivity.java:51: error: ';' expected
+            setSupportActionBar(findViewById(732221))
+                                                     ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/IconPacksManagerFragment.java:91: error: ';' expected
+            fab.setOnClickListener(null)
+                                        ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/IconPacksManagerFragment.java:193: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle(com.beemdevelopment.aegis.R.string.remove_icon_pack).setMessage(com.beemdevelopment.aegis.R.string.remove_icon_pack_description).setPositiveButton(android.R.string.yes, null).setNegativeButton(android.R.string.no, null).create())
+                                                                                                                                                                                                                                                                                                                                                                             ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/IconPacksManagerFragment.java:231: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle(com.beemdevelopment.aegis.R.string.error_occurred).setMessage(com.beemdevelopment.aegis.R.string.icon_pack_import_exists_error).setPositiveButton(com.beemdevelopment.aegis.R.string.yes, null).setNegativeButton(com.beemdevelopment.aegis.R.string.no, null).create())
+                                                                                                                                                                                                                                                                                                                                                                                                                ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:61: error: ';' expected
+                com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle(com.beemdevelopment.aegis.R.string.preference_reset_usage_count).setMessage(com.beemdevelopment.aegis.R.string.preference_reset_usage_count_dialog).setPositiveButton(android.R.string.yes, null).setNegativeButton(android.R.string.no, null).create())
+                                                                                                                                                                                                                                                                                                                                                                                                                ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:81: error: ';' expected
+            com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle(com.beemdevelopment.aegis.R.string.choose_theme).setSingleChoiceItems(com.beemdevelopment.aegis.R.array.theme_titles, currentTheme1, null).setNegativeButton(android.R.string.cancel, null).create())
+                                                                                                                                                                                                                                                                                                                                                         ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:92: error: ';' expected
+                    getResult().putExtra("needsRecreate", new Parcelable[0])
+                                                                            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:96: error: ';' expected
+                    getResult().putExtra("needsRecreate", true)
+                                                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:129: error: ';' expected
+    getResult().putExtra("needsRecreate", new Parcelable[0])
+                                                            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:133: error: ';' expected
+    getResult().putExtra("needsRecreate", true)
+                                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:170: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle(com.beemdevelopment.aegis.R.string.choose_view_mode).setSingleChoiceItems(com.beemdevelopment.aegis.R.array.view_mode_titles, currentViewMode1, null).setNegativeButton(android.R.string.cancel, null).create())
+                                                                                                                                                                                                                                                                                                                                                        ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:181: error: ';' expected
+getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:185: error: ';' expected
+getResult().putExtra("needsRefresh", true)
+                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:217: error: ';' expected
+getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:221: error: ';' expected
+getResult().putExtra("needsRefresh", true)
+                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:248: error: ';' expected
+getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:252: error: ';' expected
+getResult().putExtra("needsRefresh", true)
+                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:279: error: ';' expected
+getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/AppearancePreferencesFragment.java:283: error: ';' expected
+getResult().putExtra("needsRefresh", true)
+                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:154: error: ';' expected
+            getResult().putExtra("needsRecreate", new Parcelable[0])
+                                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:158: error: ';' expected
+            getResult().putExtra("needsRecreate", true)
+                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:239: error: ';' expected
+intent.putExtra("importerDef", new Parcelable[0])
+                                                 ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:243: error: ';' expected
+intent.putExtra("importerDef", (com.beemdevelopment.aegis.importers.DatabaseImporter.Definition) null)
+                                                                                                      ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:265: error: ';' expected
+intent.putExtra("file", new Parcelable[0])
+                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:269: error: ';' expected
+intent.putExtra("file", (java.io.File) null)
+                                            ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:545: error: ';' expected
+btnPos.setOnClickListener(null)
+                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:585: error: ';' expected
+btnNeutral.setOnClickListener(null)
+                                   ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:777: error: ';' expected
+intent.putExtra("authInfos", new Parcelable[0])
+                                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/ImportExportPreferencesFragment.java:781: error: ';' expected
+intent.putExtra("authInfos", (java.util.ArrayList<com.beemdevelopment.aegis.otp.GoogleAuthInfo.Export>) null)
+                                                                                                             ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java:78: error: ';' expected
+                    getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java:82: error: ';' expected
+                    getResult().putExtra("needsRefresh", true)
+                                                              ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java:109: error: ';' expected
+            getResult().putExtra("needsRecreate", new Parcelable[0])
+                                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java:113: error: ';' expected
+            getResult().putExtra("needsRecreate", true)
+                                                       ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java:151: error: ';' expected
+        getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java:155: error: ';' expected
+        getResult().putExtra("needsRefresh", true)
+                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/SecurityPreferencesFragment.java:185: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(requireContext()).setTitle(com.beemdevelopment.aegis.R.string.disable_encryption).setMessage(getText(com.beemdevelopment.aegis.R.string.disable_encryption_description)).setPositiveButton(android.R.string.yes, null).setNegativeButton(android.R.string.no, null).create())
+                                                                                                                                                                                                                                                                                                                                                                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/BehaviorPreferencesFragment.java:30: error: ';' expected
+                    getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/BehaviorPreferencesFragment.java:34: error: ';' expected
+                    getResult().putExtra("needsRefresh", true)
+                                                              ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/BehaviorPreferencesFragment.java:61: error: ';' expected
+            getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                                   ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/BehaviorPreferencesFragment.java:65: error: ';' expected
+            getResult().putExtra("needsRefresh", true)
+                                                      ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/BehaviorPreferencesFragment.java:92: error: ';' expected
+    getResult().putExtra("needsRefresh", new Parcelable[0])
+                                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/fragments/preferences/BehaviorPreferencesFragment.java:96: error: ';' expected
+    getResult().putExtra("needsRefresh", true)
+                                              ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/GroupManagerActivity.java:66: error: ';' expected
+            setSupportActionBar(findViewById(732221))
+                                                     ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/GroupManagerActivity.java:172: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showSecureDialog(new androidx.appcompat.app.AlertDialog.Builder(this).setTitle(com.beemdevelopment.aegis.R.string.remove_group).setMessage(com.beemdevelopment.aegis.R.string.remove_group_description).setPositiveButton(android.R.string.yes, null).setNegativeButton(android.R.string.no, null).create())
+                                                                                                                                                                                                                                                                                                                                                         ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/GroupManagerActivity.java:208: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showDiscardDialog(this, null, (android.content.DialogInterface dialog,int which) -> finish())
+                                                                                                                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/GroupManagerActivity.java:214: error: ';' expected
+com.beemdevelopment.aegis.ui.dialogs.Dialogs.showDiscardDialog(this, (android.content.DialogInterface dialog,int which) -> saveAndFinish(), null)
+                                                                                                                                                 ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/TransferEntriesActivity.java:87: error: ';' expected
+            setSupportActionBar(findViewById(732221))
+                                                     ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/TransferEntriesActivity.java:356: error: ';' expected
+_nextButton.setOnClickListener(null)
+                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/TransferEntriesActivity.java:377: error: ';' expected
+_previousButton.setOnClickListener(null)
+                                        ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/TransferEntriesActivity.java:399: error: ';' expected
+_copyButton.setOnClickListener(null)
+                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/MainActivity.java:165: error: ';' expected
+            setSupportActionBar(findViewById(732221))
+                                                     ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/MainActivity.java:236: error: ';' expected
+    fab.setOnClickListener(null)
+                                ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/java/com/beemdevelopment/aegis/ui/MainActivity.java:248: error: ';' expected
+            view.findViewById(com.beemdevelopment.aegis.R.id.fab_enter).setOnClickListener(null)
+                                                                                                ^
+100 errors
+
+> Task :app:mergeReleaseResources
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:425:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:360:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hi-rIN/strings.xml:294:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:227:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:341:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:229:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:357:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:383:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:162:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:256:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:373:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rPT/strings.xml:217:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fa-rIR/strings.xml:262:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:222:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:337:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:194:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:231:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:391:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:297:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:314:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:224:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:349:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:201:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:232:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:369:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:361:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:386:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:397:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rTW/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:356:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:343:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-bg-rBG/strings.xml:249:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:178:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:274:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+
+> Task :app:mergeExtDexDebug
+> Task :app:l8DexDesugarLibDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 6s
+42 actionable tasks: 41 executed, 1 up-to-date

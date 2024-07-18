@@ -1,0 +1,1273 @@
+> Task :clean UP-TO-DATE
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:extractDebugProto
+> Task :app:extractIncludeDebugProto
+> Task :app:extractProto
+> Task :app:generateDebugProto
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+
+> Task :app:processDebugMainManifest
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/AndroidManifest.xml:19:5-146:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:19 to replace other declarations but no other declaration present
+
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:validateSigningDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:writeDebugAppMetadata
+> Task :app:stripDebugDebugSymbols
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:mergeLibDexDebug
+> Task :app:generateReleaseBuildConfig
+
+> Task :app:mergeDebugResources
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hi-rIN/strings.xml:294:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:227:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:341:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:425:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:229:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:162:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:256:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fa-rIR/strings.xml:262:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:357:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:383:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:360:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:222:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:373:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:194:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:297:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:201:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:314:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rPT/strings.xml:217:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:224:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:349:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:356:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:386:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:337:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:343:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:232:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:397:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:369:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:361:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:231:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:391:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rTW/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-bg-rBG/strings.xml:249:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:178:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:274:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+
+> Task :app:extractIncludeReleaseProto
+> Task :app:extractReleaseProto
+> Task :app:generateReleaseProto
+> Task :app:generateReleaseResValues
+> Task :app:javaPreCompileRelease
+> Task :app:checkReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+
+> Task :app:mergeReleaseResources
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hi-rIN/strings.xml:294:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-da-rDK/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:227:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:341:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ru-rRU/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-iw-rIL/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:229:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:357:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values/strings.xml:425:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:360:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-sv-rSE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-eu-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ro-rRO/strings.xml:383:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:162:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lt-rLT/strings.xml:256:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fr-rFR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rPT/strings.xml:217:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:337:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ar-rSA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fa-rIR/strings.xml:262:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:222:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-gl-rES/strings.xml:373:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ast-rES/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:194:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:297:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:344:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:221:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:354:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-in-rID/strings.xml:314:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:231:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:347:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:363:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:224:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:349:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-es-rES/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-uk-rUA/strings.xml:391:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-fi-rFI/strings.xml:372:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:232:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:369:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ca-rES/strings.xml:371:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-ja-rJP/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:361:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-lv-rLV/strings.xml:388:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:201:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-vi-rVN/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-de-rDE/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:386:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pl-rPL/strings.xml:397:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-nl-rNL/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:238:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:379:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rTW/strings.xml:303:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:370:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:366:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-cs-rCZ/strings.xml:398:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-pt-rBR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-el-rGR/strings.xml:377:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-tr-rTR/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:220:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:356:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:343:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-zh-rCN/strings.xml:367:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-bg-rBG/strings.xml:249:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:178:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-hu-rHU/strings.xml:274:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:226:4: Multiple substitutions specified in non-positional format of string resource string/analyzing_qr_multiple. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:359:4: Multiple substitutions specified in non-positional format of string resource string/backup_error_dialog_details. Did you mean to add the formatted="false" attribute?
+
+> Task :app:processReleaseMainManifest
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/AndroidManifest.xml:19:5-146:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:19 to replace other declarations but no other declaration present
+
+> Task :app:processReleaseManifest
+> Task :app:extractProguardFiles
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseNativeLibs
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseArtProfile
+> Task :app:mergeReleaseAssets
+> Task :app:stripReleaseDebugSymbols
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:processDebugManifestForPackage
+> Task :app:compressReleaseAssets
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:processApplicationManifestReleaseForBundle
+
+> Task :app:mergeReleaseResources
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:352:4: Multiple substitutions specified in non-positional format of string resource string/google_qr_export_unexpected. Did you mean to add the formatted="false" attribute?
+/home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/main/res/values-it-rIT/strings.xml:378:4: Multiple substitutions specified in non-positional format of string resource string/unable_to_read_qrcode_files. Did you mean to add the formatted="false" attribute?
+
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:processDebugAndroidTestManifest
+> Task :app:compileDebugAndroidTestRenderscript NO-SOURCE
+> Task :app:generateDebugAndroidTestResValues
+> Task :app:extractTestDebugProto
+> Task :app:extractTestProto
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:processDebugUnitTestJavaRes
+> Task :app:extractTestReleaseProto
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:processReleaseUnitTestJavaRes
+> Task :app:processReleaseManifestForPackage
+> Task :app:processDebugResources
+> Task :app:bundleReleaseResources
+> Task :app:mergeExtDexDebug
+> Task :app:processReleaseResources
+> Task :app:l8DexDesugarLibDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: [1] Wrote GeneratedAppGlideModule with: []
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:hiltAggregateDepsDebug
+
+> Task :app:compileReleaseJavaWithJavac
+Note: [1] Wrote GeneratedAppGlideModule with: []
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :app:hiltJavaCompileDebug
+> Task :app:hiltAggregateDepsRelease
+> Task :app:packageDebugUnitTestForUnitTest
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:transformDebugClassesWithAsm
+> Task :app:mergeDebugJavaResource
+> Task :app:hiltJavaCompileRelease
+> Task :app:dexBuilderDebug
+> Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:generateDebugLintModel
+> Task :app:mergeProjectDexDebug
+> Task :app:transformReleaseClassesWithAsm
+> Task :app:bundleDebugClassesToRuntimeJar
+> Task :app:extractIncludeDebugUnitTestProto
+> Task :app:generateDebugUnitTestProto NO-SOURCE
+> Task :app:mergeReleaseJavaResource
+
+> Task :app:compileDebugUnitTestJavaWithJavac
+Note: /home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/src/test/java/com/beemdevelopment/aegis/PreferencesTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:generateDebugUnitTestConfig
+> Task :app:packageReleaseUnitTestForUnitTest
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:generateReleaseUnitTestConfig
+> Task :app:hiltAggregateDepsDebugUnitTest
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+> Task :app:hiltJavaCompileDebugUnitTest NO-SOURCE
+> Task :app:transformDebugUnitTestClassesWithAsm
+> Task :app:extractIncludeReleaseUnitTestProto
+> Task :app:lintVitalAnalyzeRelease
+
+> Task :app:testDebugUnitTest
+
+com.beemdevelopment.aegis.PreferencesTest > testIsPasswordReminderNeeded STANDARD_ERROR
+    [WARN] Unknown chunk type '200'.
+
+com.beemdevelopment.aegis.PreferencesTest > testIsPasswordReminderNeeded FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.crypto.SCryptTest > vectorsMatch FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.bc.SCrypt.isPowerOf2(SCrypt.java:629)
+        at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:75)
+        at com.beemdevelopment.aegis.crypto.SCryptTest$Vector.validate(SCryptTest.java:38)
+        at com.beemdevelopment.aegis.crypto.SCryptTest.vectorsMatch(SCryptTest.java:58)
+
+com.beemdevelopment.aegis.crypto.SCryptTest > testTrailingNullCollision FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.bc.SCrypt.isPowerOf2(SCrypt.java:629)
+        at com.beemdevelopment.aegis.crypto.bc.SCrypt.generate(SCrypt.java:75)
+        at com.beemdevelopment.aegis.crypto.CryptoUtils.deriveKey(CryptoUtils.java:51)
+        at com.beemdevelopment.aegis.crypto.SCryptTest.testTrailingNullCollision(SCryptTest.java:80)
+
+com.beemdevelopment.aegis.crypto.otp.HOTPTest > vectorsMatch FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:29)
+        at com.beemdevelopment.aegis.crypto.otp.HOTPTest.vectorsMatch(HOTPTest.java:28)
+
+com.beemdevelopment.aegis.crypto.otp.MOTPTest > testOutputCode FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.otp.MOTP.generateOTP(MOTP.java:45)
+        at com.beemdevelopment.aegis.crypto.otp.MOTPTest.testOutputCode(MOTPTest.java:41)
+
+com.beemdevelopment.aegis.crypto.otp.MOTPTest > testGetDigest PASSED
+
+com.beemdevelopment.aegis.crypto.otp.TOTPTest > vectorsMatch FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.otp.TOTP.generateOTP(TOTP.java:21)
+        at com.beemdevelopment.aegis.crypto.otp.TOTPTest.vectorsMatch(TOTPTest.java:68)
+
+com.beemdevelopment.aegis.crypto.otp.YAOTPTest > validateYaOtp FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.otp.YandexInfo.validateSecret(YandexInfo.java:142)
+        at com.beemdevelopment.aegis.otp.YandexInfo.parseSecret(YandexInfo.java:120)
+        at com.beemdevelopment.aegis.crypto.otp.YAOTPTest.validateYaOtp(YAOTPTest.java:29)
+
+com.beemdevelopment.aegis.helpers.QrCodeAnalyzerTest > testScanQrCode FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.helpers.QrCodeAnalyzerTest > testScanStridedQrCode FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAegisEncrypted FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportBitwardenJson FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportPlainText FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAndOTPEncrypted FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportTwoFASAuthenticatorSchema1 FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAndOTP FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportFreeOtpPlus FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportTotpAuthenticator FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportMicrosoftAuthenticator FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAuthenticatorPlus FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportFreeOtp FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportTwoFASAuthenticatorSchema3Encrypted FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAuthyEncrypted FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportTwoFASAuthenticatorSchema2Encrypted FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportTotpAuthenticatorInternal FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportDuo FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportBitwardenCsv FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAuthy FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportSteam FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportTwoFASAuthenticatorSchema2Plain FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAndOTPEncryptedOld FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportTwoFASAuthenticatorSchema3Plain FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportGoogleAuthenticator FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportFreeOtpPlusInternal FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportBattleNetXml FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportWinAuth FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.importers.DatabaseImporterTest > testImportAegisPlain FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.otp.GoogleAuthInfoTest > testOtpInfoEmptySecret FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.otp.GoogleAuthInfoTest > testGoogleAuthInfoEmptySecret FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.AegisApplicationBase.onCreate(AegisApplicationBase.java:54)
+        at com.beemdevelopment.aegis.Hilt_AegisApplication.onCreate(Hilt_AegisApplication.java:41)
+        at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+        at org.robolectric.android.internal.RoboMonitoringInstrumentation.callApplicationOnCreate(RoboMonitoringInstrumentation.java:127)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$installAndCreateApplication$2(AndroidTestEnvironment.java:368)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:86)
+        at org.robolectric.android.internal.AndroidTestEnvironment.installAndCreateApplication(AndroidTestEnvironment.java:366)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$0(AndroidTestEnvironment.java:245)
+        at org.robolectric.util.PerfStatsCollector.measure(PerfStatsCollector.java:53)
+        at org.robolectric.android.internal.AndroidTestEnvironment.lambda$createApplicationSupplier$1(AndroidTestEnvironment.java:242)
+        at com.google.common.base.Suppliers$NonSerializableMemoizingSupplier.get(Suppliers.java:183)
+        at org.robolectric.RuntimeEnvironment.getApplication(RuntimeEnvironment.java:72)
+        at org.robolectric.android.internal.AndroidTestEnvironment.setUpApplicationState(AndroidTestEnvironment.java:210)
+        at org.robolectric.RobolectricTestRunner.beforeTest(RobolectricTestRunner.java:331)
+        at org.robolectric.internal.SandboxTestRunner$2.lambda$evaluate$2(SandboxTestRunner.java:278)
+        at org.robolectric.internal.bytecode.Sandbox.lambda$runOnMainThread$0(Sandbox.java:99)
+        at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+        at java.base/java.lang.Thread.run(Thread.java:834)
+
+com.beemdevelopment.aegis.otp.HotpInfoTest > testHotpInfoOtp FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.otp.HOTP.generateOTP(HOTP.java:29)
+        at com.beemdevelopment.aegis.otp.HotpInfo.getOtp(HotpInfo.java:47)
+        at com.beemdevelopment.aegis.otp.HotpInfoTest.testHotpInfoOtp(HotpInfoTest.java:14)
+
+com.beemdevelopment.aegis.otp.HotpInfoTest > testHotpMd5Override FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.otp.TotpInfo.isPeriodValid(TotpInfo.java:89)
+        at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:103)
+        at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:33)
+        at com.beemdevelopment.aegis.otp.MotpInfo.<init>(MotpInfo.java:39)
+        at com.beemdevelopment.aegis.otp.HotpInfoTest.testHotpMd5Override(HotpInfoTest.java:21)
+
+com.beemdevelopment.aegis.otp.MotpInfoTest > testMotpInfoOtp FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.otp.TotpInfo.isPeriodValid(TotpInfo.java:89)
+        at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:103)
+        at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:33)
+        at com.beemdevelopment.aegis.otp.MotpInfo.<init>(MotpInfo.java:39)
+        at com.beemdevelopment.aegis.otp.MotpInfoTest.testMotpInfoOtp(MotpInfoTest.java:15)
+
+com.beemdevelopment.aegis.otp.TotpInfoTest > testTotpInfoOtp FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.otp.TotpInfo.isPeriodValid(TotpInfo.java:89)
+        at com.beemdevelopment.aegis.otp.TotpInfo.setPeriod(TotpInfo.java:103)
+        at com.beemdevelopment.aegis.otp.TotpInfo.<init>(TotpInfo.java:33)
+        at com.beemdevelopment.aegis.otp.TotpInfoTest.testTotpInfoOtp(TotpInfoTest.java:14)
+
+com.beemdevelopment.aegis.otp.YandexInfoTest > testYandexSecretValidation FAILED
+    java.lang.AssertionError: unexpected exception type thrown; expected:<com.beemdevelopment.aegis.otp.OtpInfoException> but was:<java.lang.NullPointerException>
+        at org.junit.Assert.assertThrows(Assert.java:1020)
+        at org.junit.Assert.assertThrows(Assert.java:981)
+        at com.beemdevelopment.aegis.otp.YandexInfoTest.testYandexSecretValidation(YandexInfoTest.java:26)
+
+        Caused by:
+        java.lang.NullPointerException
+            at com.beemdevelopment.aegis.otp.YandexInfo.validateSecret(YandexInfo.java:142)
+            at com.beemdevelopment.aegis.otp.YandexInfoTest.lambda$testYandexSecretValidation$0(YandexInfoTest.java:26)
+            at org.junit.Assert.assertThrows(Assert.java:1001)
+            ... 2 more
+
+com.beemdevelopment.aegis.otp.YandexInfoTest > testYandexSecretValidationOk FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.otp.YandexInfo.validateSecret(YandexInfo.java:142)
+        at com.beemdevelopment.aegis.otp.YandexInfoTest.testYandexSecretValidationOk(YandexInfoTest.java:20)
+
+com.beemdevelopment.aegis.util.UUIDMapTest > swapValue PASSED
+
+com.beemdevelopment.aegis.util.UUIDMapTest > addValue PASSED
+
+com.beemdevelopment.aegis.util.UUIDMapTest > removeValue PASSED
+
+com.beemdevelopment.aegis.util.UUIDMapTest > replaceValue PASSED
+
+com.beemdevelopment.aegis.vault.slots.SlotTest > testSlotIntegrity FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.CryptoUtils.generateKey(CryptoUtils.java:152)
+        at com.beemdevelopment.aegis.crypto.MasterKey.generate(MasterKey.java:34)
+        at com.beemdevelopment.aegis.vault.slots.SlotTest.init(SlotTest.java:28)
+
+com.beemdevelopment.aegis.vault.slots.SlotTest > testRawSlotCrypto FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.CryptoUtils.generateKey(CryptoUtils.java:152)
+        at com.beemdevelopment.aegis.crypto.MasterKey.generate(MasterKey.java:34)
+        at com.beemdevelopment.aegis.vault.slots.SlotTest.init(SlotTest.java:28)
+
+com.beemdevelopment.aegis.vault.slots.SlotTest > testPasswordSlotCrypto FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.CryptoUtils.generateKey(CryptoUtils.java:152)
+        at com.beemdevelopment.aegis.crypto.MasterKey.generate(MasterKey.java:34)
+        at com.beemdevelopment.aegis.vault.slots.SlotTest.init(SlotTest.java:28)
+
+com.beemdevelopment.aegis.vault.slots.SlotTest > testPasswordSlotExclusion FAILED
+    java.lang.NullPointerException
+        at com.beemdevelopment.aegis.crypto.CryptoUtils.generateKey(CryptoUtils.java:152)
+        at com.beemdevelopment.aegis.crypto.MasterKey.generate(MasterKey.java:34)
+        at com.beemdevelopment.aegis.vault.slots.SlotTest.init(SlotTest.java:28)
+
+-----------------------------------------------------------------
+|  Results: FAILURE (53 tests, 5 passed, 48 failed, 0 skipped)  |
+-----------------------------------------------------------------
+
+53 tests completed, 48 failed
+
+> Task :app:testDebugUnitTest FAILED
+> Task :app:lintAnalyzeDebug
+> Task :app:minifyReleaseWithR8
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:testDebugUnitTest'.
+> There were failing tests. See the report at: file:///home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-schemata/app/build/reports/tests/testDebugUnitTest/index.html
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.4/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 48s
+105 actionable tasks: 103 executed, 2 up-to-date
