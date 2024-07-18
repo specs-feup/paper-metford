@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.playback.PlaybackTest:
+INSTRUMENTATION_STATUS: test=testPlayingItemAddsToQueue
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=org.awaitility.core.ConditionTimeoutException: Condition de.test.antennapod.playback.PlaybackTest$$ExternalSyntheticLambda7 was not fulfilled within 1 seconds.
+	at org.awaitility.core.ConditionAwaiter.await(ConditionAwaiter.java:145)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:79)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:27)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:902)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:860)
+	at de.test.antennapod.playback.PlaybackTest.startLocalPlayback(PlaybackTest.java:246)
+	at de.test.antennapod.playback.PlaybackTest.testPlayingItemAddsToQueue(PlaybackTest.java:196)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testPlayingItemAddsToQueue(de.test.antennapod.playback.PlaybackTest):
+org.awaitility.core.ConditionTimeoutException: Condition de.test.antennapod.playback.PlaybackTest$$ExternalSyntheticLambda7 was not fulfilled within 1 seconds.
+	at org.awaitility.core.ConditionAwaiter.await(ConditionAwaiter.java:145)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:79)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:27)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:902)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:860)
+	at de.test.antennapod.playback.PlaybackTest.startLocalPlayback(PlaybackTest.java:246)
+	at de.test.antennapod.playback.PlaybackTest.testPlayingItemAddsToQueue(PlaybackTest.java:196)
+
+INSTRUMENTATION_STATUS: test=testPlayingItemAddsToQueue
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 6.035
+There was 1 failure:
+1) testPlayingItemAddsToQueue(de.test.antennapod.playback.PlaybackTest)
+org.awaitility.core.ConditionTimeoutException: Condition de.test.antennapod.playback.PlaybackTest$$ExternalSyntheticLambda7 was not fulfilled within 1 seconds.
+	at org.awaitility.core.ConditionAwaiter.await(ConditionAwaiter.java:145)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:79)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:27)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:902)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:860)
+	at de.test.antennapod.playback.PlaybackTest.startLocalPlayback(PlaybackTest.java:246)
+	at de.test.antennapod.playback.PlaybackTest.testPlayingItemAddsToQueue(PlaybackTest.java:196)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

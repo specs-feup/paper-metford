@@ -1,0 +1,74 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.playback.PlaybackTest:
+INSTRUMENTATION_STATUS: test=testReplayEpisodeContinuousPlaybackOff
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, long)' on a null object reference
+	at de.danoeh.antennapod.activity.MainActivity.getIntentToOpenFeed(MainActivity.java:117)
+	at de.danoeh.antennapod.fragment.CoverFragment.displayMediaInfo(CoverFragment.java:124)
+	at de.danoeh.antennapod.fragment.CoverFragment.lambda$loadMediaInfo$6$de-danoeh-antennapod-fragment-CoverFragment(CoverFragment.java:109)
+	at de.danoeh.antennapod.fragment.CoverFragment$$ExternalSyntheticLambda3.accept(Unknown Source:6)
+	at io.reactivex.internal.operators.maybe.MaybeCallbackObserver.onSuccess(MaybeCallbackObserver.java:71)
+	at io.reactivex.internal.operators.maybe.MaybeObserveOn$ObserveOnMaybeObserver.run(MaybeObserveOn.java:103)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReplayEpisodeContinuousPlaybackOff(de.test.antennapod.playback.PlaybackTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, long)' on a null object reference
+	at de.danoeh.antennapod.activity.MainActivity.getIntentToOpenFeed(MainActivity.java:117)
+	at de.danoeh.antennapod.fragment.CoverFragment.displayMediaInfo(CoverFragment.java:124)
+	at de.danoeh.antennapod.fragment.CoverFragment.lambda$loadMediaInfo$6$de-danoeh-antennapod-fragment-CoverFragment(CoverFragment.java:109)
+	at de.danoeh.antennapod.fragment.CoverFragment$$ExternalSyntheticLambda3.accept(Unknown Source:6)
+	at io.reactivex.internal.operators.maybe.MaybeCallbackObserver.onSuccess(MaybeCallbackObserver.java:71)
+	at io.reactivex.internal.operators.maybe.MaybeObserveOn$ObserveOnMaybeObserver.run(MaybeObserveOn.java:103)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testReplayEpisodeContinuousPlaybackOff
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 6.447
+There was 1 failure:
+1) testReplayEpisodeContinuousPlaybackOff(de.test.antennapod.playback.PlaybackTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, long)' on a null object reference
+	at de.danoeh.antennapod.activity.MainActivity.getIntentToOpenFeed(MainActivity.java:117)
+	at de.danoeh.antennapod.fragment.CoverFragment.displayMediaInfo(CoverFragment.java:124)
+	at de.danoeh.antennapod.fragment.CoverFragment.lambda$loadMediaInfo$6$de-danoeh-antennapod-fragment-CoverFragment(CoverFragment.java:109)
+	at de.danoeh.antennapod.fragment.CoverFragment$$ExternalSyntheticLambda3.accept(Unknown Source:6)
+	at io.reactivex.internal.operators.maybe.MaybeCallbackObserver.onSuccess(MaybeCallbackObserver.java:71)
+	at io.reactivex.internal.operators.maybe.MaybeObserveOn$ObserveOnMaybeObserver.run(MaybeObserveOn.java:103)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

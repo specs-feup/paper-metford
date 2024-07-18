@@ -1,0 +1,149 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.MainActivityTest:
+INSTRUMENTATION_STATUS: test=testAddFeed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 1103, 1726 and precision: 16, 16' on view 'an instance of android.widget.TextView and view.getText() equals string from resource id: <2131886172> [confirm_label] value: Confirm'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.ui.MainActivityTest.testAddFeed(MainActivityTest.java:67)
+	... 35 trimmed
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, java.lang.String)' on a null object reference
+	at de.danoeh.antennapod.fragment.AddFeedFragment.addUrl(AddFeedFragment.java:150)
+	at de.danoeh.antennapod.fragment.AddFeedFragment.lambda$showAddViaUrlDialog$9$de-danoeh-antennapod-fragment-AddFeedFragment(AddFeedFragment.java:140)
+	at de.danoeh.antennapod.fragment.AddFeedFragment$$ExternalSyntheticLambda15.onClick(Unknown Source:4)
+	at androidx.appcompat.app.AlertController$ButtonHandler.handleMessage(AlertController.java:167)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testAddFeed(de.test.antennapod.ui.MainActivityTest):
+androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 1103, 1726 and precision: 16, 16' on view 'an instance of android.widget.TextView and view.getText() equals string from resource id: <2131886172> [confirm_label] value: Confirm'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.ui.MainActivityTest.testAddFeed(MainActivityTest.java:67)
+	... 35 trimmed
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, java.lang.String)' on a null object reference
+	at de.danoeh.antennapod.fragment.AddFeedFragment.addUrl(AddFeedFragment.java:150)
+	at de.danoeh.antennapod.fragment.AddFeedFragment.lambda$showAddViaUrlDialog$9$de-danoeh-antennapod-fragment-AddFeedFragment(AddFeedFragment.java:140)
+	at de.danoeh.antennapod.fragment.AddFeedFragment$$ExternalSyntheticLambda15.onClick(Unknown Source:4)
+	at androidx.appcompat.app.AlertController$ButtonHandler.handleMessage(AlertController.java:167)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testAddFeed
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 5.303
+There was 1 failure:
+1) testAddFeed(de.test.antennapod.ui.MainActivityTest)
+androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 1103, 1726 and precision: 16, 16' on view 'an instance of android.widget.TextView and view.getText() equals string from resource id: <2131886172> [confirm_label] value: Confirm'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.ui.MainActivityTest.testAddFeed(MainActivityTest.java:67)
+	... 35 trimmed
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, java.lang.String)' on a null object reference
+	at de.danoeh.antennapod.fragment.AddFeedFragment.addUrl(AddFeedFragment.java:150)
+	at de.danoeh.antennapod.fragment.AddFeedFragment.lambda$showAddViaUrlDialog$9$de-danoeh-antennapod-fragment-AddFeedFragment(AddFeedFragment.java:140)
+	at de.danoeh.antennapod.fragment.AddFeedFragment$$ExternalSyntheticLambda15.onClick(Unknown Source:4)
+	at androidx.appcompat.app.AlertController$ButtonHandler.handleMessage(AlertController.java:167)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

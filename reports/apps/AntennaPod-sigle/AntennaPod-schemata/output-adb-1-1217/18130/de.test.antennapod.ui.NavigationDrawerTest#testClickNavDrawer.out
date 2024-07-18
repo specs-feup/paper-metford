@@ -1,0 +1,76 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.NavigationDrawerTest:
+INSTRUMENTATION_STATUS: test=testClickNavDrawer
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=5
+	at de.danoeh.antennapod.fragment.SubscriptionFragment.refreshToolbarState(SubscriptionFragment.java:433)
+	at de.danoeh.antennapod.fragment.SubscriptionFragment.onCreateView(SubscriptionFragment.java:197)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3104)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:524)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:261)
+	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:113)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1433)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2977)
+	at androidx.fragment.app.FragmentManager.dispatchPause(FragmentManager.java:2913)
+	at androidx.fragment.app.FragmentController.dispatchPause(FragmentController.java:296)
+	at androidx.fragment.app.FragmentActivity.onPause(FragmentActivity.java:285)
+	at android.app.Activity.performPause(Activity.java:8168)
+	at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1510)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnPause(MonitoringInstrumentation.java:817)
+	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:4735)
+	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:4696)
+	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:4647)
+	at android.app.servertransaction.PauseActivityItem.execute(PauseActivityItem.java:46)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testClickNavDrawer(de.test.antennapod.ui.NavigationDrawerTest):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=5
+	at de.danoeh.antennapod.fragment.SubscriptionFragment.refreshToolbarState(SubscriptionFragment.java:433)
+	at de.danoeh.antennapod.fragment.SubscriptionFragment.onCreateView(SubscriptionFragment.java:197)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3104)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:524)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:261)
+	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:113)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1433)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2977)
+	at androidx.fragment.app.FragmentManager.dispatchPause(FragmentManager.java:2913)
+	at androidx.fragment.app.FragmentController.dispatchPause(FragmentController.java:296)
+	at androidx.fragment.app.FragmentActivity.onPause(FragmentActivity.java:285)
+	at android.app.Activity.performPause(Activity.java:8168)
+	at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1510)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnPause(MonitoringInstrumentation.java:817)
+	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:4735)
+	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:4696)
+	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:4647)
+	at android.app.servertransaction.PauseActivityItem.execute(PauseActivityItem.java:46)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testClickNavDrawer
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

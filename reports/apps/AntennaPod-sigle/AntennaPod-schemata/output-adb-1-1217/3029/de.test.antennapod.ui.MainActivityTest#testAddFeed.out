@@ -1,0 +1,74 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.MainActivityTest:
+INSTRUMENTATION_STATUS: test=testAddFeed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: Cannot call this method while RecyclerView is computing a layout or scrolling androidx.recyclerview.widget.RecyclerView{2181c93 VFED..... ......ID 0,84-1216,2783 #7f0a0232 app:id/nav_list aid=1073741825}, adapter:de.danoeh.antennapod.adapter.NavListAdapter@55f6f9, layout:androidx.recyclerview.widget.LinearLayoutManager@9ab24d0, context:de.danoeh.antennapod.activity.MainActivity@9e72cfa
+	at androidx.recyclerview.widget.RecyclerView.assertNotInLayoutOrScroll(RecyclerView.java:3185)
+	at androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver.onChanged(RecyclerView.java:5701)
+	at androidx.recyclerview.widget.RecyclerView$AdapterDataObservable.notifyChanged(RecyclerView.java:12653)
+	at androidx.recyclerview.widget.RecyclerView$Adapter.notifyDataSetChanged(RecyclerView.java:7584)
+	at de.danoeh.antennapod.fragment.NavDrawerFragment.onSharedPreferenceChanged(NavDrawerFragment.java:633)
+	at android.app.SharedPreferencesImpl$EditorImpl.notifyListeners(SharedPreferencesImpl.java:637)
+	at android.app.SharedPreferencesImpl$EditorImpl.apply(SharedPreferencesImpl.java:511)
+	at de.danoeh.antennapod.fragment.NavDrawerFragment.saveLastNavFragment(NavDrawerFragment.java:616)
+	at de.danoeh.antennapod.activity.MainActivity.loadFeedFragmentById(MainActivity.java:765)
+	at de.danoeh.antennapod.activity.MainActivity.handleNavIntent(MainActivity.java:1031)
+	at de.danoeh.antennapod.activity.MainActivity.onNewIntent(MainActivity.java:1068)
+	at android.app.Activity.performNewIntent(Activity.java:8009)
+	at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1409)
+	at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1422)
+	at android.app.ActivityThread.deliverNewIntents(ActivityThread.java:3664)
+	at android.app.ActivityThread.handleNewIntent(ActivityThread.java:3676)
+	at android.app.servertransaction.NewIntentItem.execute(NewIntentItem.java:53)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testAddFeed(de.test.antennapod.ui.MainActivityTest):
+java.lang.IllegalStateException: Cannot call this method while RecyclerView is computing a layout or scrolling androidx.recyclerview.widget.RecyclerView{2181c93 VFED..... ......ID 0,84-1216,2783 #7f0a0232 app:id/nav_list aid=1073741825}, adapter:de.danoeh.antennapod.adapter.NavListAdapter@55f6f9, layout:androidx.recyclerview.widget.LinearLayoutManager@9ab24d0, context:de.danoeh.antennapod.activity.MainActivity@9e72cfa
+	at androidx.recyclerview.widget.RecyclerView.assertNotInLayoutOrScroll(RecyclerView.java:3185)
+	at androidx.recyclerview.widget.RecyclerView$RecyclerViewDataObserver.onChanged(RecyclerView.java:5701)
+	at androidx.recyclerview.widget.RecyclerView$AdapterDataObservable.notifyChanged(RecyclerView.java:12653)
+	at androidx.recyclerview.widget.RecyclerView$Adapter.notifyDataSetChanged(RecyclerView.java:7584)
+	at de.danoeh.antennapod.fragment.NavDrawerFragment.onSharedPreferenceChanged(NavDrawerFragment.java:633)
+	at android.app.SharedPreferencesImpl$EditorImpl.notifyListeners(SharedPreferencesImpl.java:637)
+	at android.app.SharedPreferencesImpl$EditorImpl.apply(SharedPreferencesImpl.java:511)
+	at de.danoeh.antennapod.fragment.NavDrawerFragment.saveLastNavFragment(NavDrawerFragment.java:616)
+	at de.danoeh.antennapod.activity.MainActivity.loadFeedFragmentById(MainActivity.java:765)
+	at de.danoeh.antennapod.activity.MainActivity.handleNavIntent(MainActivity.java:1031)
+	at de.danoeh.antennapod.activity.MainActivity.onNewIntent(MainActivity.java:1068)
+	at android.app.Activity.performNewIntent(Activity.java:8009)
+	at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1409)
+	at android.app.Instrumentation.callActivityOnNewIntent(Instrumentation.java:1422)
+	at android.app.ActivityThread.deliverNewIntents(ActivityThread.java:3664)
+	at android.app.ActivityThread.handleNewIntent(ActivityThread.java:3676)
+	at android.app.servertransaction.NewIntentItem.execute(NewIntentItem.java:53)
+	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testAddFeed
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

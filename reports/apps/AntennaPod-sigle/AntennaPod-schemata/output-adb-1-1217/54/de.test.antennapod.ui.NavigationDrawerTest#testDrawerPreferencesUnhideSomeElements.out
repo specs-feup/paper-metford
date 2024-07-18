@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.NavigationDrawerTest:
+INSTRUMENTATION_STATUS: test=testDrawerPreferencesUnhideSomeElements
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at de.test.antennapod.ui.NavigationDrawerTest.testDrawerPreferencesUnhideSomeElements(NavigationDrawerTest.java:183)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testDrawerPreferencesUnhideSomeElements(de.test.antennapod.ui.NavigationDrawerTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at de.test.antennapod.ui.NavigationDrawerTest.testDrawerPreferencesUnhideSomeElements(NavigationDrawerTest.java:183)
+
+INSTRUMENTATION_STATUS: test=testDrawerPreferencesUnhideSomeElements
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 5.795
+There was 1 failure:
+1) testDrawerPreferencesUnhideSomeElements(de.test.antennapod.ui.NavigationDrawerTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at de.test.antennapod.ui.NavigationDrawerTest.testDrawerPreferencesUnhideSomeElements(NavigationDrawerTest.java:183)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,124 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.PreferencesTest:
+INSTRUMENTATION_STATUS: test=testPlaybackSpeeds
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=android.view.InflateException: Binary XML file line #30 in de.danoeh.antennapod.debug:layout/speed_select_dialog: Binary XML file line #30 in de.danoeh.antennapod.debug:layout/speed_select_dialog: Error inflating class <unknown>
+Caused by: android.view.InflateException: Binary XML file line #30 in de.danoeh.antennapod.debug:layout/speed_select_dialog: Error inflating class <unknown>
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+	at android.view.View.inflate(View.java:26707)
+	at de.danoeh.antennapod.dialog.VariableSpeedDialog.onCreateView(VariableSpeedDialog.java:77)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3104)
+	at androidx.fragment.app.DialogFragment.performCreateView(DialogFragment.java:510)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:524)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:261)
+	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:113)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1433)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2977)
+	at androidx.fragment.app.FragmentManager.dispatchPause(FragmentManager.java:2913)
+	at androidx.fragment.app.Fragment.performPause(Fragment.java:3298)
+	at androidx.fragment.app.FragmentStateManager.pause(FragmentStateManager.java:631)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:293)
+	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:113)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1433)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2977)
+	at androidx.fragment.app.FragmentManager.dispatchPause(FragmentManager.java:2913)
+	at androidx.fragment.app.FragmentController.dispatchPause(FragmentController.java:296)
+	at androidx.fragment.app.FragmentActivity.onPause(FragmentActivity.java:285)
+	at android.app.Activity.performPause(Activity.java:8168)
+	at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1510)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnPause(MonitoringInstrumentation.java:817)
+	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:4735)
+	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:4696)
+	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:4647)
+	at android.app.servertransaction.PauseActivityItem.execute(PauseActivityItem.java:46)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.SeekBar.setOnSeekBarChangeListener(android.widget.SeekBar$OnSeekBarChangeListener)' on a null object reference
+	at de.danoeh.antennapod.view.PlaybackSpeedSeekBar.setup(PlaybackSpeedSeekBar.java:46)
+	at de.danoeh.antennapod.view.PlaybackSpeedSeekBar.<init>(PlaybackSpeedSeekBar.java:27)
+	... 45 more
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testPlaybackSpeeds(de.test.antennapod.ui.PreferencesTest):
+android.view.InflateException: Binary XML file line #30 in de.danoeh.antennapod.debug:layout/speed_select_dialog: Binary XML file line #30 in de.danoeh.antennapod.debug:layout/speed_select_dialog: Error inflating class <unknown>
+Caused by: android.view.InflateException: Binary XML file line #30 in de.danoeh.antennapod.debug:layout/speed_select_dialog: Error inflating class <unknown>
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance0(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:852)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1004)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:959)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1082)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:680)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:532)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+	at android.view.View.inflate(View.java:26707)
+	at de.danoeh.antennapod.dialog.VariableSpeedDialog.onCreateView(VariableSpeedDialog.java:77)
+	at androidx.fragment.app.Fragment.performCreateView(Fragment.java:3104)
+	at androidx.fragment.app.DialogFragment.performCreateView(DialogFragment.java:510)
+	at androidx.fragment.app.FragmentStateManager.createView(FragmentStateManager.java:524)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:261)
+	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:113)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1433)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2977)
+	at androidx.fragment.app.FragmentManager.dispatchPause(FragmentManager.java:2913)
+	at androidx.fragment.app.Fragment.performPause(Fragment.java:3298)
+	at androidx.fragment.app.FragmentStateManager.pause(FragmentStateManager.java:631)
+	at androidx.fragment.app.FragmentStateManager.moveToExpectedState(FragmentStateManager.java:293)
+	at androidx.fragment.app.FragmentStore.moveToExpectedState(FragmentStore.java:113)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1433)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2977)
+	at androidx.fragment.app.FragmentManager.dispatchPause(FragmentManager.java:2913)
+	at androidx.fragment.app.FragmentController.dispatchPause(FragmentController.java:296)
+	at androidx.fragment.app.FragmentActivity.onPause(FragmentActivity.java:285)
+	at android.app.Activity.performPause(Activity.java:8168)
+	at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1510)
+	at androidx.test.runner.MonitoringInstrumentation.callActivityOnPause(MonitoringInstrumentation.java:817)
+	at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:4735)
+	at android.app.ActivityThread.performPauseActivity(ActivityThread.java:4696)
+	at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:4647)
+	at android.app.servertransaction.PauseActivityItem.execute(PauseActivityItem.java:46)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.SeekBar.setOnSeekBarChangeListener(android.widget.SeekBar$OnSeekBarChangeListener)' on a null object reference
+	at de.danoeh.antennapod.view.PlaybackSpeedSeekBar.setup(PlaybackSpeedSeekBar.java:46)
+	at de.danoeh.antennapod.view.PlaybackSpeedSeekBar.<init>(PlaybackSpeedSeekBar.java:27)
+	... 45 more
+
+INSTRUMENTATION_STATUS: test=testPlaybackSpeeds
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

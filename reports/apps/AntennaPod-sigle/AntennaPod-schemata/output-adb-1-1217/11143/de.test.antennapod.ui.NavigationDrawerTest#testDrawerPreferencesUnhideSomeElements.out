@@ -1,0 +1,65 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.NavigationDrawerTest:
+INSTRUMENTATION_STATUS: test=testDrawerPreferencesUnhideSomeElements
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.IdlingResourceTimeoutException: Wait for [IdlingDrawerListener::0] to become idle timed out
+	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+	at java.lang.Thread.getStackTrace(Thread.java:1736)
+	at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)
+	at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.ui.NavigationDrawerTest.openNavDrawer(NavigationDrawerTest.java:75)
+	at de.test.antennapod.ui.NavigationDrawerTest.testDrawerPreferencesUnhideSomeElements(NavigationDrawerTest.java:173)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testDrawerPreferencesUnhideSomeElements(de.test.antennapod.ui.NavigationDrawerTest):
+androidx.test.espresso.IdlingResourceTimeoutException: Wait for [IdlingDrawerListener::0] to become idle timed out
+	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+	at java.lang.Thread.getStackTrace(Thread.java:1736)
+	at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)
+	at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.ui.NavigationDrawerTest.openNavDrawer(NavigationDrawerTest.java:75)
+	at de.test.antennapod.ui.NavigationDrawerTest.testDrawerPreferencesUnhideSomeElements(NavigationDrawerTest.java:173)
+
+INSTRUMENTATION_STATUS: test=testDrawerPreferencesUnhideSomeElements
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 27.683
+There was 1 failure:
+1) testDrawerPreferencesUnhideSomeElements(de.test.antennapod.ui.NavigationDrawerTest)
+androidx.test.espresso.IdlingResourceTimeoutException: Wait for [IdlingDrawerListener::0] to become idle timed out
+	at dalvik.system.VMStack.getThreadStackTrace(Native Method)
+	at java.lang.Thread.getStackTrace(Thread.java:1736)
+	at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:2)
+	at androidx.test.espresso.base.EspressoExceptionHandler.handleSafely(EspressoExceptionHandler.java:1)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.ui.NavigationDrawerTest.openNavDrawer(NavigationDrawerTest.java:75)
+	at de.test.antennapod.ui.NavigationDrawerTest.testDrawerPreferencesUnhideSomeElements(NavigationDrawerTest.java:173)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

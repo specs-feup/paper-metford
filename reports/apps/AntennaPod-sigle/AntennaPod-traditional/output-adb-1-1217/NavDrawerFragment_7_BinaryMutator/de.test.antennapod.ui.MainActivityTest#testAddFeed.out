@@ -1,0 +1,70 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.MainActivityTest:
+INSTRUMENTATION_STATUS: test=testAddFeed
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.MainActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Tmp detached view should be removed from RecyclerView before it can be recycled: FeedHolder{6d6b10b position=9 id=76202, oldPos=-1, pLpos:-1 tmpDetached no parent} androidx.recyclerview.widget.RecyclerView{7aa11d5 VFED..... ......ID 0,84-1216,2783 #7f0a0232 app:id/nav_list aid=1073741825}, adapter:de.danoeh.antennapod.adapter.NavListAdapter@8d11697, layout:androidx.recyclerview.widget.LinearLayoutManager@496adea, context:de.danoeh.antennapod.activity.MainActivity@6c04320
+	at androidx.recyclerview.widget.RecyclerView$Recycler.recycleViewHolderInternal(RecyclerView.java:6620)
+	at androidx.recyclerview.widget.RecyclerView.removeAnimatingView(RecyclerView.java:1525)
+	at androidx.recyclerview.widget.RecyclerView$ItemAnimatorRestoreListener.onAnimationFinished(RecyclerView.java:13109)
+	at androidx.recyclerview.widget.RecyclerView$ItemAnimator.dispatchAnimationFinished(RecyclerView.java:13611)
+	at androidx.recyclerview.widget.SimpleItemAnimator.dispatchAddFinished(SimpleItemAnimator.java:302)
+	at androidx.recyclerview.widget.DefaultItemAnimator$5.onAnimationEnd(DefaultItemAnimator.java:247)
+	at android.view.ViewPropertyAnimator$AnimatorEventListener.onAnimationEnd(ViewPropertyAnimator.java:1111)
+	at android.animation.Animator$AnimatorListener.onAnimationEnd(Animator.java:554)
+	at android.animation.ValueAnimator.endAnimation(ValueAnimator.java:1250)
+	at android.animation.ValueAnimator.doAnimationFrame(ValueAnimator.java:1492)
+	at android.animation.AnimationHandler.doAnimationFrame(AnimationHandler.java:146)
+	at android.animation.AnimationHandler.access$100(AnimationHandler.java:37)
+	at android.animation.AnimationHandler$1.doFrame(AnimationHandler.java:54)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:970)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+	at android.view.Choreographer.doFrame(Choreographer.java:727)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testAddFeed(de.test.antennapod.ui.MainActivityTest):
+java.lang.IllegalArgumentException: Tmp detached view should be removed from RecyclerView before it can be recycled: FeedHolder{6d6b10b position=9 id=76202, oldPos=-1, pLpos:-1 tmpDetached no parent} androidx.recyclerview.widget.RecyclerView{7aa11d5 VFED..... ......ID 0,84-1216,2783 #7f0a0232 app:id/nav_list aid=1073741825}, adapter:de.danoeh.antennapod.adapter.NavListAdapter@8d11697, layout:androidx.recyclerview.widget.LinearLayoutManager@496adea, context:de.danoeh.antennapod.activity.MainActivity@6c04320
+	at androidx.recyclerview.widget.RecyclerView$Recycler.recycleViewHolderInternal(RecyclerView.java:6620)
+	at androidx.recyclerview.widget.RecyclerView.removeAnimatingView(RecyclerView.java:1525)
+	at androidx.recyclerview.widget.RecyclerView$ItemAnimatorRestoreListener.onAnimationFinished(RecyclerView.java:13109)
+	at androidx.recyclerview.widget.RecyclerView$ItemAnimator.dispatchAnimationFinished(RecyclerView.java:13611)
+	at androidx.recyclerview.widget.SimpleItemAnimator.dispatchAddFinished(SimpleItemAnimator.java:302)
+	at androidx.recyclerview.widget.DefaultItemAnimator$5.onAnimationEnd(DefaultItemAnimator.java:247)
+	at android.view.ViewPropertyAnimator$AnimatorEventListener.onAnimationEnd(ViewPropertyAnimator.java:1111)
+	at android.animation.Animator$AnimatorListener.onAnimationEnd(Animator.java:554)
+	at android.animation.ValueAnimator.endAnimation(ValueAnimator.java:1250)
+	at android.animation.ValueAnimator.doAnimationFrame(ValueAnimator.java:1492)
+	at android.animation.AnimationHandler.doAnimationFrame(AnimationHandler.java:146)
+	at android.animation.AnimationHandler.access$100(AnimationHandler.java:37)
+	at android.animation.AnimationHandler$1.doFrame(AnimationHandler.java:54)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:970)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:796)
+	at android.view.Choreographer.doFrame(Choreographer.java:727)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:957)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testAddFeed
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

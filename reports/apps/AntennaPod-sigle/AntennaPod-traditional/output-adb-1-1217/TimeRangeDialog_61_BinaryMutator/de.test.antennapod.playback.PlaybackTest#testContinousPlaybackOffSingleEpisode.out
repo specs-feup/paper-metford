@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.playback.PlaybackTest:
+INSTRUMENTATION_STATUS: test=testContinousPlaybackOffSingleEpisode
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.media.session.MediaSessionCompat.setMetadata(android.support.v4.media.MediaMetadataCompat)' on a null object reference
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.updateMediaSessionMetadata(PlaybackService.java:1311)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.lambda$setupNotification$11$de-danoeh-antennapod-core-service-playback-PlaybackService(PlaybackService.java:1357)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService$$ExternalSyntheticLambda1.run(Unknown Source:6)
+	at java.lang.Thread.run(Thread.java:923)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testContinousPlaybackOffSingleEpisode(de.test.antennapod.playback.PlaybackTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.media.session.MediaSessionCompat.setMetadata(android.support.v4.media.MediaMetadataCompat)' on a null object reference
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.updateMediaSessionMetadata(PlaybackService.java:1311)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.lambda$setupNotification$11$de-danoeh-antennapod-core-service-playback-PlaybackService(PlaybackService.java:1357)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService$$ExternalSyntheticLambda1.run(Unknown Source:6)
+	at java.lang.Thread.run(Thread.java:923)
+
+INSTRUMENTATION_STATUS: test=testContinousPlaybackOffSingleEpisode
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 5.674
+There was 1 failure:
+1) testContinousPlaybackOffSingleEpisode(de.test.antennapod.playback.PlaybackTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.media.session.MediaSessionCompat.setMetadata(android.support.v4.media.MediaMetadataCompat)' on a null object reference
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.updateMediaSessionMetadata(PlaybackService.java:1311)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.lambda$setupNotification$11$de-danoeh-antennapod-core-service-playback-PlaybackService(PlaybackService.java:1357)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService$$ExternalSyntheticLambda1.run(Unknown Source:6)
+	at java.lang.Thread.run(Thread.java:923)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

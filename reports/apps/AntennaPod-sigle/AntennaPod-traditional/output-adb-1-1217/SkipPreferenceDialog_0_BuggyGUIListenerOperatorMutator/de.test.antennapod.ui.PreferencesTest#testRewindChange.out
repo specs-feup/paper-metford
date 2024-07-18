@@ -1,0 +1,50 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.PreferencesTest:
+INSTRUMENTATION_STATUS: test=testRewindChange
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=org.awaitility.core.ConditionTimeoutException: Condition de.test.antennapod.ui.PreferencesTest$$ExternalSyntheticLambda13 was not fulfilled within 1000 milliseconds.
+	at org.awaitility.core.ConditionAwaiter.await(ConditionAwaiter.java:145)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:79)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:27)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:902)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:860)
+	at de.test.antennapod.ui.PreferencesTest.testRewindChange(PreferencesTest.java:392)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testRewindChange(de.test.antennapod.ui.PreferencesTest):
+org.awaitility.core.ConditionTimeoutException: Condition de.test.antennapod.ui.PreferencesTest$$ExternalSyntheticLambda13 was not fulfilled within 1000 milliseconds.
+	at org.awaitility.core.ConditionAwaiter.await(ConditionAwaiter.java:145)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:79)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:27)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:902)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:860)
+	at de.test.antennapod.ui.PreferencesTest.testRewindChange(PreferencesTest.java:392)
+
+INSTRUMENTATION_STATUS: test=testRewindChange
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 5.975
+There was 1 failure:
+1) testRewindChange(de.test.antennapod.ui.PreferencesTest)
+org.awaitility.core.ConditionTimeoutException: Condition de.test.antennapod.ui.PreferencesTest$$ExternalSyntheticLambda13 was not fulfilled within 1000 milliseconds.
+	at org.awaitility.core.ConditionAwaiter.await(ConditionAwaiter.java:145)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:79)
+	at org.awaitility.core.CallableCondition.await(CallableCondition.java:27)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:902)
+	at org.awaitility.core.ConditionFactory.until(ConditionFactory.java:860)
+	at de.test.antennapod.ui.PreferencesTest.testRewindChange(PreferencesTest.java:392)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

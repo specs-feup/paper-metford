@@ -1,0 +1,48 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.NavigationDrawerTest:
+INSTRUMENTATION_STATUS: test=testDrawerPreferencesHideAllElements
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.NavigationDrawerTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'android.view.ViewGroup$LayoutParams androidx.fragment.app.FragmentContainerView.getLayoutParams()' on a null object reference
+	at de.danoeh.antennapod.activity.MainActivity.setPlayerVisible(MainActivity.java:389)
+	at de.danoeh.antennapod.fragment.ExternalPlayerFragment.lambda$loadMediaInfo$4$de-danoeh-antennapod-fragment-ExternalPlayerFragment(ExternalPlayerFragment.java:188)
+	at de.danoeh.antennapod.fragment.ExternalPlayerFragment$$ExternalSyntheticLambda5.run(Unknown Source:2)
+	at io.reactivex.internal.operators.maybe.MaybeCallbackObserver.onComplete(MaybeCallbackObserver.java:93)
+	at io.reactivex.internal.operators.maybe.MaybeObserveOn$ObserveOnMaybeObserver.run(MaybeObserveOn.java:105)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing testDrawerPreferencesHideAllElements(de.test.antennapod.ui.NavigationDrawerTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.view.ViewGroup$LayoutParams androidx.fragment.app.FragmentContainerView.getLayoutParams()' on a null object reference
+	at de.danoeh.antennapod.activity.MainActivity.setPlayerVisible(MainActivity.java:389)
+	at de.danoeh.antennapod.fragment.ExternalPlayerFragment.lambda$loadMediaInfo$4$de-danoeh-antennapod-fragment-ExternalPlayerFragment(ExternalPlayerFragment.java:188)
+	at de.danoeh.antennapod.fragment.ExternalPlayerFragment$$ExternalSyntheticLambda5.run(Unknown Source:2)
+	at io.reactivex.internal.operators.maybe.MaybeCallbackObserver.onComplete(MaybeCallbackObserver.java:93)
+	at io.reactivex.internal.operators.maybe.MaybeObserveOn$ObserveOnMaybeObserver.run(MaybeObserveOn.java:105)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testDrawerPreferencesHideAllElements
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

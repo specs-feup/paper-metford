@@ -1,0 +1,41 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.PreferencesTest:
+INSTRUMENTATION_STATUS: test=testEnablePersistentPlaybackControls
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.PreferencesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: Could not launch intent Intent { flg=0x14000000 cmp=de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.PreferenceActivity } within 45000 milliseconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1711347919847 and now the last time the queue went idle was: 1711347919847. If these numbers are the same your activity might be hogging the event queue.
+	at androidx.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:550)
+	at androidx.test.rule.ActivityTestRule.launchActivity(ActivityTestRule.java:376)
+	at de.test.antennapod.ui.PreferencesTest.setUp(PreferencesTest.java:62)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testEnablePersistentPlaybackControls(de.test.antennapod.ui.PreferencesTest):
+java.lang.RuntimeException: Could not launch intent Intent { flg=0x14000000 cmp=de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.PreferenceActivity } within 45000 milliseconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1711347919847 and now the last time the queue went idle was: 1711347919847. If these numbers are the same your activity might be hogging the event queue.
+	at androidx.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:550)
+	at androidx.test.rule.ActivityTestRule.launchActivity(ActivityTestRule.java:376)
+	at de.test.antennapod.ui.PreferencesTest.setUp(PreferencesTest.java:62)
+
+INSTRUMENTATION_STATUS: test=testEnablePersistentPlaybackControls
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 109.833
+There was 1 failure:
+1) testEnablePersistentPlaybackControls(de.test.antennapod.ui.PreferencesTest)
+java.lang.RuntimeException: Could not launch intent Intent { flg=0x14000000 cmp=de.danoeh.antennapod.debug/de.danoeh.antennapod.activity.PreferenceActivity } within 45000 milliseconds. Perhaps the main thread has not gone idle within a reasonable amount of time? There could be an animation or something constantly repainting the screen. Or the activity is doing network calls on creation? See the threaddump logs. For your reference the last time the event queue was idle before your activity launch request was 1711347919847 and now the last time the queue went idle was: 1711347919847. If these numbers are the same your activity might be hogging the event queue.
+	at androidx.test.runner.MonitoringInstrumentation.startActivitySync(MonitoringInstrumentation.java:550)
+	at androidx.test.rule.ActivityTestRule.launchActivity(ActivityTestRule.java:376)
+	at de.test.antennapod.ui.PreferencesTest.setUp(PreferencesTest.java:62)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

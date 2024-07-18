@@ -1,0 +1,203 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.FeedSettingsTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.ui.FeedSettingsTest:
+INSTRUMENTATION_STATUS: test=testClickFeedSettings
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.ui.FeedSettingsTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.PerformException: Error performing 'performing ViewAction: single click on item matching: holder with view: ((view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() equals string from resource id: <2131886664> [playback_speed] value: Playback speed) and (view is an instance of android.view.ViewGroup and has descendant matching view.getId() is <16908312/android:id/widget_frame>))' on view 'view.getId() is <2131362459/de.danoeh.antennapod.debug:id/recycler_view>'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.EspressoTestUtils.clickPreference(EspressoTestUtils.java:195)
+	at de.test.antennapod.ui.FeedSettingsTest.testClickFeedSettings(FeedSettingsTest.java:67)
+	... 35 trimmed
+Caused by: androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 719, 1765 and precision: 16, 16' on view 'LinearLayout{id=0, visibility=VISIBLE, width=1440, height=324, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.recyclerview.widget.RecyclerView$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1296.0, child-count=3}'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:35)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemAtPositionViewAction.perform(RecyclerViewActions.java:313)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemViewAction.perform(RecyclerViewActions.java:235)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.setEnabled(boolean)' on a null object reference
+	at de.danoeh.antennapod.view.PlaybackSpeedSeekBar.setEnabled(PlaybackSpeedSeekBar.java:260)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment.lambda$setupPlaybackSpeedPreference$7(FeedSettingsFragment.java:329)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment$$ExternalSyntheticLambda17.onCheckedChanged(Unknown Source:2)
+	at com.google.android.material.checkbox.MaterialCheckBox.setCheckedState(MaterialCheckBox.java:403)
+	at com.google.android.material.checkbox.MaterialCheckBox.setChecked(MaterialCheckBox.java:348)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment.lambda$setupPlaybackSpeedPreference$9$de-danoeh-antennapod-fragment-FeedSettingsFragment$FeedSettingsPreferenceFragment(FeedSettingsFragment.java:333)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment$$ExternalSyntheticLambda7.onPreferenceClick(Unknown Source:2)
+	at androidx.preference.Preference.performClick(Preference.java:1184)
+	at androidx.preference.Preference.performClick(Preference.java:1166)
+	at androidx.preference.Preference$1.onClick(Preference.java:181)
+	at android.view.View.performClick(View.java:7448)
+	at android.view.View.performClickInternal(View.java:7425)
+	at android.view.View.access$3600(View.java:810)
+	at android.view.View$PerformClick.run(View.java:28305)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	... 15 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testClickFeedSettings(de.test.antennapod.ui.FeedSettingsTest):
+androidx.test.espresso.PerformException: Error performing 'performing ViewAction: single click on item matching: holder with view: ((view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() equals string from resource id: <2131886664> [playback_speed] value: Playback speed) and (view is an instance of android.view.ViewGroup and has descendant matching view.getId() is <16908312/android:id/widget_frame>))' on view 'view.getId() is <2131362459/de.danoeh.antennapod.debug:id/recycler_view>'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.EspressoTestUtils.clickPreference(EspressoTestUtils.java:195)
+	at de.test.antennapod.ui.FeedSettingsTest.testClickFeedSettings(FeedSettingsTest.java:67)
+	... 35 trimmed
+Caused by: androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 719, 1765 and precision: 16, 16' on view 'LinearLayout{id=0, visibility=VISIBLE, width=1440, height=324, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.recyclerview.widget.RecyclerView$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1296.0, child-count=3}'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:35)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemAtPositionViewAction.perform(RecyclerViewActions.java:313)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemViewAction.perform(RecyclerViewActions.java:235)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.setEnabled(boolean)' on a null object reference
+	at de.danoeh.antennapod.view.PlaybackSpeedSeekBar.setEnabled(PlaybackSpeedSeekBar.java:260)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment.lambda$setupPlaybackSpeedPreference$7(FeedSettingsFragment.java:329)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment$$ExternalSyntheticLambda17.onCheckedChanged(Unknown Source:2)
+	at com.google.android.material.checkbox.MaterialCheckBox.setCheckedState(MaterialCheckBox.java:403)
+	at com.google.android.material.checkbox.MaterialCheckBox.setChecked(MaterialCheckBox.java:348)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment.lambda$setupPlaybackSpeedPreference$9$de-danoeh-antennapod-fragment-FeedSettingsFragment$FeedSettingsPreferenceFragment(FeedSettingsFragment.java:333)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment$$ExternalSyntheticLambda7.onPreferenceClick(Unknown Source:2)
+	at androidx.preference.Preference.performClick(Preference.java:1184)
+	at androidx.preference.Preference.performClick(Preference.java:1166)
+	at androidx.preference.Preference$1.onClick(Preference.java:181)
+	at android.view.View.performClick(View.java:7448)
+	at android.view.View.performClickInternal(View.java:7425)
+	at android.view.View.access$3600(View.java:810)
+	at android.view.View$PerformClick.run(View.java:28305)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	... 15 more
+
+INSTRUMENTATION_STATUS: test=testClickFeedSettings
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 6.934
+There was 1 failure:
+1) testClickFeedSettings(de.test.antennapod.ui.FeedSettingsTest)
+androidx.test.espresso.PerformException: Error performing 'performing ViewAction: single click on item matching: holder with view: ((view is an instance of android.view.ViewGroup and has descendant matching an instance of android.widget.TextView and view.getText() equals string from resource id: <2131886664> [playback_speed] value: Playback speed) and (view is an instance of android.view.ViewGroup and has descendant matching view.getId() is <16908312/android:id/widget_frame>))' on view 'view.getId() is <2131362459/de.danoeh.antennapod.debug:id/recycler_view>'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at de.test.antennapod.EspressoTestUtils.clickPreference(EspressoTestUtils.java:195)
+	at de.test.antennapod.ui.FeedSettingsTest.testClickFeedSettings(FeedSettingsTest.java:67)
+	... 35 trimmed
+Caused by: androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 719, 1765 and precision: 16, 16' on view 'LinearLayout{id=0, visibility=VISIBLE, width=1440, height=324, has-focus=false, has-focusable=true, has-window-focus=true, is-clickable=true, is-enabled=true, is-focused=false, is-focusable=true, is-layout-requested=false, is-selected=false, layout-params=androidx.recyclerview.widget.RecyclerView$LayoutParams@YYYYYY, tag=null, root-is-layout-requested=false, has-input-connection=false, x=0.0, y=1296.0, child-count=3}'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:35)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemAtPositionViewAction.perform(RecyclerViewActions.java:313)
+	at androidx.test.espresso.contrib.RecyclerViewActions$ActionOnItemViewAction.perform(RecyclerViewActions.java:235)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.view.View.setEnabled(boolean)' on a null object reference
+	at de.danoeh.antennapod.view.PlaybackSpeedSeekBar.setEnabled(PlaybackSpeedSeekBar.java:260)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment.lambda$setupPlaybackSpeedPreference$7(FeedSettingsFragment.java:329)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment$$ExternalSyntheticLambda17.onCheckedChanged(Unknown Source:2)
+	at com.google.android.material.checkbox.MaterialCheckBox.setCheckedState(MaterialCheckBox.java:403)
+	at com.google.android.material.checkbox.MaterialCheckBox.setChecked(MaterialCheckBox.java:348)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment.lambda$setupPlaybackSpeedPreference$9$de-danoeh-antennapod-fragment-FeedSettingsFragment$FeedSettingsPreferenceFragment(FeedSettingsFragment.java:333)
+	at de.danoeh.antennapod.fragment.FeedSettingsFragment$FeedSettingsPreferenceFragment$$ExternalSyntheticLambda7.onPreferenceClick(Unknown Source:2)
+	at androidx.preference.Preference.performClick(Preference.java:1184)
+	at androidx.preference.Preference.performClick(Preference.java:1166)
+	at androidx.preference.Preference$1.onClick(Preference.java:181)
+	at android.view.View.performClick(View.java:7448)
+	at android.view.View.performClickInternal(View.java:7425)
+	at android.view.View.access$3600(View.java:810)
+	at android.view.View$PerformClick.run(View.java:28305)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at androidx.test.espresso.action.GeneralClickAction.perform(GeneralClickAction.java:6)
+	... 15 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

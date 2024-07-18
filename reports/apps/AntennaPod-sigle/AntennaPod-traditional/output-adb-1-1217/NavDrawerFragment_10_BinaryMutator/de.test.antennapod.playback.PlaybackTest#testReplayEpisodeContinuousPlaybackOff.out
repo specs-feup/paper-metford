@@ -1,0 +1,68 @@
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+de.test.antennapod.playback.PlaybackTest:
+INSTRUMENTATION_STATUS: test=testReplayEpisodeContinuousPlaybackOff
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=de.test.antennapod.playback.PlaybackTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.media.session.MediaSessionCompat.setQueue(java.util.List)' on a null object reference
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.lambda$loadQueueForMediaSession$1$de-danoeh-antennapod-core-service-playback-PlaybackService(PlaybackService.java:350)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService$$ExternalSyntheticLambda3.accept(Unknown Source:4)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onSuccess(ConsumerSingleObserver.java:62)
+	at io.reactivex.internal.operators.single.SingleObserveOn$ObserveOnSingleObserver.run(SingleObserveOn.java:81)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReplayEpisodeContinuousPlaybackOff(de.test.antennapod.playback.PlaybackTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.media.session.MediaSessionCompat.setQueue(java.util.List)' on a null object reference
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.lambda$loadQueueForMediaSession$1$de-danoeh-antennapod-core-service-playback-PlaybackService(PlaybackService.java:350)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService$$ExternalSyntheticLambda3.accept(Unknown Source:4)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onSuccess(ConsumerSingleObserver.java:62)
+	at io.reactivex.internal.operators.single.SingleObserveOn$ObserveOnSingleObserver.run(SingleObserveOn.java:81)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=testReplayEpisodeContinuousPlaybackOff
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 10.429
+There was 1 failure:
+1) testReplayEpisodeContinuousPlaybackOff(de.test.antennapod.playback.PlaybackTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.support.v4.media.session.MediaSessionCompat.setQueue(java.util.List)' on a null object reference
+	at de.danoeh.antennapod.core.service.playback.PlaybackService.lambda$loadQueueForMediaSession$1$de-danoeh-antennapod-core-service-playback-PlaybackService(PlaybackService.java:350)
+	at de.danoeh.antennapod.core.service.playback.PlaybackService$$ExternalSyntheticLambda3.accept(Unknown Source:4)
+	at io.reactivex.internal.observers.ConsumerSingleObserver.onSuccess(ConsumerSingleObserver.java:62)
+	at io.reactivex.internal.operators.single.SingleObserveOn$ObserveOnSingleObserver.run(SingleObserveOn.java:81)
+	at io.reactivex.android.schedulers.HandlerScheduler$ScheduledRunnable.run(HandlerScheduler.java:124)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
