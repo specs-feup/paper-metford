@@ -1,0 +1,197 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :
+Checking whether `configure` binary is present
+
+> Configure project :Simplenote
+WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: unexpected element (uri:"", local:"extension-level"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
+Warning: unexpected element (uri:"", local:"base-extension"). Expected elements are <{}codename>,<{}layoutlib>,<{}api-level>
+
+> Task :Simplenote:clean
+> Task :Wear:clean UP-TO-DATE
+> Task :Simplenote:preBuild UP-TO-DATE
+> Task :Simplenote:preDebugBuild UP-TO-DATE
+> Task :Simplenote:compileDebugAidl NO-SOURCE
+> Task :Simplenote:compileDebugRenderscript NO-SOURCE
+> Task :Simplenote:dataBindingMergeDependencyArtifactsDebug
+> Task :Simplenote:dataBindingMergeGenClassesDebug
+> Task :Simplenote:generateDebugResValues
+> Task :Simplenote:generateDebugResources
+> Task :Simplenote:copyGradlePropertiesIfMissing UP-TO-DATE
+> Task :Simplenote:generateDebugBuildConfig
+> Task :Simplenote:mergeDebugResources
+> Task :Simplenote:dataBindingGenBaseClassesDebug
+> Task :Simplenote:createDebugCompatibleScreenManifests
+> Task :Simplenote:extractDeepLinksDebug
+> Task :Simplenote:processDebugManifest
+aapt2 W 03-28 06:22:11 587671 587671 LoadedArsc.cpp:657] Unknown chunk type '200'.
+warn: removing resource com.automattic.simplenote.debug:string/enable_markdown without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/modified_time without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/more_info without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/no_notes_found without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/no_notes_here without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/no_tags_found without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/note_info without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/note_not_published without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/passcode_enter_passcode without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/public_link without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/sign_in without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/sign_out without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/trash_is_empty without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/undelete without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/version without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/why_not_create_one without required default value.
+
+> Task :Simplenote:processDebugResources
+> Task :Simplenote:kaptGenerateStubsDebugKotlin
+> Task :Simplenote:mergeDebugShaders
+> Task :Simplenote:compileDebugShaders NO-SOURCE
+> Task :Simplenote:generateDebugAssets UP-TO-DATE
+> Task :Simplenote:mergeDebugAssets
+> Task :Simplenote:javaPreCompileDebug
+> Task :Simplenote:processDebugJavaRes NO-SOURCE
+> Task :Simplenote:checkDebugDuplicateClasses
+> Task :Simplenote:mergeDebugJniLibFolders
+> Task :Simplenote:validateSigningDebug
+> Task :Simplenote:preDebugAndroidTestBuild SKIPPED
+> Task :Simplenote:processDebugAndroidTestManifest
+> Task :Simplenote:compileDebugAndroidTestAidl NO-SOURCE
+> Task :Simplenote:compileDebugAndroidTestRenderscript NO-SOURCE
+> Task :Simplenote:generateDebugAndroidTestBuildConfig
+> Task :Simplenote:generateDebugAndroidTestResValues
+> Task :Simplenote:generateDebugAndroidTestResources
+> Task :Simplenote:javaPreCompileDebugAndroidTest
+> Task :Simplenote:mergeDebugAndroidTestShaders
+> Task :Simplenote:compileDebugAndroidTestShaders NO-SOURCE
+> Task :Simplenote:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :Simplenote:mergeDebugAndroidTestAssets
+> Task :Simplenote:processDebugAndroidTestJavaRes NO-SOURCE
+> Task :Simplenote:mergeDebugAndroidTestJniLibFolders
+> Task :Simplenote:validateSigningDebugAndroidTest
+> Task :Simplenote:checkDebugAndroidTestDuplicateClasses
+> Task :Simplenote:mergeDebugAndroidTestResources
+> Task :Simplenote:mergeDebugAndroidTestNativeLibs
+> Task :Simplenote:mergeDebugNativeLibs
+
+> Task :Simplenote:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libanddown.so.
+
+> Task :Wear:preBuild UP-TO-DATE
+> Task :Wear:preDebugBuild UP-TO-DATE
+> Task :Wear:generateDebugBuildConfig
+> Task :Wear:compileDebugAidl NO-SOURCE
+> Task :Wear:compileDebugRenderscript NO-SOURCE
+> Task :Wear:javaPreCompileDebug
+> Task :Wear:generateDebugResValues
+> Task :Wear:generateDebugResources
+aapt2 W 03-28 06:22:27 587671 587671 LoadedArsc.cpp:657] Unknown chunk type '200'.
+
+> Task :Simplenote:processDebugAndroidTestResources
+> Task :Wear:createDebugCompatibleScreenManifests
+> Task :Wear:extractDeepLinksDebug
+> Task :Wear:processDebugManifest
+> Task :Wear:preDebugAndroidTestBuild SKIPPED
+> Task :Wear:compileDebugAndroidTestAidl NO-SOURCE
+> Task :Wear:processDebugAndroidTestManifest
+> Task :Wear:compileDebugAndroidTestRenderscript NO-SOURCE
+> Task :Wear:generateDebugAndroidTestBuildConfig
+> Task :Wear:javaPreCompileDebugAndroidTest
+> Task :Wear:generateDebugAndroidTestResValues
+> Task :Wear:generateDebugAndroidTestResources
+> Task :Wear:mergeDebugAndroidTestResources
+> Task :Wear:mergeDebugResources
+aapt2 W 03-28 06:22:28 587671 587671 LoadedArsc.cpp:657] Unknown chunk type '200'.
+
+aapt2 W 03-28 06:22:28 587674 587674 LoadedArsc.cpp:657] Unknown chunk type '200'.
+
+> Task :Wear:processDebugResources
+
+> Task :Wear:compileDebugJavaWithJavac
+Note: /home/auri/feup/tools/Projects/android/simplenote-android-traditional/Wear/src/main/java/com/automattic/simplenote/CreateNoteActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :Wear:processDebugAndroidTestResources
+> Task :Wear:mergeDebugAndroidTestShaders
+> Task :Wear:compileDebugAndroidTestShaders NO-SOURCE
+> Task :Wear:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :Wear:mergeDebugAndroidTestAssets
+> Task :Wear:bundleDebugClasses
+> Task :Wear:compileDebugAndroidTestJavaWithJavac
+> Task :Wear:compileDebugAndroidTestSources
+> Task :Wear:processDebugAndroidTestJavaRes NO-SOURCE
+> Task :Wear:mergeDebugAndroidTestJavaResource
+> Task :Wear:mergeDebugAndroidTestJniLibFolders
+> Task :Wear:mergeDebugAndroidTestNativeLibs
+> Task :Wear:dexBuilderDebugAndroidTest
+> Task :Wear:checkDebugAndroidTestDuplicateClasses
+> Task :Wear:mergeLibDexDebugAndroidTest
+> Task :Wear:validateSigningDebugAndroidTest
+> Task :Wear:mergeExtDexDebugAndroidTest
+> Task :Wear:mergeProjectDexDebugAndroidTest
+> Task :Wear:packageDebugAndroidTest
+> Task :Wear:assembleDebugAndroidTest
+> Task :Simplenote:kaptDebugKotlin
+
+> Task :Simplenote:compileDebugKotlin
+w: /home/auri/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/main/java/com/automattic/simplenote/AddCollaboratorFragment.kt: (75, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/auri/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/main/java/com/automattic/simplenote/AddTagActivity.kt: (83, 21): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :Simplenote:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :Simplenote:compileDebugSources
+> Task :Simplenote:transformClassesWithAndroidEntryPointTransformForDebug
+> Task :Simplenote:dexBuilderDebug
+> Task :Simplenote:mergeDebugJavaResource
+> Task :Simplenote:mergeLibDexDebug
+> Task :Simplenote:bundleDebugClasses
+> Task :Simplenote:kaptGenerateStubsDebugAndroidTestKotlin
+> Task :Simplenote:kaptDebugAndroidTestKotlin
+
+> Task :Simplenote:compileDebugAndroidTestKotlin
+w: /home/auri/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/androidTest/java/com/automattic/simplenote/integration/TagsActivityTest.kt: (240, 40): Parameter 'index' is never used, could be renamed to _
+w: /home/auri/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/androidTest/java/com/automattic/simplenote/utils/EspressoUtils.kt: (90, 52): 'TYPE_TOAST: Int' is deprecated. Deprecated in Java
+
+> Task :Simplenote:compileDebugAndroidTestJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/auri/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/androidTest/java/com/automattic/simplenote/screenshots/ScreenshotTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :Simplenote:compileDebugAndroidTestSources
+> Task :Simplenote:mergeExtDexDebug
+> Task :Simplenote:transformClassesWithAndroidEntryPointTransformForDebugAndroidTest
+> Task :Simplenote:dexBuilderDebugAndroidTest
+> Task :Simplenote:mergeDebugAndroidTestJavaResource
+> Task :Simplenote:mergeProjectDexDebug
+> Task :Simplenote:packageDebug
+> Task :Simplenote:assembleDebug
+> Task :Simplenote:mergeLibDexDebugAndroidTest
+> Task :Simplenote:mergeExtDexDebugAndroidTest
+> Task :Simplenote:mergeProjectDexDebugAndroidTest
+> Task :Simplenote:packageDebugAndroidTest
+> Task :Simplenote:assembleDebugAndroidTest
+
+BUILD SUCCESSFUL in 1m 6s
+84 actionable tasks: 83 executed, 1 up-to-date
