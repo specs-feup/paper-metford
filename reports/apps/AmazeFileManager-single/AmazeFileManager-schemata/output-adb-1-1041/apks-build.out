@@ -1,0 +1,528 @@
+
+> Configure project :app
+WARNING:The option setting 'android.disableResourceValidation=true' is experimental.
+The current default is 'false'.
+signing.properties not found
+
+> Task :clean
+> Task :app:copyStringsheIntoiw UP-TO-DATE
+> Task :commons_compress_7z:clean
+> Task :commons_compress_7z:preBuild UP-TO-DATE
+> Task :commons_compress_7z:preDebugBuild UP-TO-DATE
+> Task :app:copyStringsidIntoin UP-TO-DATE
+> Task :app:copyStringsyiIntoji NO-SOURCE
+> Task :app:supportOldLangCodes UP-TO-DATE
+> Task :portscanner:clean
+> Task :portscanner:preBuild UP-TO-DATE
+> Task :portscanner:preDebugBuild UP-TO-DATE
+
+> Task :file_operations:externalNativeBuildCleanDebug
+Clean rootoperations-armeabi-v7a
+Clean rootoperations-arm64-v8a
+Clean rootoperations-x86
+Clean rootoperations-x86_64
+
+> Task :file_operations:externalNativeBuildCleanRelease
+> Task :commons_compress_7z:compileDebugAidl NO-SOURCE
+> Task :portscanner:compileDebugAidl NO-SOURCE
+> Task :portscanner:packageDebugRenderscript NO-SOURCE
+> Task :commons_compress_7z:packageDebugRenderscript NO-SOURCE
+> Task :portscanner:compileDebugRenderscript NO-SOURCE
+> Task :commons_compress_7z:compileDebugRenderscript NO-SOURCE
+> Task :commons_compress_7z:generateDebugResValues
+> Task :portscanner:generateDebugResValues
+> Task :commons_compress_7z:generateDebugResources
+> Task :portscanner:generateDebugResources
+> Task :file_operations:clean
+> Task :file_operations:preBuild UP-TO-DATE
+> Task :file_operations:preDebugBuild UP-TO-DATE
+> Task :file_operations:compileDebugAidl NO-SOURCE
+> Task :file_operations:packageDebugRenderscript NO-SOURCE
+> Task :file_operations:compileDebugRenderscript NO-SOURCE
+> Task :file_operations:generateDebugResValues
+> Task :file_operations:generateDebugResources
+> Task :commons_compress_7z:packageDebugResources
+> Task :portscanner:packageDebugResources
+> Task :file_operations:packageDebugResources
+> Task :portscanner:extractDeepLinksDebug
+> Task :commons_compress_7z:extractDeepLinksDebug
+> Task :commons_compress_7z:writeDebugAarMetadata
+> Task :file_operations:extractDeepLinksDebug
+> Task :file_operations:writeDebugAarMetadata
+> Task :portscanner:writeDebugAarMetadata
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preFdroidDebugBuild UP-TO-DATE
+> Task :app:mergeFdroidDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileFdroidDebugAidl NO-SOURCE
+> Task :app:compileFdroidDebugRenderscript NO-SOURCE
+> Task :file_operations:compileDebugLibraryResources
+> Task :portscanner:compileDebugLibraryResources
+> Task :commons_compress_7z:compileDebugLibraryResources
+
+> Task :commons_compress_7z:processDebugManifest
+package="com.amaze.filemanager.filesystem.compressed.sevenz" found in source AndroidManifest.xml: /home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/commons_compress_7z/src/main/AndroidManifest.xml.
+Setting the namespace via a source AndroidManifest.xml's package attribute is deprecated.
+Please instead set the namespace (or testNamespace) in the module's build.gradle file, as described here: https://developer.android.com/studio/build/configure-app-module#set-namespace
+This migration can be done automatically using the AGP Upgrade Assistant, please refer to https://developer.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :file_operations:processDebugManifest
+package="com.amaze.filemanager.fileoperations" found in source AndroidManifest.xml: /home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/file_operations/src/main/AndroidManifest.xml.
+Setting the namespace via a source AndroidManifest.xml's package attribute is deprecated.
+Please instead set the namespace (or testNamespace) in the module's build.gradle file, as described here: https://developer.android.com/studio/build/configure-app-module#set-namespace
+This migration can be done automatically using the AGP Upgrade Assistant, please refer to https://developer.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :portscanner:processDebugManifest
+> Task :portscanner:generateDebugBuildConfig
+> Task :commons_compress_7z:generateDebugBuildConfig
+> Task :file_operations:generateDebugBuildConfig
+> Task :portscanner:javaPreCompileDebug
+> Task :file_operations:javaPreCompileDebug
+> Task :commons_compress_7z:javaPreCompileDebug
+> Task :file_operations:parseDebugLocalResources
+> Task :portscanner:parseDebugLocalResources
+> Task :commons_compress_7z:parseDebugLocalResources
+> Task :file_operations:mergeDebugShaders
+> Task :file_operations:compileDebugShaders NO-SOURCE
+> Task :file_operations:generateDebugAssets UP-TO-DATE
+> Task :portscanner:mergeDebugShaders
+> Task :commons_compress_7z:mergeDebugShaders
+> Task :file_operations:packageDebugAssets
+> Task :file_operations:processDebugJavaRes NO-SOURCE
+> Task :file_operations:configureCMakeDebug[arm64-v8a]
+> Task :commons_compress_7z:compileDebugShaders NO-SOURCE
+> Task :commons_compress_7z:generateDebugAssets UP-TO-DATE
+> Task :file_operations:buildCMakeDebug[arm64-v8a]
+> Task :portscanner:compileDebugShaders NO-SOURCE
+> Task :portscanner:generateDebugAssets UP-TO-DATE
+> Task :commons_compress_7z:generateDebugRFile
+> Task :file_operations:configureCMakeDebug[armeabi-v7a]
+> Task :file_operations:buildCMakeDebug[armeabi-v7a]
+> Task :file_operations:configureCMakeDebug[x86]
+> Task :commons_compress_7z:packageDebugAssets
+> Task :commons_compress_7z:compileDebugKotlin NO-SOURCE
+> Task :file_operations:buildCMakeDebug[x86]
+> Task :portscanner:packageDebugAssets
+> Task :portscanner:processDebugJavaRes NO-SOURCE
+> Task :portscanner:generateDebugRFile
+> Task :portscanner:mergeDebugJniLibFolders
+> Task :file_operations:configureCMakeDebug[x86_64]
+> Task :file_operations:generateDebugRFile
+> Task :file_operations:buildCMakeDebug[x86_64]
+> Task :file_operations:mergeDebugJniLibFolders
+> Task :app:dataBindingMergeDependencyArtifactsFdroidDebug
+> Task :app:easylauncherFdroidDebug
+> Task :app:generateFdroidDebugResValues
+> Task :app:generateFdroidDebugResources
+> Task :portscanner:mergeDebugNativeLibs NO-SOURCE
+> Task :portscanner:copyDebugJniLibsProjectOnly
+> Task :commons_compress_7z:compileDebugJavaWithJavac
+> Task :commons_compress_7z:processDebugJavaRes NO-SOURCE
+> Task :commons_compress_7z:mergeDebugJniLibFolders
+> Task :commons_compress_7z:mergeDebugNativeLibs NO-SOURCE
+> Task :commons_compress_7z:bundleLibResDebug
+> Task :commons_compress_7z:copyDebugJniLibsProjectOnly
+> Task :commons_compress_7z:bundleLibRuntimeToDirDebug
+> Task :commons_compress_7z:bundleLibCompileToJarDebug
+> Task :file_operations:externalNativeBuildDebug
+> Task :file_operations:mergeDebugNativeLibs
+> Task :file_operations:copyDebugJniLibsProjectOnly
+> Task :app:generateFdroidDebugBuildConfig
+
+> Task :app:mergeFdroidDebugResources
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-is/strings.xml:618:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rHK/strings.xml:575:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rHK/strings.xml:631:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rHK/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:651:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:712:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:286:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rHK/strings.xml:644:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-ar/strings.xml:610:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-ar/strings.xml:666:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-ar/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:708:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:835:4: Multiple substitutions specified in non-positional format of string resource string/error.listfile.smb. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:726:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:725:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-ar/strings.xml:679:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:747:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/translators.xml:26:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:594:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:650:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:282:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:646:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:664:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:663:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:685:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:191:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-tr/strings.xml:605:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:629:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:685:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:278:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:681:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:699:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:698:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:720:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-pt-rBR/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rTW/strings.xml:619:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rTW/strings.xml:675:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rTW/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rTW/strings.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-sv/strings.xml:613:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-vi/strings.xml:624:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-vi/strings.xml:680:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-vi/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-vi/strings.xml:693:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:618:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:674:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:278:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:670:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:688:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:687:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:634:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:690:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:278:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:686:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:707:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:704:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:703:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:725:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:189:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:189:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-fr/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-de/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-uk/strings.xml:646:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-uk/strings.xml:276:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:640:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:696:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:278:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:692:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:710:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:640:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:696:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:278:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:692:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-id/strings.xml:623:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-id/strings.xml:679:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-id/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:189:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-id/strings.xml:692:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-iw/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:710:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:709:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:731:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:189:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-he/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-in/strings.xml:623:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-in/strings.xml:679:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-in/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-in/strings.xml:692:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-ja/strings.xml:612:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-ja/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:594:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:650:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:282:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:646:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:664:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:663:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:685:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:191:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-it-rIT/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:622:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:678:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:278:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:674:4: Multiple substitutions specified in non-positional format of string resource string/copyingapks. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:692:4: Multiple substitutions specified in non-positional format of string resource string/error_aescrypt_decrypt_failed. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:691:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:713:4: Multiple substitutions specified in non-positional format of string resource string/error_bad_archive_with_info. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:189:4: Multiple substitutions specified in non-positional format of string resource string/free_of. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-cs/strings.xml:67:4: Multiple substitutions specified in non-positional format of string resource string/open_file_confirmation. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-es/strings.xml:615:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-es/strings.xml:671:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-es/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rCN/strings.xml:615:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rCN/strings.xml:653:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-zh-rCN/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-hu/strings.xml:628:4: Multiple substitutions specified in non-positional format of string resource string/cannot_extract_archive. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-hu/strings.xml:684:4: Multiple substitutions specified in non-positional format of string resource string/cannot_read_directory. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-hu/strings.xml:275:4: Multiple substitutions specified in non-positional format of string resource string/cannot_rename_file. Did you mean to add the formatted="false" attribute?
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/res/values-hu/strings.xml:697:4: Multiple substitutions specified in non-positional format of string resource string/error_archive_cannot_extract. Did you mean to add the formatted="false" attribute?
+
+> Task :app:checkFdroidDebugAarMetadata
+> Task :app:mapFdroidDebugSourceSetPaths
+> Task :app:createFdroidDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksFdroidDebug
+
+> Task :app:processFdroidDebugMainManifest
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/AndroidManifest.xml:51:5-327:19 Warning:
+	application@android:label was tagged at AndroidManifest.xml:51 to replace other declarations but no other declaration present
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/AndroidManifest.xml:39:9-45:51 Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at AndroidManifest.xml:39 to replace other declarations but no other declaration present
+
+> Task :app:dataBindingGenBaseClassesFdroidDebug
+> Task :app:processFdroidDebugManifest
+> Task :app:mergeFdroidDebugShaders
+> Task :app:compileFdroidDebugShaders NO-SOURCE
+> Task :app:generateFdroidDebugAssets UP-TO-DATE
+> Task :app:javaPreCompileFdroidDebug
+> Task :app:mergeFdroidDebugAssets
+> Task :app:compressFdroidDebugAssets
+> Task :file_operations:compileDebugKotlin
+> Task :portscanner:kaptGenerateStubsDebugKotlin
+> Task :app:desugarFdroidDebugFileDependencies
+> Task :app:processFdroidDebugJavaRes NO-SOURCE
+> Task :app:mergeFdroidDebugJniLibFolders
+> Task :app:checkFdroidDebugDuplicateClasses
+> Task :app:processFdroidDebugManifestForPackage
+> Task :app:mergeFdroidDebugNativeLibs
+> Task :portscanner:kaptDebugKotlin
+
+> Task :file_operations:compileDebugJavaWithJavac
+Note: /home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/file_operations/src/main/java/com/amaze/filemanager/fileoperations/filesystem/cloud/CloudStreamServer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+warn: removing resource com.amaze.filemanager.debug:string/easter_egg_title without required default value.
+warn: removing resource com.amaze.filemanager.debug:string/epub_viewer without required default value.
+warn: removing resource com.amaze.filemanager.debug:string/opening without required default value.
+warn: removing resource com.amaze.filemanager.debug:string/third_party_apps without required default value.
+
+
+> Task :app:processFdroidDebugResources
+
+> Task :portscanner:compileDebugKotlin
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/portscanner/src/main/java/com/stealthcopter/networktools/PortScan.kt:109:13 Name shadowed: portString
+
+> Task :portscanner:compileDebugJavaWithJavac
+> Task :portscanner:bundleLibCompileToJarDebug
+> Task :portscanner:bundleLibRuntimeToDirDebug
+> Task :portscanner:bundleLibResDebug
+> Task :file_operations:bundleLibCompileToJarDebug
+> Task :file_operations:bundleLibResDebug
+> Task :file_operations:bundleLibRuntimeToDirDebug
+> Task :app:mergeExtDexFdroidDebug
+> Task :app:validateSigningFdroidDebug
+> Task :app:writeFdroidDebugAppMetadata
+> Task :app:writeFdroidDebugSigningConfigVersions
+> Task :app:preFdroidDebugAndroidTestBuild SKIPPED
+> Task :app:compileFdroidDebugAndroidTestAidl NO-SOURCE
+> Task :app:mergeLibDexFdroidDebug
+> Task :app:stripFdroidDebugDebugSymbols
+> Task :app:processFdroidDebugAndroidTestManifest
+> Task :app:compileFdroidDebugAndroidTestRenderscript NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsFdroidDebugAndroidTest
+> Task :app:generateFdroidDebugAndroidTestResValues
+> Task :app:generateFdroidDebugAndroidTestResources
+> Task :app:generateFdroidDebugAndroidTestBuildConfig
+> Task :app:checkFdroidDebugAndroidTestAarMetadata
+> Task :app:mapFdroidDebugAndroidTestSourceSetPaths
+> Task :app:javaPreCompileFdroidDebugAndroidTest
+> Task :app:mergeFdroidDebugAndroidTestResources
+> Task :app:mergeFdroidDebugAndroidTestShaders
+> Task :app:dataBindingGenBaseClassesFdroidDebugAndroidTest
+> Task :app:compileFdroidDebugAndroidTestShaders NO-SOURCE
+> Task :app:generateFdroidDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeFdroidDebugAndroidTestAssets
+> Task :app:compressFdroidDebugAndroidTestAssets
+> Task :app:desugarFdroidDebugAndroidTestFileDependencies
+> Task :app:checkFdroidDebugAndroidTestDuplicateClasses
+> Task :app:processFdroidDebugAndroidTestJavaRes
+> Task :app:processFdroidDebugAndroidTestResources
+> Task :app:mergeFdroidDebugAndroidTestJniLibFolders
+> Task :app:mergeFdroidDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:validateSigningFdroidDebugAndroidTest
+> Task :app:mergeLibDexFdroidDebugAndroidTest
+> Task :app:writeFdroidDebugAndroidTestSigningConfigVersions
+> Task :app:mergeExtDexFdroidDebugAndroidTest
+> Task :app:kaptGenerateStubsFdroidDebugKotlin
+
+> Task :app:kaptFdroidDebugKotlin
+Note: [1] Wrote GeneratedAppGlideModule with: []
+
+> Task :app:compileFdroidDebugKotlin
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/fdroid/java/com/amaze/filemanager/utils/PackageInstallValidation.kt:35:39 Parameter 'f' is never used
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/adapters/AppsRecyclerAdapter.kt:171:21 Condition 'holder.about != null' is always 'true'
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/adapters/AppsRecyclerAdapter.kt:524:62 'execute(vararg ArrayList<HybridFileParcelable!>!): AsyncTask<ArrayList<HybridFileParcelable!>!, String!, AsyncTaskResult<Boolean!>!>!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/adapters/HiddenAdapter.kt:90:22 'execute(vararg ArrayList<HybridFileParcelable!>!): AsyncTask<ArrayList<HybridFileParcelable!>!, String!, AsyncTaskResult<Boolean!>!>!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/SearchTextTask.kt:23:19 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/SearchTextTask.kt:40:5 'AsyncTask<Params : Any!, Progress : Any!, Result : Any!>' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/SearchTextTask.kt:40:5 'constructor AsyncTask<Params : Any!, Progress : Any!, Result : Any!>()' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/SearchTextTask.kt:53:17 'getter for isCancelled: Boolean' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/SearchTextTask.kt:70:13 'publishProgress(vararg SearchResultIndex!): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/ftp/AbstractGetHostInfoTask.kt:23:20 'ProgressDialog' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/ftp/AbstractGetHostInfoTask.kt:37:42 'ProgressDialog' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/ftp/AbstractGetHostInfoTask.kt:45:30 'ProgressDialog' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/ftp/AbstractGetHostInfoTask.kt:45:45 'show(Context!, CharSequence!, CharSequence!): ProgressDialog!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/movecopy/PreparePasteTask.kt:23:20 'ProgressDialog' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/ssh/PemToKeyPairObservable.kt:114:51 Parameter 'which' is never used, could be renamed to _
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/asynctasks/ssh/PemToKeyPairObservable.kt:127:51 Parameter 'which' is never used, could be renamed to _
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/services/ZipService.kt:91:20 'getParcelableArrayListExtra(String!): ArrayList<T!>?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/services/ZipService.kt:92:28 Type mismatch: inferred type is String? but String was expected
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/services/ZipService.kt:268:39 'ACTION_MEDIA_SCANNER_SCAN_FILE: String' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/asynchronous/services/ftp/FtpService.kt:289:17 Lateinit is unnecessary: definitely initialized in constructors
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/database/CryptHandler.kt:52:21 Parameter 'oldEncryptedEntry' is never used
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/MakeDirectoryOperation.kt:101:45 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/MakeFileOperation.kt:72:68 Type mismatch: inferred type is File? but File was expected
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/RenameOperation.kt:166:14 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/AbstractCommonsArchiveExtractor.kt:98:36 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/AbstractCommonsArchiveExtractor.kt:103:36 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/AbstractCommonsCompressedFileExtractor.kt:69:48 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/SevenZipExtractor.kt:110:36 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/SevenZipExtractor.kt:114:14 Unsafe use of a nullable receiver of type File?
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/SevenZipExtractor.kt:115:36 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/ZipExtractor.kt:122:36 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/ZipExtractor.kt:125:14 Unsafe use of a nullable receiver of type File?
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/compressed/extractcontents/helpers/ZipExtractor.kt:127:36 'mkdir(File?, Context): Boolean' is deprecated. use {@link #mkdirs(Context, HybridFile)}
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/files/FileListSorter.kt:28:8 This class shouldn't be used in Kotlin. Use kotlin.Long instead.
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/ftp/NetCopyClientConnectionPool.kt:101:20 Unchecked cast: NetCopyClient<*>? to NetCopyClient<ClientType>?
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/ssh/SFtpClientTemplate.kt:38:39 The corresponding parameter in the supertype 'SshClientTemplate' is named 'client'. This may cause problems when calling this function with named arguments.
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/ssh/SshClientUtils.kt:69:51 The corresponding parameter in the supertype 'SshClientTemplate' is named 'client'. This may cause problems when calling this function with named arguments.
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/ssh/SshClientUtils.kt:181:55 'queryIntentActivities(Intent, Int): (Mutable)List<ResolveInfo!>' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/ssh/SshClientUtils.kt:182:29 Condition 'resInfos != null' is always 'true'
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/activities/MainActivityViewModel.kt:120:35 The expression is unused
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/activities/PreferencesActivity.kt:56:13 Name shadowed: savedInstanceState
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/activities/PreferencesActivity.kt:145:58 'FLAG_TRANSLUCENT_STATUS: Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt:44:26 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt:45:41 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt:51:26 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt:52:41 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt:59:22 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/base/BaseBottomSheetFragment.kt:60:45 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/colors/UserColorPreferences.kt:27:1 Parcelize annotations from package 'kotlinx.android.parcel' are deprecated. Change package to 'kotlinx.parcelize'
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DecryptFingerprintDialog.kt:25:37 'FingerprintManager' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DecryptFingerprintDialog.kt:73:43 Parameter 'v' is never used, could be renamed to _
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DecryptFingerprintDialog.kt:74:42 'FingerprintManager' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DecryptFingerprintDialog.kt:76:24 'FingerprintManager' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DecryptFingerprintDialog.kt:76:43 'constructor CryptoObject(Cipher)' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DecryptFingerprintDialog.kt:76:43 'CryptoObject' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DragAndDropDialog.kt:82:25 The resulting type of this 'javaClass' call is Class<DragAndDropDialog.Companion> and not Class<DragAndDropDialog>. Please use the more clear '::class.java' syntax to avoid confusion
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DragAndDropDialog.kt:129:37 'getParcelableArrayList(String?): ArrayList<T!>?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/DragAndDropDialog.kt:145:58 'toUpperCase(): String' is deprecated. Use uppercase() instead.
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/EncryptAuthenticateDialog.kt:82:16 'getParcelableExtra(String!): T?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/EncryptWithPresetPasswordSaveAsDialog.kt:66:16 'getParcelableExtra(String!): T?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/OpenFileDialogFragment.kt:113:21 The resulting type of this 'javaClass' call is Class<OpenFileDialogFragment.Companion> and not Class<OpenFileDialogFragment>. Please use the more clear '::class.java' syntax to avoid confusion
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/OpenFileDialogFragment.kt:158:22 'queryIntentActivities(Intent, Int): (Mutable)List<ResolveInfo!>' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/OpenFileDialogFragment.kt:286:26 'getParcelable(String?): T?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/dialogs/OpenFileDialogFragment.kt:396:24 'queryIntentActivities(Intent, Int): (Mutable)List<ResolveInfo!>' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:151:35 Parameter 'appBarLayout' is never used, could be renamed to _
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:272:31 'supportInvalidateOptionsMenu(): Unit' is deprecated. Overrides deprecated member in 'androidx.fragment.app.FragmentActivity'. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:332:43 'onBackPressed(): Unit' is deprecated. Overrides deprecated member in 'androidx.core.app.ComponentActivity'. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:360:28 'getParcelableArrayList(String?): ArrayList<T!>?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:377:47 'getParcelableArrayList(String?): ArrayList<T!>?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:530:31 'supportInvalidateOptionsMenu(): Unit' is deprecated. Overrides deprecated member in 'androidx.fragment.app.FragmentActivity'. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:535:49 'execute(vararg ArrayList<HybridFileParcelable!>!): AsyncTask<ArrayList<HybridFileParcelable!>!, String!, AsyncTaskResult<Boolean!>!>!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/CompressedExplorerFragment.kt:628:17 Check for instance is always 'false'
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt:142:9 'setHasOptionsMenu(Boolean): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt:351:15 'onCreateOptionsMenu(Menu, MenuInflater): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt:446:29 Variable 'c' is never used
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt:524:50 'CONNECTIVITY_ACTION: String' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt:566:23 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt:578:31 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/FtpServerFragment.kt:584:31 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/data/MainFragmentViewModel.kt:118:32 Identity equality for arguments of types Int and Int is deprecated
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/BackupPrefsFragment.kt:96:13 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/BackupPrefsFragment.kt:107:13 'startActivityForResult(Intent!, Int): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/BackupPrefsFragment.kt:119:15 'onActivityResult(Int, Int, Intent?): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/ColorPrefsFragment.kt:98:19 'setTargetFragment(Fragment?, Int): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/PrefsFragment.kt:78:54 'queryIntentActivities(Intent, Int): (Mutable)List<ResolveInfo!>' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/SecurityPrefsFragment.kt:27:37 'FingerprintManager' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/SecurityPrefsFragment.kt:50:37 'FingerprintManager' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/SecurityPrefsFragment.kt:54:37 'USE_FINGERPRINT: String' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/SecurityPrefsFragment.kt:66:33 'hasEnrolledFingerprints(): Boolean' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/SecurityPrefsFragment.kt:204:24 'FingerprintManager' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/SecurityPrefsFragment.kt:205:41 'getter for isHardwareDetected: Boolean' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/fragments/preferencefragments/UiPrefsFragment.kt:100:13 Variable 'dragToMoveArray' is never used
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/ui/views/drawer/GestureExclusionView.kt:56:38 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/AnimUtils.kt:48:9 'constructor Handler()' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/MainActivityActionMode.kt:92:30 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:59:28 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:60:20 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:61:24 'getter for type: Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:62:45 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:63:52 'TYPE_ETHERNET: Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:92:16 'getter for activeNetworkInfo: NetworkInfo?' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:93:20 'getter for isConnected: Boolean' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:93:38 'getter for type: Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:93:66 'TYPE_WIFI: Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:111:32 'getter for connectionInfo: WifiInfo!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/NetworkUtil.kt:111:47 'getter for ipAddress: Int' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/PackageUtils.kt:34:20 'getPackageInfo(String, Int): PackageInfo!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/PasswordUtil.kt:75:9 Parameter 'context' is never used
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/PasswordUtil.kt:91:9 Parameter 'context' is never used
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/ScreenUtils.kt:55:38 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/ScreenUtils.kt:55:54 'getMetrics(DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/ScreenUtils.kt:62:38 'getter for defaultDisplay: Display!' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/ScreenUtils.kt:62:54 'getMetrics(DisplayMetrics!): Unit' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:27:25 'KeyPairGeneratorSpec' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:131:24 'KeyPairGeneratorSpec' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:131:45 'constructor Builder(Context)' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:131:45 'Builder' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:132:18 'setAlias(String): KeyPairGeneratorSpec.Builder' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:133:18 'setSubject(X500Principal): KeyPairGeneratorSpec.Builder' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:134:18 'setSerialNumber(BigInteger): KeyPairGeneratorSpec.Builder' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:135:18 'setStartDate(Date): KeyPairGeneratorSpec.Builder' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:136:18 'setEndDate(Date): KeyPairGeneratorSpec.Builder' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/security/SecretKeygen.kt:137:18 'build(): KeyPairGeneratorSpec' is deprecated. Deprecated in Java
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/smb/SameSubnetDiscoverDeviceStrategy.kt:85:25 Type mismatch: inferred type is String? but String was expected
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/smb/SameSubnetDiscoverDeviceStrategy.kt:104:45 Unsafe use of a nullable receiver of type String?
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/smb/SmbUtil.kt:132:33 Variable 'user' initializer is redundant
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/smb/WsddDiscoverDeviceStrategy.kt:103:73 Parameter 'addr' is never used, could be renamed to _
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/utils/smb/WsddDiscoverDeviceStrategy.kt:210:56 Type mismatch: inferred type is String? but String was expected
+
+> Task :app:compileFdroidDebugJavaWithJavac
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/HybridFile.java:707: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public boolean isDirectory() {
+               ^
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/HybridFile.java:796: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public long folderSize() {
+            ^
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/HybridFile.java:1160: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public java.util.ArrayList<com.amaze.filemanager.filesystem.HybridFileParcelable> listFiles(android.content.Context context, boolean isRoot) {
+                                                                                  ^
+/home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/main/java/com/amaze/filemanager/filesystem/cloud/CloudUtil.java:78: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static java.util.ArrayList<com.amaze.filemanager.filesystem.HybridFileParcelable> listFiles(java.lang.String path, com.cloudrail.si.interfaces.CloudStorage cloudStorage, com.amaze.filemanager.fileoperations.filesystem.OpenMode openMode) throws com.amaze.filemanager.fileoperations.exceptions.CloudPluginException {
+                                                                                             ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 warnings
+
+> Task :app:mergeFdroidDebugJavaResource
+> Task :app:dexBuilderFdroidDebug
+> Task :app:bundleFdroidDebugClassesToCompileJar
+> Task :app:mergeProjectDexFdroidDebug
+> Task :app:kaptGenerateStubsFdroidDebugAndroidTestKotlin
+> Task :app:kaptFdroidDebugAndroidTestKotlin
+
+> Task :app:compileFdroidDebugAndroidTestKotlin
+w: file:///home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/androidTest/java/com/amaze/filemanager/asynchronous/services/ftp/FtpServiceEspressoTest.kt:299:25 Unchecked cast: IBinder! to ObtainableServiceBinder<FtpService>
+
+> Task :app:compileFdroidDebugAndroidTestJavaWithJavac
+Note: /home/auri/feup/tools/Projects/android/AmazeFileManager-schemata/app/src/androidTest/java/com/amaze/filemanager/ui/activities/TextEditorActivityEspressoTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:dexBuilderFdroidDebugAndroidTest
+> Task :app:mergeFdroidDebugAndroidTestJavaResource
+> Task :app:mergeProjectDexFdroidDebugAndroidTest
+> Task :app:packageFdroidDebug
+> Task :app:createFdroidDebugApkListingFileRedirect
+> Task :app:assembleFdroidDebug
+> Task :app:packageFdroidDebugAndroidTest
+> Task :app:createFdroidDebugAndroidTestApkListingFileRedirect
+> Task :app:assembleFdroidDebugAndroidTest
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2m 4s
+145 actionable tasks: 143 executed, 2 up-to-date

@@ -1,0 +1,173 @@
+BUILDING APK TextEditorActivity_1_FindViewByIdReturnsNullOperatorMutator
+
+> Configure project :app
+WARNING:The option setting 'android.disableResourceValidation=true' is experimental.
+The current default is 'false'.
+signing.properties not found
+
+> Task :commons_compress_7z:preBuild UP-TO-DATE
+> Task :portscanner:preBuild UP-TO-DATE
+> Task :file_operations:preBuild UP-TO-DATE
+> Task :commons_compress_7z:preDebugBuild UP-TO-DATE
+> Task :portscanner:preDebugBuild UP-TO-DATE
+> Task :app:copyStringsheIntoiw UP-TO-DATE
+> Task :file_operations:preDebugBuild UP-TO-DATE
+> Task :commons_compress_7z:compileDebugAidl NO-SOURCE
+> Task :app:copyStringsidIntoin UP-TO-DATE
+> Task :portscanner:compileDebugAidl NO-SOURCE
+> Task :file_operations:packageDebugRenderscript NO-SOURCE
+> Task :commons_compress_7z:packageDebugRenderscript NO-SOURCE
+> Task :app:copyStringsyiIntoji NO-SOURCE
+> Task :app:supportOldLangCodes UP-TO-DATE
+> Task :portscanner:packageDebugRenderscript NO-SOURCE
+> Task :file_operations:compileDebugAidl NO-SOURCE
+> Task :app:preBuild UP-TO-DATE
+> Task :commons_compress_7z:compileDebugRenderscript NO-SOURCE
+> Task :portscanner:compileDebugRenderscript NO-SOURCE
+> Task :app:preFdroidDebugBuild UP-TO-DATE
+> Task :commons_compress_7z:generateDebugResValues UP-TO-DATE
+> Task :file_operations:compileDebugRenderscript NO-SOURCE
+> Task :portscanner:generateDebugResValues UP-TO-DATE
+> Task :commons_compress_7z:generateDebugResources UP-TO-DATE
+> Task :file_operations:generateDebugResValues UP-TO-DATE
+> Task :portscanner:generateDebugResources UP-TO-DATE
+> Task :app:mergeFdroidDebugNativeDebugMetadata NO-SOURCE
+> Task :file_operations:generateDebugResources UP-TO-DATE
+> Task :app:compileFdroidDebugAidl NO-SOURCE
+> Task :app:compileFdroidDebugRenderscript NO-SOURCE
+> Task :portscanner:packageDebugResources UP-TO-DATE
+> Task :portscanner:writeDebugAarMetadata UP-TO-DATE
+> Task :file_operations:packageDebugResources UP-TO-DATE
+> Task :commons_compress_7z:packageDebugResources UP-TO-DATE
+> Task :portscanner:extractDeepLinksDebug UP-TO-DATE
+> Task :file_operations:writeDebugAarMetadata UP-TO-DATE
+> Task :commons_compress_7z:writeDebugAarMetadata UP-TO-DATE
+> Task :file_operations:extractDeepLinksDebug UP-TO-DATE
+> Task :commons_compress_7z:extractDeepLinksDebug UP-TO-DATE
+> Task :portscanner:processDebugManifest UP-TO-DATE
+> Task :file_operations:processDebugManifest UP-TO-DATE
+> Task :portscanner:compileDebugLibraryResources UP-TO-DATE
+> Task :commons_compress_7z:processDebugManifest UP-TO-DATE
+> Task :file_operations:compileDebugLibraryResources UP-TO-DATE
+> Task :commons_compress_7z:compileDebugLibraryResources UP-TO-DATE
+> Task :portscanner:parseDebugLocalResources UP-TO-DATE
+> Task :file_operations:parseDebugLocalResources UP-TO-DATE
+> Task :commons_compress_7z:parseDebugLocalResources UP-TO-DATE
+> Task :file_operations:generateDebugBuildConfig UP-TO-DATE
+> Task :file_operations:javaPreCompileDebug UP-TO-DATE
+> Task :file_operations:mergeDebugShaders UP-TO-DATE
+> Task :file_operations:compileDebugShaders NO-SOURCE
+> Task :file_operations:generateDebugAssets UP-TO-DATE
+> Task :file_operations:packageDebugAssets UP-TO-DATE
+> Task :portscanner:generateDebugRFile UP-TO-DATE
+> Task :file_operations:processDebugJavaRes NO-SOURCE
+> Task :portscanner:generateDebugBuildConfig UP-TO-DATE
+> Task :commons_compress_7z:generateDebugRFile UP-TO-DATE
+> Task :commons_compress_7z:generateDebugBuildConfig UP-TO-DATE
+> Task :commons_compress_7z:compileDebugKotlin NO-SOURCE
+> Task :file_operations:configureCMakeDebug[arm64-v8a]
+> Task :commons_compress_7z:javaPreCompileDebug UP-TO-DATE
+> Task :commons_compress_7z:compileDebugJavaWithJavac UP-TO-DATE
+> Task :commons_compress_7z:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :commons_compress_7z:mergeDebugShaders UP-TO-DATE
+> Task :commons_compress_7z:compileDebugShaders NO-SOURCE
+> Task :commons_compress_7z:generateDebugAssets UP-TO-DATE
+> Task :commons_compress_7z:packageDebugAssets UP-TO-DATE
+> Task :commons_compress_7z:processDebugJavaRes NO-SOURCE
+> Task :commons_compress_7z:bundleLibResDebug UP-TO-DATE
+> Task :commons_compress_7z:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :commons_compress_7z:mergeDebugJniLibFolders UP-TO-DATE
+> Task :commons_compress_7z:mergeDebugNativeLibs NO-SOURCE
+> Task :commons_compress_7z:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :portscanner:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :file_operations:generateDebugRFile UP-TO-DATE
+> Task :portscanner:kaptDebugKotlin UP-TO-DATE
+> Task :portscanner:compileDebugKotlin UP-TO-DATE
+> Task :portscanner:javaPreCompileDebug UP-TO-DATE
+> Task :portscanner:compileDebugJavaWithJavac UP-TO-DATE
+> Task :portscanner:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :portscanner:mergeDebugShaders UP-TO-DATE
+> Task :portscanner:compileDebugShaders NO-SOURCE
+> Task :portscanner:generateDebugAssets UP-TO-DATE
+> Task :portscanner:packageDebugAssets UP-TO-DATE
+> Task :file_operations:compileDebugKotlin UP-TO-DATE
+> Task :portscanner:processDebugJavaRes NO-SOURCE
+> Task :portscanner:bundleLibResDebug UP-TO-DATE
+> Task :portscanner:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :portscanner:mergeDebugJniLibFolders UP-TO-DATE
+> Task :portscanner:mergeDebugNativeLibs NO-SOURCE
+> Task :portscanner:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :file_operations:compileDebugJavaWithJavac UP-TO-DATE
+> Task :file_operations:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :file_operations:bundleLibResDebug UP-TO-DATE
+> Task :file_operations:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :app:dataBindingMergeDependencyArtifactsFdroidDebug UP-TO-DATE
+> Task :app:easylauncherFdroidDebug UP-TO-DATE
+> Task :app:generateFdroidDebugResValues UP-TO-DATE
+> Task :app:generateFdroidDebugResources UP-TO-DATE
+> Task :app:mergeFdroidDebugResources UP-TO-DATE
+> Task :file_operations:buildCMakeDebug[arm64-v8a]
+> Task :file_operations:configureCMakeDebug[armeabi-v7a]
+> Task :app:dataBindingGenBaseClassesFdroidDebug UP-TO-DATE
+> Task :app:generateFdroidDebugBuildConfig UP-TO-DATE
+> Task :app:checkFdroidDebugAarMetadata UP-TO-DATE
+> Task :app:mapFdroidDebugSourceSetPaths UP-TO-DATE
+> Task :app:createFdroidDebugCompatibleScreenManifests UP-TO-DATE
+> Task :file_operations:buildCMakeDebug[armeabi-v7a]
+> Task :app:extractDeepLinksFdroidDebug UP-TO-DATE
+> Task :file_operations:configureCMakeDebug[x86]
+> Task :app:processFdroidDebugMainManifest UP-TO-DATE
+> Task :app:processFdroidDebugManifest UP-TO-DATE
+> Task :app:processFdroidDebugManifestForPackage UP-TO-DATE
+> Task :file_operations:buildCMakeDebug[x86]
+> Task :file_operations:configureCMakeDebug[x86_64]
+> Task :app:processFdroidDebugResources UP-TO-DATE
+> Task :file_operations:buildCMakeDebug[x86_64]
+> Task :file_operations:externalNativeBuildDebug
+> Task :file_operations:mergeDebugJniLibFolders UP-TO-DATE
+> Task :file_operations:mergeDebugNativeLibs UP-TO-DATE
+> Task :file_operations:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:javaPreCompileFdroidDebug UP-TO-DATE
+> Task :app:mergeFdroidDebugShaders UP-TO-DATE
+> Task :app:compileFdroidDebugShaders NO-SOURCE
+> Task :app:generateFdroidDebugAssets UP-TO-DATE
+> Task :app:mergeFdroidDebugAssets UP-TO-DATE
+> Task :app:compressFdroidDebugAssets UP-TO-DATE
+> Task :app:checkFdroidDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarFdroidDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexFdroidDebug UP-TO-DATE
+> Task :app:processFdroidDebugJavaRes NO-SOURCE
+> Task :app:mergeLibDexFdroidDebug UP-TO-DATE
+> Task :app:mergeFdroidDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeFdroidDebugNativeLibs UP-TO-DATE
+> Task :app:stripFdroidDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningFdroidDebug UP-TO-DATE
+> Task :app:writeFdroidDebugAppMetadata UP-TO-DATE
+> Task :app:writeFdroidDebugSigningConfigVersions UP-TO-DATE
+> Task :app:kaptGenerateStubsFdroidDebugKotlin
+
+> Task :app:kaptFdroidDebugKotlin
+Note: [1] Wrote GeneratedAppGlideModule with: []
+warning: The following options were not recognized by any processor: '[room.schemaLocation, kapt.kotlin.generated, room.incremental, room.expandProjection]'
+
+> Task :app:compileFdroidDebugKotlin
+
+> Task :app:compileFdroidDebugJavaWithJavac
+Note: /home/auri/feup/tools/Projects/android/AmazeFileManager-traditional/app/src/main/java/com/amaze/filemanager/ui/activities/texteditor/TextEditorActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeFdroidDebugJavaResource UP-TO-DATE
+> Task :app:dexBuilderFdroidDebug
+> Task :app:mergeProjectDexFdroidDebug
+> Task :app:packageFdroidDebug
+> Task :app:createFdroidDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleFdroidDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+107 actionable tasks: 16 executed, 91 up-to-date

@@ -1,0 +1,41 @@
+INSTRUMENTATION_STATUS: class=com.amaze.filemanager.filesystem.HybridFileParcelableTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.amaze.filemanager.filesystem.HybridFileParcelableTest:
+INSTRUMENTATION_STATUS: test=getName
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.amaze.filemanager.filesystem.HybridFileParcelableTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=org.junit.ComparisonFailure: expected:<[]Test1.txt> but was:<[1/]Test1.txt>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.amaze.filemanager.filesystem.HybridFileParcelableTest.getName(HybridFileParcelableTest.java:51)
+
+INSTRUMENTATION_STATUS: stream=
+Error in getName(com.amaze.filemanager.filesystem.HybridFileParcelableTest):
+org.junit.ComparisonFailure: expected:<[]Test1.txt> but was:<[1/]Test1.txt>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.amaze.filemanager.filesystem.HybridFileParcelableTest.getName(HybridFileParcelableTest.java:51)
+
+INSTRUMENTATION_STATUS: test=getName
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.013
+There was 1 failure:
+1) getName(com.amaze.filemanager.filesystem.HybridFileParcelableTest)
+org.junit.ComparisonFailure: expected:<[]Test1.txt> but was:<[1/]Test1.txt>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.amaze.filemanager.filesystem.HybridFileParcelableTest.getName(HybridFileParcelableTest.java:51)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
