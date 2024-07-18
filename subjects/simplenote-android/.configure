@@ -1,0 +1,27 @@
+{
+  "project_name": "Simplenote-Android",
+  "branch": "trunk",
+  "pinned_hash": "9b6326550a87fe0b6423a9e12f79ca92be8c9cff",
+  "files_to_copy": [
+    {
+      "file": "android/simplenote/Simplenote/gradle.properties",
+      "destination": "Simplenote/gradle.properties"
+    },
+    {
+      "file": "android/simplenote/sentry.properties",
+      "destination": "sentry.properties"
+    },
+    {
+      "file": "android/automattic.jks",
+      "destination": ".configure-files/release.jks"
+    },
+    {
+      "file": "android/debug.keystore",
+      "destination": ".configure-files/debug_a8c.keystore"
+    },
+    {
+      "file": "android/Simplenote/google-upload-credentials.json",
+      "destination": ".configure-files/google-upload-credentials.json"
+    }
+  ]
+}
