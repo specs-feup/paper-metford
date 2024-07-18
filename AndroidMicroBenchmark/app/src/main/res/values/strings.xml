@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidMicroBenchmark</string>
+    <string name="run_benchmark">RUN BENCHMARK</string>
+</resources>
