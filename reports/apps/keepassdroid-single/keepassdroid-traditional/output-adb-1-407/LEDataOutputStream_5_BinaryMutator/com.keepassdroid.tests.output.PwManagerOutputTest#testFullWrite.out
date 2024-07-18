@@ -1,0 +1,50 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.output.PwManagerOutputTest:
+INSTRUMENTATION_STATUS: test=testFullWrite
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:139)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:96)
+	at com.keepassdroid.database.save.PwDbHeaderOutputV3.outputStart(PwDbHeaderOutputV3.java:39)
+	at com.keepassdroid.database.save.PwDbV3Output.outputHeader(PwDbV3Output.java:170)
+	at com.keepassdroid.database.save.PwDbV3Output.output(PwDbV3Output.java:77)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testFullWrite(PwManagerOutputTest.java:149)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testFullWrite(com.keepassdroid.tests.output.PwManagerOutputTest):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:139)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:96)
+	at com.keepassdroid.database.save.PwDbHeaderOutputV3.outputStart(PwDbHeaderOutputV3.java:39)
+	at com.keepassdroid.database.save.PwDbV3Output.outputHeader(PwDbV3Output.java:170)
+	at com.keepassdroid.database.save.PwDbV3Output.output(PwDbV3Output.java:77)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testFullWrite(PwManagerOutputTest.java:149)
+
+INSTRUMENTATION_STATUS: test=testFullWrite
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.095
+There was 1 failure:
+1) testFullWrite(com.keepassdroid.tests.output.PwManagerOutputTest)
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:139)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:96)
+	at com.keepassdroid.database.save.PwDbHeaderOutputV3.outputStart(PwDbHeaderOutputV3.java:39)
+	at com.keepassdroid.database.save.PwDbV3Output.outputHeader(PwDbV3Output.java:170)
+	at com.keepassdroid.database.save.PwDbV3Output.output(PwDbV3Output.java:77)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testFullWrite(PwManagerOutputTest.java:149)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

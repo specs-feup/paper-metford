@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testComposite
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.keepassdroid.database.exception.InvalidDBVersionException
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:164)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:121)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testComposite(Kdb4.java:133)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testComposite(com.keepassdroid.tests.database.Kdb4):
+com.keepassdroid.database.exception.InvalidDBVersionException
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:164)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:121)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testComposite(Kdb4.java:133)
+
+INSTRUMENTATION_STATUS: test=testComposite
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.129
+There was 1 failure:
+1) testComposite(com.keepassdroid.tests.database.Kdb4)
+com.keepassdroid.database.exception.InvalidDBVersionException
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:164)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:121)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testComposite(Kdb4.java:133)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

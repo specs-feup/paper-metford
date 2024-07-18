@@ -1,0 +1,65 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testNoGzip
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=16; index=-4
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:161)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:176)
+	at com.keepassdroid.crypto.keyDerivation.KdfParameters.<init>(KdfParameters.java:40)
+	at com.keepassdroid.crypto.keyDerivation.KdfEngine.getDefaultParameters(KdfEngine.java:29)
+	at com.keepassdroid.crypto.keyDerivation.AesKdf.getDefaultParameters(AesKdf.java:47)
+	at com.keepassdroid.crypto.keyDerivation.KdfFactory.getDefaultParameters(KdfFactory.java:37)
+	at com.keepassdroid.database.PwDatabaseV4.<init>(PwDatabaseV4.java:100)
+	at com.keepassdroid.database.load.ImporterV4.createDB(ImporterV4.java:97)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:111)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testNoGzip(Kdb4.java:172)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testNoGzip(com.keepassdroid.tests.database.Kdb4):
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-4
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:161)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:176)
+	at com.keepassdroid.crypto.keyDerivation.KdfParameters.<init>(KdfParameters.java:40)
+	at com.keepassdroid.crypto.keyDerivation.KdfEngine.getDefaultParameters(KdfEngine.java:29)
+	at com.keepassdroid.crypto.keyDerivation.AesKdf.getDefaultParameters(AesKdf.java:47)
+	at com.keepassdroid.crypto.keyDerivation.KdfFactory.getDefaultParameters(KdfFactory.java:37)
+	at com.keepassdroid.database.PwDatabaseV4.<init>(PwDatabaseV4.java:100)
+	at com.keepassdroid.database.load.ImporterV4.createDB(ImporterV4.java:97)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:111)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testNoGzip(Kdb4.java:172)
+
+INSTRUMENTATION_STATUS: test=testNoGzip
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.012
+There was 1 failure:
+1) testNoGzip(com.keepassdroid.tests.database.Kdb4)
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-4
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:161)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:176)
+	at com.keepassdroid.crypto.keyDerivation.KdfParameters.<init>(KdfParameters.java:40)
+	at com.keepassdroid.crypto.keyDerivation.KdfEngine.getDefaultParameters(KdfEngine.java:29)
+	at com.keepassdroid.crypto.keyDerivation.AesKdf.getDefaultParameters(AesKdf.java:47)
+	at com.keepassdroid.crypto.keyDerivation.KdfFactory.getDefaultParameters(KdfFactory.java:37)
+	at com.keepassdroid.database.PwDatabaseV4.<init>(PwDatabaseV4.java:100)
+	at com.keepassdroid.database.load.ImporterV4.createDB(ImporterV4.java:97)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:111)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testNoGzip(Kdb4.java:172)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

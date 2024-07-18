@@ -1,0 +1,83 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testSavingKDBXV3
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.keepassdroid.database.exception.PwDbOutputException: java.lang.IllegalArgumentException: Output buffer does not have enough space
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:227)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV3(Kdb4.java:81)
+	... 32 trimmed
+Caused by: java.lang.IllegalArgumentException: Output buffer does not have enough space
+	at com.keepassdroid.crypto.NativeAESCipherSpi.nUpdate(Native Method)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.update(NativeAESCipherSpi.java:304)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineUpdate(NativeAESCipherSpi.java:276)
+	at javax.crypto.Cipher.update(Cipher.java:1722)
+	at javax.crypto.CipherOutputStream.write(CipherOutputStream.java:158)
+	at javax.crypto.CipherOutputStream.write(CipherOutputStream.java:144)
+	at com.keepassdroid.stream.LEDataOutputStream.write(LEDataOutputStream.java:59)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:123)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:65)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:225)
+	... 35 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSavingKDBXV3(com.keepassdroid.tests.database.Kdb4):
+com.keepassdroid.database.exception.PwDbOutputException: java.lang.IllegalArgumentException: Output buffer does not have enough space
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:227)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV3(Kdb4.java:81)
+	... 32 trimmed
+Caused by: java.lang.IllegalArgumentException: Output buffer does not have enough space
+	at com.keepassdroid.crypto.NativeAESCipherSpi.nUpdate(Native Method)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.update(NativeAESCipherSpi.java:304)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineUpdate(NativeAESCipherSpi.java:276)
+	at javax.crypto.Cipher.update(Cipher.java:1722)
+	at javax.crypto.CipherOutputStream.write(CipherOutputStream.java:158)
+	at javax.crypto.CipherOutputStream.write(CipherOutputStream.java:144)
+	at com.keepassdroid.stream.LEDataOutputStream.write(LEDataOutputStream.java:59)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:123)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:65)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:225)
+	... 35 more
+
+INSTRUMENTATION_STATUS: test=testSavingKDBXV3
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.285
+There was 1 failure:
+1) testSavingKDBXV3(com.keepassdroid.tests.database.Kdb4)
+com.keepassdroid.database.exception.PwDbOutputException: java.lang.IllegalArgumentException: Output buffer does not have enough space
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:227)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV3(Kdb4.java:81)
+	... 32 trimmed
+Caused by: java.lang.IllegalArgumentException: Output buffer does not have enough space
+	at com.keepassdroid.crypto.NativeAESCipherSpi.nUpdate(Native Method)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.update(NativeAESCipherSpi.java:304)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineUpdate(NativeAESCipherSpi.java:276)
+	at javax.crypto.Cipher.update(Cipher.java:1722)
+	at javax.crypto.CipherOutputStream.write(CipherOutputStream.java:158)
+	at javax.crypto.CipherOutputStream.write(CipherOutputStream.java:144)
+	at com.keepassdroid.stream.LEDataOutputStream.write(LEDataOutputStream.java:59)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:123)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:65)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:225)
+	... 35 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

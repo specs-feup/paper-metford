@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testParsing
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:240)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:201)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:51)
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:124)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:116)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testParsing(Kdb4.java:72)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testParsing(com.keepassdroid.tests.database.Kdb4):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:240)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:201)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:51)
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:124)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:116)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testParsing(Kdb4.java:72)
+
+INSTRUMENTATION_STATUS: test=testParsing
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.013
+There was 1 failure:
+1) testParsing(com.keepassdroid.tests.database.Kdb4)
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:240)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:201)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:51)
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:124)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:116)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testParsing(Kdb4.java:72)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

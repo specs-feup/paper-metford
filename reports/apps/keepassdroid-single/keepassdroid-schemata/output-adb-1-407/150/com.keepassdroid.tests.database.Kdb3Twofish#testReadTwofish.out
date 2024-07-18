@@ -1,0 +1,50 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3Twofish
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb3Twofish:
+INSTRUMENTATION_STATUS: test=testReadTwofish
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3Twofish
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IndexOutOfBoundsException: 
+	at android.content.res.AssetManager.nativeAssetRead(Native Method)
+	at android.content.res.AssetManager.access$800(AssetManager.java:61)
+	at android.content.res.AssetManager$AssetInputStream.read(AssetManager.java:1265)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:162)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReadTwofish(com.keepassdroid.tests.database.Kdb3Twofish):
+java.lang.IndexOutOfBoundsException: 
+	at android.content.res.AssetManager.nativeAssetRead(Native Method)
+	at android.content.res.AssetManager.access$800(AssetManager.java:61)
+	at android.content.res.AssetManager$AssetInputStream.read(AssetManager.java:1265)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:162)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+INSTRUMENTATION_STATUS: test=testReadTwofish
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.052
+There was 1 failure:
+1) testReadTwofish(com.keepassdroid.tests.database.Kdb3Twofish)
+java.lang.IndexOutOfBoundsException: 
+	at android.content.res.AssetManager.nativeAssetRead(Native Method)
+	at android.content.res.AssetManager.access$800(AssetManager.java:61)
+	at android.content.res.AssetManager$AssetInputStream.read(AssetManager.java:1265)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:162)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,50 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.stream.HashedBlock:
+INSTRUMENTATION_STATUS: test=testGZIPStream
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: src.length=32028 srcPos=31754 dst.length=512 dstPos=0 length=512
+	at java.lang.System.arraycopy(Native Method)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:68)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:266)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:107)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testGZIPStream(com.keepassdroid.tests.stream.HashedBlock):
+java.lang.ArrayIndexOutOfBoundsException: src.length=32028 srcPos=31754 dst.length=512 dstPos=0 length=512
+	at java.lang.System.arraycopy(Native Method)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:68)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:266)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:107)
+
+INSTRUMENTATION_STATUS: test=testGZIPStream
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.013
+There was 1 failure:
+1) testGZIPStream(com.keepassdroid.tests.stream.HashedBlock)
+java.lang.ArrayIndexOutOfBoundsException: src.length=32028 srcPos=31754 dst.length=512 dstPos=0 length=512
+	at java.lang.System.arraycopy(Native Method)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:68)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:266)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:107)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

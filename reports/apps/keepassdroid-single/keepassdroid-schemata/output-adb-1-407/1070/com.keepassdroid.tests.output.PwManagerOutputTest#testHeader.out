@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.output.PwManagerOutputTest:
+INSTRUMENTATION_STATUS: test=testHeader
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=2; index=-1
+	at com.keepassdroid.stream.LEDataOutputStream.writeUShort(LEDataOutputStream.java:141)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUShort(LEDataOutputStream.java:98)
+	at com.keepassdroid.database.save.PwDbV3Output.writeExtDataField(PwDbV3Output.java:306)
+	at com.keepassdroid.database.save.PwDbV3Output.writeExtData(PwDbV3Output.java:294)
+	at com.keepassdroid.database.save.PwDbV3Output.getHeaderHashBuffer(PwDbV3Output.java:283)
+	at com.keepassdroid.database.save.PwDbV3Output.outputHeader(PwDbV3Output.java:184)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testHeader(PwManagerOutputTest.java:109)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testHeader(com.keepassdroid.tests.output.PwManagerOutputTest):
+java.lang.ArrayIndexOutOfBoundsException: length=2; index=-1
+	at com.keepassdroid.stream.LEDataOutputStream.writeUShort(LEDataOutputStream.java:141)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUShort(LEDataOutputStream.java:98)
+	at com.keepassdroid.database.save.PwDbV3Output.writeExtDataField(PwDbV3Output.java:306)
+	at com.keepassdroid.database.save.PwDbV3Output.writeExtData(PwDbV3Output.java:294)
+	at com.keepassdroid.database.save.PwDbV3Output.getHeaderHashBuffer(PwDbV3Output.java:283)
+	at com.keepassdroid.database.save.PwDbV3Output.outputHeader(PwDbV3Output.java:184)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testHeader(PwManagerOutputTest.java:109)
+
+INSTRUMENTATION_STATUS: test=testHeader
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.239
+There was 1 failure:
+1) testHeader(com.keepassdroid.tests.output.PwManagerOutputTest)
+java.lang.ArrayIndexOutOfBoundsException: length=2; index=-1
+	at com.keepassdroid.stream.LEDataOutputStream.writeUShort(LEDataOutputStream.java:141)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUShort(LEDataOutputStream.java:98)
+	at com.keepassdroid.database.save.PwDbV3Output.writeExtDataField(PwDbV3Output.java:306)
+	at com.keepassdroid.database.save.PwDbV3Output.writeExtData(PwDbV3Output.java:294)
+	at com.keepassdroid.database.save.PwDbV3Output.getHeaderHashBuffer(PwDbV3Output.java:283)
+	at com.keepassdroid.database.save.PwDbV3Output.outputHeader(PwDbV3Output.java:184)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testHeader(PwManagerOutputTest.java:109)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

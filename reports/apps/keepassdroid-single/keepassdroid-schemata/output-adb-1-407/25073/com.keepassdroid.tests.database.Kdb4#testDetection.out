@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testDetection
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:417)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:346)
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:44)
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:38)
+	at com.keepassdroid.tests.database.Kdb4.testDetection(Kdb4.java:59)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testDetection(com.keepassdroid.tests.database.Kdb4):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:417)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:346)
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:44)
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:38)
+	at com.keepassdroid.tests.database.Kdb4.testDetection(Kdb4.java:59)
+
+INSTRUMENTATION_STATUS: test=testDetection
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.048
+There was 1 failure:
+1) testDetection(com.keepassdroid.tests.database.Kdb4)
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:417)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:346)
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:44)
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:38)
+	at com.keepassdroid.tests.database.Kdb4.testDetection(Kdb4.java:59)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

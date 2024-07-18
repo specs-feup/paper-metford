@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.ProtectedBinaryTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.ProtectedBinaryTest:
+INSTRUMENTATION_STATUS: test=testEncryption
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.ProtectedBinaryTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NegativeArraySizeException: -32
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:125)
+	at javax.crypto.Cipher.doFinal(Cipher.java:1938)
+	at javax.crypto.CipherOutputStream.close(CipherOutputStream.java:210)
+	at com.keepassdroid.tests.database.ProtectedBinaryTest.testEncryption(ProtectedBinaryTest.java:56)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testEncryption(com.keepassdroid.tests.database.ProtectedBinaryTest):
+java.lang.NegativeArraySizeException: -32
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:125)
+	at javax.crypto.Cipher.doFinal(Cipher.java:1938)
+	at javax.crypto.CipherOutputStream.close(CipherOutputStream.java:210)
+	at com.keepassdroid.tests.database.ProtectedBinaryTest.testEncryption(ProtectedBinaryTest.java:56)
+
+INSTRUMENTATION_STATUS: test=testEncryption
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.086
+There was 1 failure:
+1) testEncryption(com.keepassdroid.tests.database.ProtectedBinaryTest)
+java.lang.NegativeArraySizeException: -32
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:125)
+	at javax.crypto.Cipher.doFinal(Cipher.java:1938)
+	at javax.crypto.CipherOutputStream.close(CipherOutputStream.java:210)
+	at com.keepassdroid.tests.database.ProtectedBinaryTest.testEncryption(ProtectedBinaryTest.java:56)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testSavingKDBXV3
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NegativeArraySizeException: -32
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:135)
+	at javax.crypto.Cipher.doFinal(Cipher.java:1938)
+	at javax.crypto.CipherOutputStream.close(CipherOutputStream.java:210)
+	at com.keepassdroid.stream.LEDataOutputStream.close(LEDataOutputStream.java:51)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:81)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:224)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV3(Kdb4.java:81)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSavingKDBXV3(com.keepassdroid.tests.database.Kdb4):
+java.lang.NegativeArraySizeException: -32
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:135)
+	at javax.crypto.Cipher.doFinal(Cipher.java:1938)
+	at javax.crypto.CipherOutputStream.close(CipherOutputStream.java:210)
+	at com.keepassdroid.stream.LEDataOutputStream.close(LEDataOutputStream.java:51)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:81)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:224)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV3(Kdb4.java:81)
+
+INSTRUMENTATION_STATUS: test=testSavingKDBXV3
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.51
+There was 1 failure:
+1) testSavingKDBXV3(com.keepassdroid.tests.database.Kdb4)
+java.lang.NegativeArraySizeException: -32
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:135)
+	at javax.crypto.Cipher.doFinal(Cipher.java:1938)
+	at javax.crypto.CipherOutputStream.close(CipherOutputStream.java:210)
+	at com.keepassdroid.stream.LEDataOutputStream.close(LEDataOutputStream.java:51)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:81)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:224)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV3(Kdb4.java:81)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

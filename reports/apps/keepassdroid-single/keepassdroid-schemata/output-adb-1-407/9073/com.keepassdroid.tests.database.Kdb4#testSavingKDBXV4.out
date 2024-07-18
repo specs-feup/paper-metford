@@ -1,0 +1,56 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testSavingKDBXV4
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.io.IOException: Hash failed with code=-1188618452
+	at com.keepassdroid.crypto.keyDerivation.Argon2Native.nTransformMasterKey(Native Method)
+	at com.keepassdroid.crypto.keyDerivation.Argon2Native.transformKey(Argon2Native.java:34)
+	at com.keepassdroid.crypto.keyDerivation.Argon2Kdf.transform(Argon2Kdf.java:141)
+	at com.keepassdroid.database.PwDatabaseV4.makeFinalKey(PwDatabaseV4.java:241)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:127)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:96)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSavingKDBXV4(com.keepassdroid.tests.database.Kdb4):
+java.io.IOException: Hash failed with code=-1188618452
+	at com.keepassdroid.crypto.keyDerivation.Argon2Native.nTransformMasterKey(Native Method)
+	at com.keepassdroid.crypto.keyDerivation.Argon2Native.transformKey(Argon2Native.java:34)
+	at com.keepassdroid.crypto.keyDerivation.Argon2Kdf.transform(Argon2Kdf.java:141)
+	at com.keepassdroid.database.PwDatabaseV4.makeFinalKey(PwDatabaseV4.java:241)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:127)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:96)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+INSTRUMENTATION_STATUS: test=testSavingKDBXV4
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.156
+There was 1 failure:
+1) testSavingKDBXV4(com.keepassdroid.tests.database.Kdb4)
+java.io.IOException: Hash failed with code=-1188618452
+	at com.keepassdroid.crypto.keyDerivation.Argon2Native.nTransformMasterKey(Native Method)
+	at com.keepassdroid.crypto.keyDerivation.Argon2Native.transformKey(Argon2Native.java:34)
+	at com.keepassdroid.crypto.keyDerivation.Argon2Kdf.transform(Argon2Kdf.java:141)
+	at com.keepassdroid.database.PwDatabaseV4.makeFinalKey(PwDatabaseV4.java:241)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:127)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:96)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

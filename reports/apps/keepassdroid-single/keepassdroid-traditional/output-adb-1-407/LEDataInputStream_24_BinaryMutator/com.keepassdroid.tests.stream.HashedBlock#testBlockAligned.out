@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.stream.HashedBlock:
+INSTRUMENTATION_STATUS: test=testBlockAligned
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:239)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:201)
+	at com.keepassdroid.stream.LEDataInputStream.readUInt(LEDataInputStream.java:222)
+	at com.keepassdroid.stream.LEDataInputStream.readUInt(LEDataInputStream.java:46)
+	at com.keepassdroid.stream.HashedBlockInputStream.ReadHashedBlock(HashedBlockInputStream.java:89)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:60)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:44)
+	at com.keepassdroid.tests.stream.HashedBlock.testSize(HashedBlock.java:70)
+	at com.keepassdroid.tests.stream.HashedBlock.testBlockAligned(HashedBlock.java:44)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testBlockAligned(com.keepassdroid.tests.stream.HashedBlock):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:239)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:201)
+	at com.keepassdroid.stream.LEDataInputStream.readUInt(LEDataInputStream.java:222)
+	at com.keepassdroid.stream.LEDataInputStream.readUInt(LEDataInputStream.java:46)
+	at com.keepassdroid.stream.HashedBlockInputStream.ReadHashedBlock(HashedBlockInputStream.java:89)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:60)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:44)
+	at com.keepassdroid.tests.stream.HashedBlock.testSize(HashedBlock.java:70)
+	at com.keepassdroid.tests.stream.HashedBlock.testBlockAligned(HashedBlock.java:44)
+
+INSTRUMENTATION_STATUS: test=testBlockAligned
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.007
+There was 1 failure:
+1) testBlockAligned(com.keepassdroid.tests.stream.HashedBlock)
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:239)
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:201)
+	at com.keepassdroid.stream.LEDataInputStream.readUInt(LEDataInputStream.java:222)
+	at com.keepassdroid.stream.LEDataInputStream.readUInt(LEDataInputStream.java:46)
+	at com.keepassdroid.stream.HashedBlockInputStream.ReadHashedBlock(HashedBlockInputStream.java:89)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:60)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:44)
+	at com.keepassdroid.tests.stream.HashedBlock.testSize(HashedBlock.java:70)
+	at com.keepassdroid.tests.stream.HashedBlock.testBlockAligned(HashedBlock.java:44)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

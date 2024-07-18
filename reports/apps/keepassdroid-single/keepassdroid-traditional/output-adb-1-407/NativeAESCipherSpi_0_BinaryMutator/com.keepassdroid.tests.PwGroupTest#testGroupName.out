@@ -1,0 +1,77 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.PwGroupTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.PwGroupTest:
+INSTRUMENTATION_STATUS: test=testGroupName
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.PwGroupTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Invalid argument(s) passed to nFinal
+	at com.keepassdroid.crypto.NativeAESCipherSpi.nFinal(Native Method)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.doFinal(NativeAESCipherSpi.java:154)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:135)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2267)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:209)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:40)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:29)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.PwGroupTest.setUp(PwGroupTest.java:43)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testGroupName(com.keepassdroid.tests.PwGroupTest):
+java.lang.IllegalArgumentException: Invalid argument(s) passed to nFinal
+	at com.keepassdroid.crypto.NativeAESCipherSpi.nFinal(Native Method)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.doFinal(NativeAESCipherSpi.java:154)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:135)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2267)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:209)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:40)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:29)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.PwGroupTest.setUp(PwGroupTest.java:43)
+
+INSTRUMENTATION_STATUS: test=testGroupName
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.091
+There was 1 failure:
+1) testGroupName(com.keepassdroid.tests.PwGroupTest)
+java.lang.IllegalArgumentException: Invalid argument(s) passed to nFinal
+	at com.keepassdroid.crypto.NativeAESCipherSpi.nFinal(Native Method)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.doFinal(NativeAESCipherSpi.java:154)
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:135)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2267)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:209)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:40)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:29)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.PwGroupTest.setUp(PwGroupTest.java:43)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

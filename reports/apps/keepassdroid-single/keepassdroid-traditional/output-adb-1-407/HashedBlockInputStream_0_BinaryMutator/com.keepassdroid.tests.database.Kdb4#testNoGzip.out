@@ -1,0 +1,77 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testNoGzip
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Bad position 11651/8192
+	at java.nio.Buffer.position(Buffer.java:259)
+	at java.nio.ByteBuffer.position(ByteBuffer.java:812)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at com.android.org.kxml2.io.KXmlParser.fillBuffer(KXmlParser.java:1516)
+	at com.android.org.kxml2.io.KXmlParser.peekType(KXmlParser.java:993)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:353)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:313)
+	at com.keepassdroid.database.load.ImporterV4.ReadDocumentStreamed(ImporterV4.java:358)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlStreamed(ImporterV4.java:331)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:208)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testNoGzip(Kdb4.java:172)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testNoGzip(com.keepassdroid.tests.database.Kdb4):
+java.lang.IllegalArgumentException: Bad position 11651/8192
+	at java.nio.Buffer.position(Buffer.java:259)
+	at java.nio.ByteBuffer.position(ByteBuffer.java:812)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at com.android.org.kxml2.io.KXmlParser.fillBuffer(KXmlParser.java:1516)
+	at com.android.org.kxml2.io.KXmlParser.peekType(KXmlParser.java:993)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:353)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:313)
+	at com.keepassdroid.database.load.ImporterV4.ReadDocumentStreamed(ImporterV4.java:358)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlStreamed(ImporterV4.java:331)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:208)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testNoGzip(Kdb4.java:172)
+
+INSTRUMENTATION_STATUS: test=testNoGzip
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.109
+There was 1 failure:
+1) testNoGzip(com.keepassdroid.tests.database.Kdb4)
+java.lang.IllegalArgumentException: Bad position 11651/8192
+	at java.nio.Buffer.position(Buffer.java:259)
+	at java.nio.ByteBuffer.position(ByteBuffer.java:812)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at com.android.org.kxml2.io.KXmlParser.fillBuffer(KXmlParser.java:1516)
+	at com.android.org.kxml2.io.KXmlParser.peekType(KXmlParser.java:993)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:353)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:313)
+	at com.keepassdroid.database.load.ImporterV4.ReadDocumentStreamed(ImporterV4.java:358)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlStreamed(ImporterV4.java:331)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:208)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testNoGzip(Kdb4.java:172)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

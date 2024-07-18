@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.PwEntryTestV3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.PwEntryTestV3:
+INSTRUMENTATION_STATUS: test=testCreation
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.PwEntryTestV3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=5; index=-4
+	at com.keepassdroid.utils.Types.readUByte(Types.java:69)
+	at com.keepassdroid.database.PwDate.readTime(PwDate.java:159)
+	at com.keepassdroid.database.PwDate.getJDate(PwDate.java:96)
+	at com.keepassdroid.tests.PwEntryTestV3.testCreation(PwEntryTestV3.java:66)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testCreation(com.keepassdroid.tests.PwEntryTestV3):
+java.lang.ArrayIndexOutOfBoundsException: length=5; index=-4
+	at com.keepassdroid.utils.Types.readUByte(Types.java:69)
+	at com.keepassdroid.database.PwDate.readTime(PwDate.java:159)
+	at com.keepassdroid.database.PwDate.getJDate(PwDate.java:96)
+	at com.keepassdroid.tests.PwEntryTestV3.testCreation(PwEntryTestV3.java:66)
+
+INSTRUMENTATION_STATUS: test=testCreation
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.236
+There was 1 failure:
+1) testCreation(com.keepassdroid.tests.PwEntryTestV3)
+java.lang.ArrayIndexOutOfBoundsException: length=5; index=-4
+	at com.keepassdroid.utils.Types.readUByte(Types.java:69)
+	at com.keepassdroid.database.PwDate.readTime(PwDate.java:159)
+	at com.keepassdroid.database.PwDate.getJDate(PwDate.java:96)
+	at com.keepassdroid.tests.PwEntryTestV3.testCreation(PwEntryTestV3.java:66)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,56 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testSavingKDBXV4
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=-1
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:174)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:106)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUInt(LEDataOutputStream.java:45)
+	at com.keepassdroid.database.save.PwDbHeaderOutputV4.output(PwDbHeaderOutputV4.java:97)
+	at com.keepassdroid.database.save.PwDbV4Output.outputHeader(PwDbV4Output.java:411)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:195)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSavingKDBXV4(com.keepassdroid.tests.database.Kdb4):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-1
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:174)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:106)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUInt(LEDataOutputStream.java:45)
+	at com.keepassdroid.database.save.PwDbHeaderOutputV4.output(PwDbHeaderOutputV4.java:97)
+	at com.keepassdroid.database.save.PwDbV4Output.outputHeader(PwDbV4Output.java:411)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:195)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+INSTRUMENTATION_STATUS: test=testSavingKDBXV4
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.368
+There was 1 failure:
+1) testSavingKDBXV4(com.keepassdroid.tests.database.Kdb4)
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-1
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:174)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:106)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUInt(LEDataOutputStream.java:45)
+	at com.keepassdroid.database.save.PwDbHeaderOutputV4.output(PwDbHeaderOutputV4.java:97)
+	at com.keepassdroid.database.save.PwDbV4Output.outputHeader(PwDbV4Output.java:411)
+	at com.keepassdroid.database.save.PwDbV4Output.output(PwDbV4Output.java:195)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:102)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

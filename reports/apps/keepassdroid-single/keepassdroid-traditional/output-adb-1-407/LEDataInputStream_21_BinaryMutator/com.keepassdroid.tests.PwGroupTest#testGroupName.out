@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.PwGroupTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.PwGroupTest:
+INSTRUMENTATION_STATUS: test=testGroupName
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.PwGroupTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.keepassdroid.database.exception.InvalidDBSignatureException
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:52)
+	at com.keepassdroid.Database.LoadData(Database.java:158)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.PwGroupTest.setUp(PwGroupTest.java:43)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testGroupName(com.keepassdroid.tests.PwGroupTest):
+com.keepassdroid.database.exception.InvalidDBSignatureException
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:52)
+	at com.keepassdroid.Database.LoadData(Database.java:158)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.PwGroupTest.setUp(PwGroupTest.java:43)
+
+INSTRUMENTATION_STATUS: test=testGroupName
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.01
+There was 1 failure:
+1) testGroupName(com.keepassdroid.tests.PwGroupTest)
+com.keepassdroid.database.exception.InvalidDBSignatureException
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:52)
+	at com.keepassdroid.Database.LoadData(Database.java:158)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.PwGroupTest.setUp(PwGroupTest.java:43)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

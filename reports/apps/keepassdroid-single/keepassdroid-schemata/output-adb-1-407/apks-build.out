@@ -1,0 +1,142 @@
+
+> Task :app:externalNativeBuildCleanGeneralDebug
+Clean argon2-armeabi-v7a, final-key-armeabi-v7a
+Clean argon2-arm64-v8a, final-key-arm64-v8a
+Clean argon2-x86, final-key-x86
+Clean argon2-x86_64, final-key-x86_64
+
+> Task :app:externalNativeBuildCleanGeneralRelease
+
+> Task :app:externalNativeBuildCleanPlayDebug
+Clean argon2-armeabi-v7a, final-key-armeabi-v7a
+Clean argon2-arm64-v8a, final-key-arm64-v8a
+Clean argon2-x86, final-key-x86
+Clean argon2-x86_64, final-key-x86_64
+
+> Task :app:externalNativeBuildCleanPlayRelease
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preGeneralDebugBuild UP-TO-DATE
+> Task :app:mergeGeneralDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileGeneralDebugAidl NO-SOURCE
+> Task :app:compileGeneralDebugRenderscript NO-SOURCE
+> Task :app:generateGeneralDebugBuildConfig
+> Task :app:javaPreCompileGeneralDebug
+> Task :app:checkGeneralDebugAarMetadata
+> Task :app:generateGeneralDebugResValues
+> Task :app:mapGeneralDebugSourceSetPaths
+> Task :app:generateGeneralDebugResources
+> Task :app:createGeneralDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksGeneralDebug
+> Task :app:processGeneralDebugMainManifest
+> Task :app:processGeneralDebugManifest
+> Task :app:mergeGeneralDebugShaders
+> Task :app:compileGeneralDebugShaders NO-SOURCE
+> Task :app:generateGeneralDebugAssets UP-TO-DATE
+> Task :app:mergeGeneralDebugAssets
+> Task :app:desugarGeneralDebugFileDependencies
+> Task :app:compressGeneralDebugAssets
+> Task :app:checkGeneralDebugDuplicateClasses
+> Task :app:processGeneralDebugJavaRes
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeGeneralDebugResources
+
+> Task :app:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/.cxx/Debug/404f305j/arm64-v8a'
+C/C++: /home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:438:10: warning: cast to 'void *' from smaller integer type 'uint32_t' (aka 'unsigned int') [-Wint-to-void-pointer-cast]
+C/C++: /home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:501:12: warning: cast to smaller integer type 'uint32_t' (aka 'unsigned int') from 'void *' [-Wvoid-pointer-to-int-cast]
+
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:mergeGeneralDebugJavaResource
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:configureCMakeDebug[x86]
+> Task :app:buildCMakeDebug[x86]
+> Task :app:configureCMakeDebug[x86_64]
+
+> Task :app:buildCMakeDebug[x86_64]
+C/C++: ninja: Entering directory `/home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/.cxx/Debug/404f305j/x86_64'
+C/C++: /home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:438:10: warning: cast to 'void *' from smaller integer type 'uint32_t' (aka 'unsigned int') [-Wint-to-void-pointer-cast]
+C/C++: /home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:501:12: warning: cast to smaller integer type 'uint32_t' (aka 'unsigned int') from 'void *' [-Wvoid-pointer-to-int-cast]
+
+> Task :app:externalNativeBuildGeneralDebug
+> Task :app:mergeGeneralDebugJniLibFolders
+> Task :app:validateSigningGeneralDebug
+> Task :app:writeGeneralDebugAppMetadata
+> Task :app:writeGeneralDebugSigningConfigVersions
+> Task :app:preGeneralDebugAndroidTestBuild SKIPPED
+> Task :app:compileGeneralDebugAndroidTestAidl NO-SOURCE
+> Task :app:mergeGeneralDebugNativeLibs
+> Task :app:processGeneralDebugAndroidTestManifest
+> Task :app:compileGeneralDebugAndroidTestRenderscript NO-SOURCE
+> Task :app:generateGeneralDebugAndroidTestBuildConfig
+> Task :app:generateGeneralDebugAndroidTestResValues
+> Task :app:mapGeneralDebugAndroidTestSourceSetPaths
+> Task :app:generateGeneralDebugAndroidTestResources
+> Task :app:mergeGeneralDebugAndroidTestShaders
+> Task :app:compileGeneralDebugAndroidTestShaders NO-SOURCE
+> Task :app:generateGeneralDebugAndroidTestAssets UP-TO-DATE
+> Task :app:checkGeneralDebugAndroidTestAarMetadata
+> Task :app:javaPreCompileGeneralDebugAndroidTest
+> Task :app:mergeGeneralDebugAndroidTestResources
+> Task :app:mergeGeneralDebugAndroidTestAssets
+> Task :app:stripGeneralDebugDebugSymbols
+> Task :app:compressGeneralDebugAndroidTestAssets
+> Task :app:desugarGeneralDebugAndroidTestFileDependencies
+> Task :app:processGeneralDebugAndroidTestJavaRes NO-SOURCE
+> Task :app:checkGeneralDebugAndroidTestDuplicateClasses
+> Task :app:mergeGeneralDebugAndroidTestJniLibFolders
+> Task :app:mergeGeneralDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:validateSigningGeneralDebugAndroidTest
+> Task :app:writeGeneralDebugAndroidTestSigningConfigVersions
+> Task :app:processGeneralDebugManifestForPackage
+> Task :app:mergeGeneralDebugAndroidTestJavaResource
+> Task :app:processGeneralDebugAndroidTestResources
+> Task :app:processGeneralDebugResources
+
+> Task :app:compileGeneralDebugJavaWithJavac
+/home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/compat/KeyGenParameterSpecCompat.java:71: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            return ((java.security.spec.AlgorithmParameterSpec) (com.keepassdroid.compat.KeyGenParameterSpecCompat.builderBuild.invoke(inst, null)));
+                                                                                                                                             ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/compat/KeyguardManagerCompat.java:50: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            return ((boolean) (com.keepassdroid.compat.KeyguardManagerCompat.isKeyguardSecure.invoke(inst, null)));
+                                                                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/compat/ClipDataCompat.java:63: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                clip = ((android.content.ClipData) (com.keepassdroid.compat.ClipDataCompat.getClipDataFromIntent.invoke(i, null)));
+                                                                                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings
+
+> Task :app:dexBuilderGeneralDebug
+> Task :app:bundleGeneralDebugClassesToCompileJar
+
+> Task :app:compileGeneralDebugAndroidTestJavaWithJavac
+Note: /home/auri/feup/tools/Projects/android/keepassdroid-schemata/app/src/androidTest/java/com/keepassdroid/tests/search/SearchTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:dexBuilderGeneralDebugAndroidTest
+> Task :app:mergeDexGeneralDebugAndroidTest
+> Task :app:packageGeneralDebugAndroidTest
+> Task :app:createGeneralDebugAndroidTestApkListingFileRedirect
+> Task :app:assembleGeneralDebugAndroidTest
+> Task :app:mergeDexGeneralDebug
+> Task :app:packageGeneralDebug
+> Task :app:createGeneralDebugApkListingFileRedirect
+> Task :app:assembleGeneralDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 17s
+67 actionable tasks: 67 executed

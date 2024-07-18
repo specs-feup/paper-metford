@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.search.SearchTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.search.SearchTest:
+INSTRUMENTATION_STATUS: test=testBackupIncluded
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.search.SearchTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.keepassdroid.database.exception.InvalidDBSignatureException
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:55)
+	at com.keepassdroid.Database.LoadData(Database.java:175)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:157)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.search.SearchTest.setUp(SearchTest.java:48)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testBackupIncluded(com.keepassdroid.tests.search.SearchTest):
+com.keepassdroid.database.exception.InvalidDBSignatureException
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:55)
+	at com.keepassdroid.Database.LoadData(Database.java:175)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:157)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.search.SearchTest.setUp(SearchTest.java:48)
+
+INSTRUMENTATION_STATUS: test=testBackupIncluded
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.088
+There was 1 failure:
+1) testBackupIncluded(com.keepassdroid.tests.search.SearchTest)
+com.keepassdroid.database.exception.InvalidDBSignatureException
+	at com.keepassdroid.database.load.ImporterFactory.createImporter(ImporterFactory.java:55)
+	at com.keepassdroid.Database.LoadData(Database.java:175)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:157)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.search.SearchTest.setUp(SearchTest.java:48)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

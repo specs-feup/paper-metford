@@ -1,0 +1,41 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.DeleteEntry
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.DeleteEntry:
+INSTRUMENTATION_STATUS: test=testDelete
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.DeleteEntry
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError: Failed to open database: length=1036; index=-48
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at com.keepassdroid.tests.database.DeleteEntry.testDelete(DeleteEntry.java:62)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testDelete(com.keepassdroid.tests.database.DeleteEntry):
+junit.framework.AssertionFailedError: Failed to open database: length=1036; index=-48
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at com.keepassdroid.tests.database.DeleteEntry.testDelete(DeleteEntry.java:62)
+
+INSTRUMENTATION_STATUS: test=testDelete
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.01
+There was 1 failure:
+1) testDelete(com.keepassdroid.tests.database.DeleteEntry)
+junit.framework.AssertionFailedError: Failed to open database: length=1036; index=-48
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at com.keepassdroid.tests.database.DeleteEntry.testDelete(DeleteEntry.java:62)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

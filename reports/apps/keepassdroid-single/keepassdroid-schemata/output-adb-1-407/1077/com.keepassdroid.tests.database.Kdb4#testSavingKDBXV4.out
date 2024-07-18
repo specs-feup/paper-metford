@@ -1,0 +1,68 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testSavingKDBXV4
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: Bad arguments
+	at javax.crypto.Cipher.update(Cipher.java:1715)
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:127)
+	at java.util.zip.CheckedInputStream.read(CheckedInputStream.java:59)
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:275)
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:267)
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:173)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:83)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:100)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:191)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:96)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testSavingKDBXV4(com.keepassdroid.tests.database.Kdb4):
+java.lang.IllegalArgumentException: Bad arguments
+	at javax.crypto.Cipher.update(Cipher.java:1715)
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:127)
+	at java.util.zip.CheckedInputStream.read(CheckedInputStream.java:59)
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:275)
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:267)
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:173)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:83)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:100)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:191)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:96)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+INSTRUMENTATION_STATUS: test=testSavingKDBXV4
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.252
+There was 1 failure:
+1) testSavingKDBXV4(com.keepassdroid.tests.database.Kdb4)
+java.lang.IllegalArgumentException: Bad arguments
+	at javax.crypto.Cipher.update(Cipher.java:1715)
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:127)
+	at java.util.zip.CheckedInputStream.read(CheckedInputStream.java:59)
+	at java.util.zip.GZIPInputStream.readUByte(GZIPInputStream.java:275)
+	at java.util.zip.GZIPInputStream.readUShort(GZIPInputStream.java:267)
+	at java.util.zip.GZIPInputStream.readHeader(GZIPInputStream.java:173)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:83)
+	at java.util.zip.GZIPInputStream.<init>(GZIPInputStream.java:100)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:191)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:110)
+	at com.keepassdroid.tests.database.Kdb4.testSaving(Kdb4.java:96)
+	at com.keepassdroid.tests.database.Kdb4.testSavingKDBXV4(Kdb4.java:86)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

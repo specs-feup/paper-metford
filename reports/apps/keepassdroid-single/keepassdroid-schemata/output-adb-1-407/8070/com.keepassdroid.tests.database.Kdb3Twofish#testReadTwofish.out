@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3Twofish
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb3Twofish:
+INSTRUMENTATION_STATUS: test=testReadTwofish
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3Twofish
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=16; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:241)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:221)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:470)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:550)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:315)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReadTwofish(com.keepassdroid.tests.database.Kdb3Twofish):
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:241)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:221)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:470)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:550)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:315)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+INSTRUMENTATION_STATUS: test=testReadTwofish
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.215
+There was 1 failure:
+1) testReadTwofish(com.keepassdroid.tests.database.Kdb3Twofish)
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:241)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:221)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:470)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:550)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:315)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

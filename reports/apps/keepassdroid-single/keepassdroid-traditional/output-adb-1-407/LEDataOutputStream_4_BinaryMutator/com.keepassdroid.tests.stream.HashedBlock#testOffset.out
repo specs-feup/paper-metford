@@ -1,0 +1,56 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.stream.HashedBlock:
+INSTRUMENTATION_STATUS: test=testOffset
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:137)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:96)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUInt(LEDataOutputStream.java:35)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:99)
+	at com.keepassdroid.stream.HashedBlockOutputStream.write(HashedBlockOutputStream.java:84)
+	at com.keepassdroid.stream.HashedBlockOutputStream.write(HashedBlockOutputStream.java:145)
+	at com.keepassdroid.tests.stream.HashedBlock.testSize(HashedBlock.java:59)
+	at com.keepassdroid.tests.stream.HashedBlock.testOffset(HashedBlock.java:49)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testOffset(com.keepassdroid.tests.stream.HashedBlock):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:137)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:96)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUInt(LEDataOutputStream.java:35)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:99)
+	at com.keepassdroid.stream.HashedBlockOutputStream.write(HashedBlockOutputStream.java:84)
+	at com.keepassdroid.stream.HashedBlockOutputStream.write(HashedBlockOutputStream.java:145)
+	at com.keepassdroid.tests.stream.HashedBlock.testSize(HashedBlock.java:59)
+	at com.keepassdroid.tests.stream.HashedBlock.testOffset(HashedBlock.java:49)
+
+INSTRUMENTATION_STATUS: test=testOffset
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.007
+There was 1 failure:
+1) testOffset(com.keepassdroid.tests.stream.HashedBlock)
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:137)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:96)
+	at com.keepassdroid.stream.LEDataOutputStream.writeUInt(LEDataOutputStream.java:35)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:99)
+	at com.keepassdroid.stream.HashedBlockOutputStream.write(HashedBlockOutputStream.java:84)
+	at com.keepassdroid.stream.HashedBlockOutputStream.write(HashedBlockOutputStream.java:145)
+	at com.keepassdroid.tests.stream.HashedBlock.testSize(HashedBlock.java:59)
+	at com.keepassdroid.tests.stream.HashedBlock.testOffset(HashedBlock.java:49)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3Twofish
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb3Twofish:
+INSTRUMENTATION_STATUS: test=testReadTwofish
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3Twofish
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=748; index=-12
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:206)
+	at com.keepassdroid.database.PwDbHeaderV3.loadFromFile(PwDbHeaderV3.java:114)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:147)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:128)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReadTwofish(com.keepassdroid.tests.database.Kdb3Twofish):
+java.lang.ArrayIndexOutOfBoundsException: length=748; index=-12
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:206)
+	at com.keepassdroid.database.PwDbHeaderV3.loadFromFile(PwDbHeaderV3.java:114)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:147)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:128)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+INSTRUMENTATION_STATUS: test=testReadTwofish
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.008
+There was 1 failure:
+1) testReadTwofish(com.keepassdroid.tests.database.Kdb3Twofish)
+java.lang.ArrayIndexOutOfBoundsException: length=748; index=-12
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:206)
+	at com.keepassdroid.database.PwDbHeaderV3.loadFromFile(PwDbHeaderV3.java:114)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:147)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:128)
+	at com.keepassdroid.tests.database.Kdb3Twofish.testReadTwofish(Kdb3Twofish.java:47)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.stream.HashedBlock:
+INSTRUMENTATION_STATUS: test=testGZIPStream
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException
+	at java.util.zip.Inflater.setInput(Inflater.java:146)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:270)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:107)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testGZIPStream(com.keepassdroid.tests.stream.HashedBlock):
+java.lang.ArrayIndexOutOfBoundsException
+	at java.util.zip.Inflater.setInput(Inflater.java:146)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:270)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:107)
+
+INSTRUMENTATION_STATUS: test=testGZIPStream
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.014
+There was 1 failure:
+1) testGZIPStream(com.keepassdroid.tests.stream.HashedBlock)
+java.lang.ArrayIndexOutOfBoundsException
+	at java.util.zip.Inflater.setInput(Inflater.java:146)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:270)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:107)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

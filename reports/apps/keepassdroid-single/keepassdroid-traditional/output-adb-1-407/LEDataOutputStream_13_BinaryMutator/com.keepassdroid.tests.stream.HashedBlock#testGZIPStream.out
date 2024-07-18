@@ -1,0 +1,50 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.stream.HashedBlock:
+INSTRUMENTATION_STATUS: test=testGZIPStream
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.stream.HashedBlock
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=8; index=-7
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:167)
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:72)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:127)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:69)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:96)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testGZIPStream(com.keepassdroid.tests.stream.HashedBlock):
+java.lang.ArrayIndexOutOfBoundsException: length=8; index=-7
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:167)
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:72)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:127)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:69)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:96)
+
+INSTRUMENTATION_STATUS: test=testGZIPStream
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.011
+There was 1 failure:
+1) testGZIPStream(com.keepassdroid.tests.stream.HashedBlock)
+java.lang.ArrayIndexOutOfBoundsException: length=8; index=-7
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:167)
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:72)
+	at com.keepassdroid.stream.HashedBlockOutputStream.WriteHashedBlock(HashedBlockOutputStream.java:127)
+	at com.keepassdroid.stream.HashedBlockOutputStream.close(HashedBlockOutputStream.java:69)
+	at java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:242)
+	at com.keepassdroid.tests.stream.HashedBlock.testGZIPStream(HashedBlock.java:96)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

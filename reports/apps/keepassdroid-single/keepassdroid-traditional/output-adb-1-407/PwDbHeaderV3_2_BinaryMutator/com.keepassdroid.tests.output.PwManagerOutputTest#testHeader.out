@@ -1,0 +1,71 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.output.PwManagerOutputTest:
+INSTRUMENTATION_STATUS: test=testHeader
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=2220; index=-8
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:206)
+	at com.keepassdroid.database.PwDbHeaderV3.loadFromFile(PwDbHeaderV3.java:112)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:147)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:40)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:29)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.setUp(PwManagerOutputTest.java:59)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testHeader(com.keepassdroid.tests.output.PwManagerOutputTest):
+java.lang.ArrayIndexOutOfBoundsException: length=2220; index=-8
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:206)
+	at com.keepassdroid.database.PwDbHeaderV3.loadFromFile(PwDbHeaderV3.java:112)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:147)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:40)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:29)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.setUp(PwManagerOutputTest.java:59)
+
+INSTRUMENTATION_STATUS: test=testHeader
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.01
+There was 1 failure:
+1) testHeader(com.keepassdroid.tests.output.PwManagerOutputTest)
+java.lang.ArrayIndexOutOfBoundsException: length=2220; index=-8
+	at com.keepassdroid.stream.LEDataInputStream.readInt(LEDataInputStream.java:206)
+	at com.keepassdroid.database.PwDbHeaderV3.loadFromFile(PwDbHeaderV3.java:112)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:147)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:40)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:29)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:145)
+	at com.keepassdroid.Database.LoadData(Database.java:141)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.setUp(PwManagerOutputTest.java:59)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

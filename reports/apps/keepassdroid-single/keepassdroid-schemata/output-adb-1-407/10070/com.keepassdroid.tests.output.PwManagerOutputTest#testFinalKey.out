@@ -1,0 +1,77 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.output.PwManagerOutputTest:
+INSTRUMENTATION_STATUS: test=testFinalKey
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=16; index=-4
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:263)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:221)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:470)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:550)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:315)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:43)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:33)
+	at com.keepassdroid.Database.LoadData(Database.java:179)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:157)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.setUp(PwManagerOutputTest.java:59)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testFinalKey(com.keepassdroid.tests.output.PwManagerOutputTest):
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-4
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:263)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:221)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:470)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:550)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:315)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:43)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:33)
+	at com.keepassdroid.Database.LoadData(Database.java:179)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:157)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.setUp(PwManagerOutputTest.java:59)
+
+INSTRUMENTATION_STATUS: test=testFinalKey
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.214
+There was 1 failure:
+1) testFinalKey(com.keepassdroid.tests.output.PwManagerOutputTest)
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-4
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:263)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:221)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:470)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:550)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:315)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:43)
+	at com.keepassdroid.database.load.ImporterV3Debug.openDatabase(ImporterV3Debug.java:33)
+	at com.keepassdroid.Database.LoadData(Database.java:179)
+	at com.keepassdroid.Database.LoadData(Database.java:162)
+	at com.keepassdroid.Database.LoadData(Database.java:157)
+	at com.keepassdroid.tests.database.TestData.GetDb(TestData.java:63)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:49)
+	at com.keepassdroid.tests.database.TestData.GetDb1(TestData.java:44)
+	at com.keepassdroid.tests.database.TestData.GetTest1(TestData.java:74)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.setUp(PwManagerOutputTest.java:59)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

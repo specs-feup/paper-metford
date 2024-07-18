@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb3:
+INSTRUMENTATION_STATUS: test=testBinary64KeyFile
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=1228; index=33074
+	at com.keepassdroid.stream.LEDataInputStream.readUShort(LEDataInputStream.java:187)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:274)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3.testKeyfile(Kdb3.java:50)
+	at com.keepassdroid.tests.database.Kdb3.testBinary64KeyFile(Kdb3.java:62)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testBinary64KeyFile(com.keepassdroid.tests.database.Kdb3):
+java.lang.ArrayIndexOutOfBoundsException: length=1228; index=33074
+	at com.keepassdroid.stream.LEDataInputStream.readUShort(LEDataInputStream.java:187)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:274)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3.testKeyfile(Kdb3.java:50)
+	at com.keepassdroid.tests.database.Kdb3.testBinary64KeyFile(Kdb3.java:62)
+
+INSTRUMENTATION_STATUS: test=testBinary64KeyFile
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.23
+There was 1 failure:
+1) testBinary64KeyFile(com.keepassdroid.tests.database.Kdb3)
+java.lang.ArrayIndexOutOfBoundsException: length=1228; index=33074
+	at com.keepassdroid.stream.LEDataInputStream.readUShort(LEDataInputStream.java:187)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:274)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:139)
+	at com.keepassdroid.tests.database.Kdb3.testKeyfile(Kdb3.java:50)
+	at com.keepassdroid.tests.database.Kdb3.testBinary64KeyFile(Kdb3.java:62)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

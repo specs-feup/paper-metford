@@ -1,0 +1,56 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.output.PwManagerOutputTest:
+INSTRUMENTATION_STATUS: test=testPlainContent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.output.PwManagerOutputTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ExceptionInInitializerError
+	at com.keepassdroid.database.save.PwDbV3Output.outputPlanGroupAndEntries(PwDbV3Output.java:234)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testPlainContent(PwManagerOutputTest.java:67)
+	... 32 trimmed
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:185)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:106)
+	at com.keepassdroid.database.save.PwGroupOutputV3.<clinit>(PwGroupOutputV3.java:56)
+	... 35 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testPlainContent(com.keepassdroid.tests.output.PwManagerOutputTest):
+java.lang.ExceptionInInitializerError
+	at com.keepassdroid.database.save.PwDbV3Output.outputPlanGroupAndEntries(PwDbV3Output.java:234)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testPlainContent(PwManagerOutputTest.java:67)
+	... 32 trimmed
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:185)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:106)
+	at com.keepassdroid.database.save.PwGroupOutputV3.<clinit>(PwGroupOutputV3.java:56)
+	... 35 more
+
+INSTRUMENTATION_STATUS: test=testPlainContent
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.26
+There was 1 failure:
+1) testPlainContent(com.keepassdroid.tests.output.PwManagerOutputTest)
+java.lang.ExceptionInInitializerError
+	at com.keepassdroid.database.save.PwDbV3Output.outputPlanGroupAndEntries(PwDbV3Output.java:234)
+	at com.keepassdroid.tests.output.PwManagerOutputTest.testPlainContent(PwManagerOutputTest.java:67)
+	... 32 trimmed
+Caused by: java.lang.ArrayIndexOutOfBoundsException: length=4; index=-2
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:185)
+	at com.keepassdroid.stream.LEDataOutputStream.writeIntBuf(LEDataOutputStream.java:106)
+	at com.keepassdroid.database.save.PwGroupOutputV3.<clinit>(PwGroupOutputV3.java:56)
+	... 35 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

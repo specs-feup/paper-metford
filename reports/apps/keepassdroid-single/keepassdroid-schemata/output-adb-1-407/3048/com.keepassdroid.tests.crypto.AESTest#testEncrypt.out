@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.crypto.AESTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.crypto.AESTest:
+INSTRUMENTATION_STATUS: test=testEncrypt
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.crypto.AESTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NegativeArraySizeException: -1
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:122)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2113)
+	at com.keepassdroid.tests.crypto.AESTest.testFinal(AESTest.java:78)
+	at com.keepassdroid.tests.crypto.AESTest.testEncrypt(AESTest.java:47)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testEncrypt(com.keepassdroid.tests.crypto.AESTest):
+java.lang.NegativeArraySizeException: -1
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:122)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2113)
+	at com.keepassdroid.tests.crypto.AESTest.testFinal(AESTest.java:78)
+	at com.keepassdroid.tests.crypto.AESTest.testEncrypt(AESTest.java:47)
+
+INSTRUMENTATION_STATUS: test=testEncrypt
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.138
+There was 1 failure:
+1) testEncrypt(com.keepassdroid.tests.crypto.AESTest)
+java.lang.NegativeArraySizeException: -1
+	at com.keepassdroid.crypto.NativeAESCipherSpi.engineDoFinal(NativeAESCipherSpi.java:122)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2113)
+	at com.keepassdroid.tests.crypto.AESTest.testFinal(AESTest.java:78)
+	at com.keepassdroid.tests.crypto.AESTest.testEncrypt(AESTest.java:47)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

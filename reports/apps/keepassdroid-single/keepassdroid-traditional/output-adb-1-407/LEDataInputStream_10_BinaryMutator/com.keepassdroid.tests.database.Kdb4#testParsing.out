@@ -1,0 +1,53 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testParsing
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalArgumentException: TransformMasterKey: illegal number of encryption rounds
+	at com.keepassdroid.crypto.finalkey.NativeFinalKey.nTransformMasterKey(Native Method)
+	at com.keepassdroid.crypto.finalkey.NativeFinalKey.transformMasterKey(NativeFinalKey.java:37)
+	at com.keepassdroid.crypto.keyDerivation.AesKdf.transform(AesKdf.java:67)
+	at com.keepassdroid.database.PwDatabaseV4.makeFinalKey(PwDatabaseV4.java:194)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:124)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testParsing(Kdb4.java:72)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testParsing(com.keepassdroid.tests.database.Kdb4):
+java.lang.IllegalArgumentException: TransformMasterKey: illegal number of encryption rounds
+	at com.keepassdroid.crypto.finalkey.NativeFinalKey.nTransformMasterKey(Native Method)
+	at com.keepassdroid.crypto.finalkey.NativeFinalKey.transformMasterKey(NativeFinalKey.java:37)
+	at com.keepassdroid.crypto.keyDerivation.AesKdf.transform(AesKdf.java:67)
+	at com.keepassdroid.database.PwDatabaseV4.makeFinalKey(PwDatabaseV4.java:194)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:124)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testParsing(Kdb4.java:72)
+
+INSTRUMENTATION_STATUS: test=testParsing
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.103
+There was 1 failure:
+1) testParsing(com.keepassdroid.tests.database.Kdb4)
+java.lang.IllegalArgumentException: TransformMasterKey: illegal number of encryption rounds
+	at com.keepassdroid.crypto.finalkey.NativeFinalKey.nTransformMasterKey(Native Method)
+	at com.keepassdroid.crypto.finalkey.NativeFinalKey.transformMasterKey(NativeFinalKey.java:37)
+	at com.keepassdroid.crypto.keyDerivation.AesKdf.transform(AesKdf.java:67)
+	at com.keepassdroid.database.PwDatabaseV4.makeFinalKey(PwDatabaseV4.java:194)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:124)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testParsing(Kdb4.java:72)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

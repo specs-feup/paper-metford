@@ -1,0 +1,80 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.TypesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.TypesTest:
+INSTRUMENTATION_STATUS: test=testReadWriteIntMax
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.TypesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=arrays first differed at element [1]; expected:<127> but was:<-127>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:343)
+	at org.junit.Assert.assertArrayEquals(Assert.java:354)
+	at com.keepassdroid.tests.TypesTest.testReadWriteInt(TypesTest.java:105)
+	at com.keepassdroid.tests.TypesTest.testReadWriteIntMax(TypesTest.java:88)
+	... 31 trimmed
+Caused by: java.lang.AssertionError: expected:<127> but was:<-127>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReadWriteIntMax(com.keepassdroid.tests.TypesTest):
+arrays first differed at element [1]; expected:<127> but was:<-127>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:343)
+	at org.junit.Assert.assertArrayEquals(Assert.java:354)
+	at com.keepassdroid.tests.TypesTest.testReadWriteInt(TypesTest.java:105)
+	at com.keepassdroid.tests.TypesTest.testReadWriteIntMax(TypesTest.java:88)
+	... 31 trimmed
+Caused by: java.lang.AssertionError: expected:<127> but was:<-127>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+
+INSTRUMENTATION_STATUS: test=testReadWriteIntMax
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.009
+There was 1 failure:
+1) testReadWriteIntMax(com.keepassdroid.tests.TypesTest)
+arrays first differed at element [1]; expected:<127> but was:<-127>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:28)
+	at org.junit.Assert.internalArrayEquals(Assert.java:534)
+	at org.junit.Assert.assertArrayEquals(Assert.java:343)
+	at org.junit.Assert.assertArrayEquals(Assert.java:354)
+	at com.keepassdroid.tests.TypesTest.testReadWriteInt(TypesTest.java:105)
+	at com.keepassdroid.tests.TypesTest.testReadWriteIntMax(TypesTest.java:88)
+	... 31 trimmed
+Caused by: java.lang.AssertionError: expected:<127> but was:<-127>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:76)
+	... 38 more
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

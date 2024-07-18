@@ -1,0 +1,113 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4:
+INSTRUMENTATION_STATUS: test=testComposite
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.io.IOException: -9
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:115)
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:170)
+	at com.keepassdroid.stream.LEDataInputStream.read(LEDataInputStream.java:90)
+	at com.keepassdroid.stream.LEDataInputStream.readBytes(LEDataInputStream.java:114)
+	at com.keepassdroid.stream.LEDataInputStream.readBytes(LEDataInputStream.java:131)
+	at com.keepassdroid.stream.HashedBlockInputStream.ReadHashedBlock(HashedBlockInputStream.java:95)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:60)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:266)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:291)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at com.android.org.kxml2.io.KXmlParser.fillBuffer(KXmlParser.java:1516)
+	at com.android.org.kxml2.io.KXmlParser.peekType(KXmlParser.java:1001)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:448)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:313)
+	at com.android.org.kxml2.io.KXmlParser.nextText(KXmlParser.java:2077)
+	at com.keepassdroid.database.load.ImporterV4.ReadString(ImporterV4.java:1137)
+	at com.keepassdroid.database.load.ImporterV4.ReadUuid(ImporterV4.java:1018)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlElement(ImporterV4.java:795)
+	at com.keepassdroid.database.load.ImporterV4.ReadDocumentStreamed(ImporterV4.java:365)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlStreamed(ImporterV4.java:331)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:208)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testComposite(Kdb4.java:133)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testComposite(com.keepassdroid.tests.database.Kdb4):
+java.io.IOException: -9
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:115)
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:170)
+	at com.keepassdroid.stream.LEDataInputStream.read(LEDataInputStream.java:90)
+	at com.keepassdroid.stream.LEDataInputStream.readBytes(LEDataInputStream.java:114)
+	at com.keepassdroid.stream.LEDataInputStream.readBytes(LEDataInputStream.java:131)
+	at com.keepassdroid.stream.HashedBlockInputStream.ReadHashedBlock(HashedBlockInputStream.java:95)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:60)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:266)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:291)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at com.android.org.kxml2.io.KXmlParser.fillBuffer(KXmlParser.java:1516)
+	at com.android.org.kxml2.io.KXmlParser.peekType(KXmlParser.java:1001)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:448)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:313)
+	at com.android.org.kxml2.io.KXmlParser.nextText(KXmlParser.java:2077)
+	at com.keepassdroid.database.load.ImporterV4.ReadString(ImporterV4.java:1137)
+	at com.keepassdroid.database.load.ImporterV4.ReadUuid(ImporterV4.java:1018)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlElement(ImporterV4.java:795)
+	at com.keepassdroid.database.load.ImporterV4.ReadDocumentStreamed(ImporterV4.java:365)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlStreamed(ImporterV4.java:331)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:208)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testComposite(Kdb4.java:133)
+
+INSTRUMENTATION_STATUS: test=testComposite
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.195
+There was 1 failure:
+1) testComposite(com.keepassdroid.tests.database.Kdb4)
+java.io.IOException: -9
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:115)
+	at com.keepassdroid.stream.BetterCipherInputStream.read(BetterCipherInputStream.java:170)
+	at com.keepassdroid.stream.LEDataInputStream.read(LEDataInputStream.java:90)
+	at com.keepassdroid.stream.LEDataInputStream.readBytes(LEDataInputStream.java:114)
+	at com.keepassdroid.stream.LEDataInputStream.readBytes(LEDataInputStream.java:131)
+	at com.keepassdroid.stream.HashedBlockInputStream.ReadHashedBlock(HashedBlockInputStream.java:95)
+	at com.keepassdroid.stream.HashedBlockInputStream.read(HashedBlockInputStream.java:60)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:266)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:177)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:126)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:291)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at com.android.org.kxml2.io.KXmlParser.fillBuffer(KXmlParser.java:1516)
+	at com.android.org.kxml2.io.KXmlParser.peekType(KXmlParser.java:1001)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:448)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:313)
+	at com.android.org.kxml2.io.KXmlParser.nextText(KXmlParser.java:2077)
+	at com.keepassdroid.database.load.ImporterV4.ReadString(ImporterV4.java:1137)
+	at com.keepassdroid.database.load.ImporterV4.ReadUuid(ImporterV4.java:1018)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlElement(ImporterV4.java:795)
+	at com.keepassdroid.database.load.ImporterV4.ReadDocumentStreamed(ImporterV4.java:365)
+	at com.keepassdroid.database.load.ImporterV4.ReadXmlStreamed(ImporterV4.java:331)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:208)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4.testComposite(Kdb4.java:133)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

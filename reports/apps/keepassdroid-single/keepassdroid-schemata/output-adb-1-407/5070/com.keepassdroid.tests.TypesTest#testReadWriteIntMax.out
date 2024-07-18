@@ -1,0 +1,41 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.TypesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.TypesTest:
+INSTRUMENTATION_STATUS: test=testReadWriteIntMax
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.TypesTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:196)
+	at com.keepassdroid.tests.TypesTest.testReadWriteInt(TypesTest.java:103)
+	at com.keepassdroid.tests.TypesTest.testReadWriteIntMax(TypesTest.java:88)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReadWriteIntMax(com.keepassdroid.tests.TypesTest):
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:196)
+	at com.keepassdroid.tests.TypesTest.testReadWriteInt(TypesTest.java:103)
+	at com.keepassdroid.tests.TypesTest.testReadWriteIntMax(TypesTest.java:88)
+
+INSTRUMENTATION_STATUS: test=testReadWriteIntMax
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.035
+There was 1 failure:
+1) testReadWriteIntMax(com.keepassdroid.tests.TypesTest)
+java.lang.ArrayIndexOutOfBoundsException: length=4; index=-3
+	at com.keepassdroid.stream.LEDataOutputStream.writeInt(LEDataOutputStream.java:196)
+	at com.keepassdroid.tests.TypesTest.testReadWriteInt(TypesTest.java:103)
+	at com.keepassdroid.tests.TypesTest.testReadWriteIntMax(TypesTest.java:88)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

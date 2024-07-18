@@ -1,0 +1,62 @@
+BUILDING APK MainSettingsFragement_2_RandomActionIntentDefinitionOperatorMutator
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preGeneralDebugBuild UP-TO-DATE
+> Task :app:mergeGeneralDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileGeneralDebugAidl NO-SOURCE
+> Task :app:compileGeneralDebugRenderscript NO-SOURCE
+> Task :app:generateGeneralDebugBuildConfig UP-TO-DATE
+> Task :app:javaPreCompileGeneralDebug UP-TO-DATE
+> Task :app:checkGeneralDebugAarMetadata UP-TO-DATE
+> Task :app:generateGeneralDebugResValues UP-TO-DATE
+> Task :app:mapGeneralDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateGeneralDebugResources UP-TO-DATE
+> Task :app:mergeGeneralDebugResources UP-TO-DATE
+> Task :app:createGeneralDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksGeneralDebug UP-TO-DATE
+> Task :app:processGeneralDebugMainManifest UP-TO-DATE
+> Task :app:processGeneralDebugManifest UP-TO-DATE
+> Task :app:processGeneralDebugManifestForPackage UP-TO-DATE
+> Task :app:processGeneralDebugResources UP-TO-DATE
+
+> Task :app:compileGeneralDebugJavaWithJavac
+Note: /home/auri/feup/tools/Projects/android/keepassdroid-traditional/app/src/main/java/com/keepassdroid/settings/MainSettingsFragement.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeGeneralDebugShaders UP-TO-DATE
+> Task :app:compileGeneralDebugShaders NO-SOURCE
+> Task :app:generateGeneralDebugAssets UP-TO-DATE
+> Task :app:mergeGeneralDebugAssets UP-TO-DATE
+> Task :app:compressGeneralDebugAssets UP-TO-DATE
+> Task :app:checkGeneralDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarGeneralDebugFileDependencies UP-TO-DATE
+> Task :app:dexBuilderGeneralDebug
+> Task :app:processGeneralDebugJavaRes UP-TO-DATE
+> Task :app:mergeGeneralDebugJavaResource UP-TO-DATE
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:buildCMakeDebug[arm64-v8a]
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:configureCMakeDebug[x86]
+> Task :app:buildCMakeDebug[x86]
+> Task :app:configureCMakeDebug[x86_64]
+> Task :app:buildCMakeDebug[x86_64]
+> Task :app:externalNativeBuildGeneralDebug
+> Task :app:mergeGeneralDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeGeneralDebugNativeLibs UP-TO-DATE
+> Task :app:stripGeneralDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningGeneralDebug UP-TO-DATE
+> Task :app:writeGeneralDebugAppMetadata UP-TO-DATE
+> Task :app:writeGeneralDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeDexGeneralDebug
+> Task :app:packageGeneralDebug
+> Task :app:createGeneralDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleGeneralDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 3s
+39 actionable tasks: 13 executed, 26 up-to-date

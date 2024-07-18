@@ -1,0 +1,56 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb3:
+INSTRUMENTATION_STATUS: test=testBinary64KeyFile
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb3
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.ArrayIndexOutOfBoundsException: length=16; index=-5
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:163)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:176)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:420)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:387)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:277)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:128)
+	at com.keepassdroid.tests.database.Kdb3.testKeyfile(Kdb3.java:50)
+	at com.keepassdroid.tests.database.Kdb3.testBinary64KeyFile(Kdb3.java:62)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testBinary64KeyFile(com.keepassdroid.tests.database.Kdb3):
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-5
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:163)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:176)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:420)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:387)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:277)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:128)
+	at com.keepassdroid.tests.database.Kdb3.testKeyfile(Kdb3.java:50)
+	at com.keepassdroid.tests.database.Kdb3.testBinary64KeyFile(Kdb3.java:62)
+
+INSTRUMENTATION_STATUS: test=testBinary64KeyFile
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.095
+There was 1 failure:
+1) testBinary64KeyFile(com.keepassdroid.tests.database.Kdb3)
+java.lang.ArrayIndexOutOfBoundsException: length=16; index=-5
+	at com.keepassdroid.stream.LEDataOutputStream.writeLong(LEDataOutputStream.java:163)
+	at com.keepassdroid.utils.Types.UUIDtoBytes(Types.java:176)
+	at com.keepassdroid.database.PwEntryV3.setUUID(PwEntryV3.java:420)
+	at com.keepassdroid.database.load.ImporterV3.readEntryField(ImporterV3.java:387)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:277)
+	at com.keepassdroid.database.load.ImporterV3.openDatabase(ImporterV3.java:128)
+	at com.keepassdroid.tests.database.Kdb3.testKeyfile(Kdb3.java:50)
+	at com.keepassdroid.tests.database.Kdb3.testBinary64KeyFile(Kdb3.java:62)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

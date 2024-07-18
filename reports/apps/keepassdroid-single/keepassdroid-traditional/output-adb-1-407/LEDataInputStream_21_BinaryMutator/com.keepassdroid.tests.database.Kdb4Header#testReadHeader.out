@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4Header
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.keepassdroid.tests.database.Kdb4Header:
+INSTRUMENTATION_STATUS: test=testReadHeader
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=com.keepassdroid.tests.database.Kdb4Header
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=com.keepassdroid.database.exception.InvalidDBVersionException
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:128)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:116)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4Header.testReadHeader(Kdb4Header.java:48)
+
+INSTRUMENTATION_STATUS: stream=
+Error in testReadHeader(com.keepassdroid.tests.database.Kdb4Header):
+com.keepassdroid.database.exception.InvalidDBVersionException
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:128)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:116)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4Header.testReadHeader(Kdb4Header.java:48)
+
+INSTRUMENTATION_STATUS: test=testReadHeader
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.011
+There was 1 failure:
+1) testReadHeader(com.keepassdroid.tests.database.Kdb4Header)
+com.keepassdroid.database.exception.InvalidDBVersionException
+	at com.keepassdroid.database.PwDbHeaderV4.loadFromFile(PwDbHeaderV4.java:128)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:116)
+	at com.keepassdroid.database.load.ImporterV4.openDatabase(ImporterV4.java:104)
+	at com.keepassdroid.tests.database.Kdb4Header.testReadHeader(Kdb4Header.java:48)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
