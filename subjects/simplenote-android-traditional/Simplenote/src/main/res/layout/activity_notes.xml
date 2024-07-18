@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/main_parent_view"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar">
+        </include>
+
+        <FrameLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:id="@+id/note_fragment_container"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:showDividers="middle"
+                android:animateLayoutChanges="true"
+                android:weightSum="10">
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="?attr/drawerBackgroundColor"
+        android:elevation="@dimen/navigation_elevation"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include layout="@layout/iap_banner" />
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/drawerBackgroundColor"
+            app:elevation="0dp"
+            app:insetForeground="@android:color/transparent"
+            app:itemShapeFillColor="?attr/drawerBackgroundSelector"
+            app:theme="@style/NavigationMenuItem" />
+
+        <View
+            android:id="@+id/empty_tags_hint_divider"
+            android:background="?attr/dividerColor"
+            android:layout_height="@dimen/divider_height"
+            android:layout_width="match_parent" />
+
+        <com.automattic.simplenote.widgets.RobotoRegularTextView
+            android:id="@+id/empty_tags_hint_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/navigation_margin"
+            android:layout_marginStart="@dimen/navigation_margin"
+            android:paddingBottom="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_large"
+            android:text="@string/empty_tags_hint" />
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

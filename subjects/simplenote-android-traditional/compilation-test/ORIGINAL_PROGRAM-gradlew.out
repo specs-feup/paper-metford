@@ -1,0 +1,89 @@
+
+> Configure project :
+Checking whether `configure` binary is present
+
+> Configure project :Simplenote
+WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+
+> Task :Simplenote:preBuild UP-TO-DATE
+> Task :Simplenote:preDebugBuild UP-TO-DATE
+> Task :Simplenote:compileDebugAidl NO-SOURCE
+> Task :Simplenote:compileDebugRenderscript NO-SOURCE
+> Task :Simplenote:dataBindingMergeDependencyArtifactsDebug
+> Task :Simplenote:dataBindingMergeGenClassesDebug
+> Task :Simplenote:generateDebugResValues
+> Task :Simplenote:generateDebugResources
+> Task :Simplenote:copyGradlePropertiesIfMissing UP-TO-DATE
+> Task :Simplenote:generateDebugBuildConfig
+> Task :Simplenote:createDebugCompatibleScreenManifests
+> Task :Simplenote:extractDeepLinksDebug
+> Task :Simplenote:processDebugManifest
+> Task :Simplenote:mergeDebugResources
+> Task :Simplenote:dataBindingGenBaseClassesDebug
+aapt2 W 03-21 01:00:00 38917 38917 LoadedArsc.cpp:657] Unknown chunk type '200'.
+warn: removing resource com.automattic.simplenote.debug:string/enable_markdown without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/modified_time without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/more_info without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/no_notes_found without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/no_notes_here without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/no_tags_found without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/note_info without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/note_not_published without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/passcode_enter_passcode without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/public_link without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/sign_in without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/sign_out without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/trash_is_empty without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/undelete without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/version without required default value.
+warn: removing resource com.automattic.simplenote.debug:string/why_not_create_one without required default value.
+
+> Task :Simplenote:processDebugResources
+> Task :Simplenote:kaptGenerateStubsDebugKotlin
+> Task :Simplenote:javaPreCompileDebug
+> Task :Simplenote:mergeDebugShaders
+> Task :Simplenote:compileDebugShaders NO-SOURCE
+> Task :Simplenote:generateDebugAssets UP-TO-DATE
+> Task :Simplenote:mergeDebugAssets
+> Task :Simplenote:processDebugJavaRes NO-SOURCE
+> Task :Simplenote:checkDebugDuplicateClasses
+> Task :Simplenote:mergeDebugJniLibFolders
+> Task :Simplenote:validateSigningDebug
+> Task :Simplenote:mergeDebugNativeLibs
+
+> Task :Simplenote:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libanddown.so.
+
+> Task :Simplenote:kaptDebugKotlin
+
+> Task :Simplenote:compileDebugKotlin
+w: /home/auri/insync/Documentos/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/main/java/com/automattic/simplenote/AddCollaboratorFragment.kt: (75, 9): 'constructor Handler()' is deprecated. Deprecated in Java
+w: /home/auri/insync/Documentos/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/main/java/com/automattic/simplenote/AddTagActivity.kt: (83, 21): 'constructor Handler()' is deprecated. Deprecated in Java
+
+> Task :Simplenote:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :Simplenote:compileDebugSources
+> Task :Simplenote:transformClassesWithAndroidEntryPointTransformForDebug
+> Task :Simplenote:dexBuilderDebug
+> Task :Simplenote:mergeDebugJavaResource
+> Task :Simplenote:mergeLibDexDebug
+> Task :Simplenote:mergeProjectDexDebug
+> Task :Simplenote:mergeExtDexDebug
+> Task :Simplenote:packageDebug
+> Task :Simplenote:assembleDebug
+
+BUILD SUCCESSFUL in 13s
+29 actionable tasks: 29 executed

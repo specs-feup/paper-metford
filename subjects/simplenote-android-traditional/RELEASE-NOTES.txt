@@ -1,0 +1,197 @@
+2.31
+-----
+
+
+2.30
+-----
+* Fixed crashes when a big note is tried to be synced [#1612](https://github.com/Automattic/simplenote-android/pull/1612)
+
+2.29
+-----
+
+
+2.28
+-----
+* Fixed occasional crash on Samsung devices [#1601](https://github.com/Automattic/simplenote-android/pull/1601)
+* Fixed recurring ANR issues [#1603](https://github.com/Automattic/simplenote-android/pull/1603)
+
+
+2.27
+-----
+* Fixed problem with editor in Samsung devices where users observed text duplication [#1591](https://github.com/Automattic/simplenote-android/pull/1591)
+
+2.26
+-----
+* Fixed problem with editor in Samsung devices with Android 13 [#1585](https://github.com/Automattic/simplenote-android/pull/1585)
+
+2.25
+-----
+* Added ability to purchase a Simplenote Sustainer subscription [#1567](https://github.com/Automattic/simplenote-android/pull/1567)
+* [Internal] Upgrade to targetSdkVersion 31 (Android 31) [#1571](https://github.com/Automattic/simplenote-android/pull/1571)
+
+2.24.1
+-----
+* Fixed links not opening in browser [#1553](https://github.com/Automattic/simplenote-android/pull/1553)
+
+2.24
+-----
+* Fixed problem with login [#1549](https://github.com/Automattic/simplenote-android/pull/1549)
+
+2.23
+-----
+* Added a dedicated UI to add and remove collaborators to a note [#1491](https://github.com/Automattic/simplenote-android/pull/1491)
+* Added collaboration status indicator to the note list [#1499](https://github.com/Automattic/simplenote-android/pull/1499)
+* Fixed crash when note reference is null in editor while hiding toolbar in landscape mode [#1504](https://github.com/Automattic/simplenote-android/pull/1504)
+* [Internal] Updated list of tags to filter out collaborators (emails) [#1509](https://github.com/Automattic/simplenote-android/pull/1509)
+* Fixed case in delete account button in settings [#1512](https://github.com/Automattic/simplenote-android/pull/1512)
+* Added error handling for when the user has made too many wrong credential requests at login [#1514](https://github.com/Automattic/simplenote-android/pull/1514)
+
+2.22
+-----
+* Fixed screen going into full-editing mode in tag editor [#1482](https://github.com/Automattic/simplenote-android/issues/1482)
+* Fixed save button is disabled for a new tag after device rotation [#1483](https://github.com/Automattic/simplenote-android/issues/1483)
+* Fixed tag rename dialog is closed on device rotation [#1484](https://github.com/Automattic/simplenote-android/issues/1484)
+
+
+2.21
+-----
+* [Internal] Added login alert for unverified accounts [#1449](https://github.com/Automattic/simplenote-android/pull/1449)
+* Fixed scroll position of a note with matching keyword in not persistent [#1454](https://github.com/Automattic/simplenote-android/pull/1454)
+* Updated icons [#1458](https://github.com/Automattic/simplenote-android/pull/1458)
+* Fixed editor's background color in landscape mode for dark theme [#1457](https://github.com/Automattic/simplenote-android/pull/1457)
+
+2.20
+-----
+* Removed sort bar from notes list but still accessible from settings [#1438](https://github.com/Automattic/simplenote-android/pull/1438)
+* Fixed back button return to home screen when a note is accessed from a widget [#1450](https://github.com/Automattic/simplenote-android/pull/1450)
+* [Internal] Added login alert for compromised password [#1453](https://github.com/Automattic/simplenote-android/pull/1453)
+
+
+2.19
+-----
+* Added support to import notes [https://github.com/Automattic/simplenote-android/pull/1333]
+* Fixed crash when searching notes in tablets [https://github.com/Automattic/simplenote-android/pull/1425]
+* Added In App Account Deletion [https://github.com/Automattic/simplenote-android/pull/1416]
+* Fixed email verification screen appears with verified accounts [https://github.com/Automattic/simplenote-android/pull/1423]
+* Changed the new note icon [https://github.com/Automattic/simplenote-android/pull/1436]
+
+2.18
+-----
+* Redesigned signup flow [https://github.com/Automattic/simplenote-android/pull/1340]
+
+2.17
+-----
+* Added scrolling to last position when opening a note [https://github.com/Automattic/simplenote-android/pull/1300]
+* Added sort bar at top of note list [https://github.com/Automattic/simplenote-android/pull/1284]
+
+2.16
+-----
+* Added reviewing, verifying, and changing account email address [https://github.com/Automattic/simplenote-android/pull/1277]
+
+2.15
+-----
+* Added synced date/time to note information sheet [https://github.com/Automattic/simplenote-android/pull/1140]
+* Added syncing in the background to avoid data loss when exiting the app [https://github.com/Automattic/simplenote-android/pull/1255]
+* Added permanently deleting notes from trash individually [https://github.com/Automattic/simplenote-android/pull/1224]
+
+2.14
+-----
+* Updated checkbox target size for easier tapping
+* Updated adding tags to avoid duplicates
+
+2.13
+-----
+* Fixed crashing on devices with no web view installed [https://github.com/Automattic/simplenote-android/pull/1182]
+
+2.12
+-----
+* Added autocomplete to the editor when adding a link between notes [https://github.com/Automattic/simplenote-android/pull/1161]
+* Added a link to help in settings [https://github.com/Automattic/simplenote-android/pull/1155]
+
+2.11.1
+-----
+* Fixed switching between apps causing data loss [https://github.com/Automattic/simplenote-android/pull/1170]
+
+2.11
+-----
+* Added linking between notes [#1145]
+* Fixed a bug with toggling tab-indented checkboxes [#1148]
+
+2.10.1
+-----
+* Fixed adding or editing a tag on Android 6 [https://github.com/Automattic/simplenote-android/pull/1157]
+
+2.10
+-----
+* Added improvements for devices with hardware keyboards
+* Added support for screen readers when adding a new note
+* Added condensed list option for widget
+
+2.9
+-----
+* Fixed a bug with duplicate tags and special characters in tag names
+
+2.8
+-----
+* Added hotkey shortcuts for devices with hardware keyboards
+* Added right-to-left language support to markdown preview
+
+2.7
+-----
+* Updated primary color to new Simplenote blue
+
+2.6
+-----
+* Fixed networking bug causing data loss
+
+2.5
+-----
+* Added a dark version of the note widget to view and open a note in the app from the home screen
+* Added a note list widget to open any note in the app from the home screen
+* Added a toolbar to find matching search terms within notes
+* Added support for right-to-left languages and layouts
+* Added search to tags list
+* Fixed a bug that highlighted search terms incorrectly in notes with checklists
+* Fixed a bug with the note title that made the app lag while editing a note
+
+2.4
+-----
+* Updated note information with date modified, date created, word count, and character count
+* Moved note options from the action bar to the ellipsis menu
+* Fixed sync bug with deleting tags and emptying trash
+* Fixed networking bug causing interface slowness
+
+2.3
+-----
+* Added search sorting by date created, date modified, and alphabetically
+* Added search history and suggestions
+* Updated passcode lock design
+
+2.2
+-----
+
+2.1.0
+-----
+* Updated dark theme with darker colors for less eye fatigue and better battery life
+* Updated navigation drawer interface for better organization and compatibility
+* Updated note list interface for better performance and readability
+* Removed location permission for dark at night only theme
+
+2.0.0
+-----
+* Added an option to the Theme setting to follow the system day/night mode
+* Added resizing the note widget to display title and content
+* Added showing the last viewed tab when opening a note
+* Updated interface colors for better accessibility
+* Updated login and signup interface
+
+1.8.0
+-----
+* Added a widget to view a note and open it in the app from the home screen
+* Added hiding app content in the recent apps view when PIN lock is on
+* Added an adaptive app icon for Android 8.0 Oreo or later
+* Updated the navigation drawer to work for all status bar sizes
+* Updated app icons shown when sharing to be the same size
+* Updated checkboxes to not show the keyboard when tapped
+* Updated the new note shortcut icon
+* Fixed multiple cursor bugs for notes with checklists

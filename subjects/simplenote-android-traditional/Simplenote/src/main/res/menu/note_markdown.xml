@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="AlwaysShowAction">
+
+    <item
+        android:id="@+id/menu_checklist"
+        android:enabled="false"
+        android:icon="@drawable/ic_checklist_24dp"
+        android:title="@string/toggle_checklist"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_info"
+        android:enabled="false"
+        android:icon="@drawable/ic_info_24dp"
+        android:title="@string/information"
+        app:showAsAction="always" />
+
+    <group android:id="@+id/group_1">
+
+        <item
+            android:id="@+id/menu_pin"
+            android:checkable="true"
+            android:enabled="false"
+            android:title="@string/pin"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_markdown"
+            android:checkable="true"
+            android:enabled="false"
+            android:title="@string/markdown"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_copy_internal"
+            android:title="@string/copy_link_internal"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_share"
+            android:enabled="false"
+            android:title="@string/share"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_history"
+            android:enabled="false"
+            android:title="@string/history"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_delete"
+            android:title="@string/delete"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_trash"
+            android:title="@string/trash"
+            app:showAsAction="never" />
+
+    </group>
+
+    <group android:id="@+id/group_2">
+
+        <item
+            android:id="@+id/menu_publish"
+            android:checkable="true"
+            android:enabled="false"
+            android:title="@string/publish"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/menu_copy"
+            android:enabled="false"
+            android:title="@string/copy_link"
+            app:showAsAction="never" />
+
+    </group>
+
+    <group android:id="@+id/group_3">
+
+        <item
+            android:id="@+id/menu_collaborators"
+            android:enabled="true"
+            android:title="@string/collaborators"
+            app:showAsAction="never" />
+    </group>
+
+</menu>

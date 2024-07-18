@@ -1,0 +1,63 @@
+
+> Configure project :
+Checking whether `configure` binary is present
+
+> Configure project :Simplenote
+WARNING: DSL element 'android.viewBinding.enabled' is obsolete and has been replaced with 'android.buildFeatures.viewBinding'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+Warning: Mapping new ns http://schemas.android.com/repository/android/common/02 to old ns http://schemas.android.com/repository/android/common/01
+Warning: Mapping new ns http://schemas.android.com/repository/android/generic/02 to old ns http://schemas.android.com/repository/android/generic/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/02 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/addon2/03 to old ns http://schemas.android.com/sdk/android/repo/addon2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/02 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/repository2/03 to old ns http://schemas.android.com/sdk/android/repo/repository2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/03 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+Warning: Mapping new ns http://schemas.android.com/sdk/android/repo/sys-img2/02 to old ns http://schemas.android.com/sdk/android/repo/sys-img2/01
+
+> Task :Simplenote:preBuild UP-TO-DATE
+> Task :Simplenote:preDebugBuild UP-TO-DATE
+> Task :Simplenote:compileDebugRenderscript NO-SOURCE
+> Task :Simplenote:compileDebugAidl NO-SOURCE
+> Task :Simplenote:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :Simplenote:dataBindingMergeGenClassesDebug UP-TO-DATE
+> Task :Simplenote:generateDebugResValues UP-TO-DATE
+> Task :Simplenote:generateDebugResources UP-TO-DATE
+> Task :Simplenote:mergeDebugResources UP-TO-DATE
+> Task :Simplenote:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :Simplenote:copyGradlePropertiesIfMissing UP-TO-DATE
+> Task :Simplenote:generateDebugBuildConfig UP-TO-DATE
+> Task :Simplenote:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :Simplenote:extractDeepLinksDebug UP-TO-DATE
+> Task :Simplenote:processDebugManifest UP-TO-DATE
+> Task :Simplenote:processDebugResources UP-TO-DATE
+> Task :Simplenote:kaptGenerateStubsDebugKotlin
+> Task :Simplenote:javaPreCompileDebug UP-TO-DATE
+> Task :Simplenote:mergeDebugShaders UP-TO-DATE
+> Task :Simplenote:compileDebugShaders NO-SOURCE
+> Task :Simplenote:generateDebugAssets UP-TO-DATE
+> Task :Simplenote:mergeDebugAssets UP-TO-DATE
+> Task :Simplenote:processDebugJavaRes NO-SOURCE
+> Task :Simplenote:mergeDebugJniLibFolders UP-TO-DATE
+> Task :Simplenote:checkDebugDuplicateClasses UP-TO-DATE
+> Task :Simplenote:mergeDebugNativeLibs UP-TO-DATE
+> Task :Simplenote:stripDebugDebugSymbols UP-TO-DATE
+> Task :Simplenote:validateSigningDebug UP-TO-DATE
+> Task :Simplenote:kaptDebugKotlin
+> Task :Simplenote:compileDebugKotlin
+
+> Task :Simplenote:compileDebugJavaWithJavac
+Note: /home/auri/insync/Documentos/feup/tools/Projects/android/simplenote-android-traditional/Simplenote/src/main/java/com/automattic/simplenote/NoteWidgetDarkConfigureActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :Simplenote:compileDebugSources
+> Task :Simplenote:mergeDebugJavaResource UP-TO-DATE
+> Task :Simplenote:transformClassesWithAndroidEntryPointTransformForDebug
+> Task :Simplenote:dexBuilderDebug
+> Task :Simplenote:mergeExtDexDebug UP-TO-DATE
+> Task :Simplenote:mergeLibDexDebug UP-TO-DATE
+> Task :Simplenote:mergeProjectDexDebug
+> Task :Simplenote:packageDebug
+> Task :Simplenote:assembleDebug
+
+BUILD SUCCESSFUL in 4s
+29 actionable tasks: 8 executed, 21 up-to-date
