@@ -1,0 +1,8 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.FabCameraNoteTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.ui.FabCameraNoteTest:
+INSTRUMENTATION_STATUS: test=fabCameraNoteTest
+INSTRUMENTATION_STATUS_CODE: 1

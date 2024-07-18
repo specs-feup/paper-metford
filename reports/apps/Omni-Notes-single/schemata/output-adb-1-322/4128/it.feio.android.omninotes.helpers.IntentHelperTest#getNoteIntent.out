@@ -1,0 +1,44 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.helpers.IntentHelperTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.helpers.IntentHelperTest:
+INSTRUMENTATION_STATUS: test=getNoteIntent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.helpers.IntentHelperTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at it.feio.android.omninotes.helpers.IntentHelperTest.getNoteIntent(IntentHelperTest.java:49)
+
+INSTRUMENTATION_STATUS: stream=
+Error in getNoteIntent(it.feio.android.omninotes.helpers.IntentHelperTest):
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at it.feio.android.omninotes.helpers.IntentHelperTest.getNoteIntent(IntentHelperTest.java:49)
+
+INSTRUMENTATION_STATUS: test=getNoteIntent
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.167
+There was 1 failure:
+1) getNoteIntent(it.feio.android.omninotes.helpers.IntentHelperTest)
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at it.feio.android.omninotes.helpers.IntentHelperTest.getNoteIntent(IntentHelperTest.java:49)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

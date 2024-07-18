@@ -1,0 +1,164 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.SettingsActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.ui.SettingsActivityTest:
+INSTRUMENTATION_STATUS: test=settingsMenuItemsCheck
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.SettingsActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 559, 790 and precision: 16, 16' on view '(view.getId() is <2131296888/it.feio.android.omninotes.foss:id/settings_view> and view has effective visibility VISIBLE and has width and height greater than zero and (view is an instance of android.view.ViewGroup and has descendant matching (view.getId() is <2131296887/it.feio.android.omninotes.foss:id/settings> and (an instance of android.widget.TextView and view.getText() with or without transformation to match: equalToTrimmingAndIgnoringCase("SETTINGS") or an instance of android.widget.TextView and view.getHint() matching: equalToTrimmingAndIgnoringCase("SETTINGS")))) and is descendant of a view matching (view.getId() is <2131296622/it.feio.android.omninotes.foss:id/left_drawer> and is descendant of a view matching (view.getId() is <2131296769/it.feio.android.omninotes.foss:id/navigation_drawer> and is descendant of a view matching view.getId() is <2131296469/it.feio.android.omninotes.foss:id/drawer_layout>)))'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at it.feio.android.omninotes.ui.SettingsActivityTest.settingsMenuItemsCheck(SettingsActivityTest.java:101)
+	... 36 trimmed
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.async.CategoryMenuTask.lambda$buildCategoryMenu$0$it-feio-android-omninotes-async-CategoryMenuTask(CategoryMenuTask.java:134)
+	at it.feio.android.omninotes.async.CategoryMenuTask$$ExternalSyntheticLambda1.onClick(Unknown Source:2)
+	at android.view.View.performClick(View.java:7448)
+	at android.view.View.performClickInternal(View.java:7425)
+	at android.view.View.access$3600(View.java:810)
+	at android.view.View$PerformClick.run(View.java:28305)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at it.feio.android.omninotes.utils.ClickWithoutDisplayConstraint.perform(ClickWithoutDisplayConstraint.java:142)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Error in settingsMenuItemsCheck(it.feio.android.omninotes.ui.SettingsActivityTest):
+androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 559, 790 and precision: 16, 16' on view '(view.getId() is <2131296888/it.feio.android.omninotes.foss:id/settings_view> and view has effective visibility VISIBLE and has width and height greater than zero and (view is an instance of android.view.ViewGroup and has descendant matching (view.getId() is <2131296887/it.feio.android.omninotes.foss:id/settings> and (an instance of android.widget.TextView and view.getText() with or without transformation to match: equalToTrimmingAndIgnoringCase("SETTINGS") or an instance of android.widget.TextView and view.getHint() matching: equalToTrimmingAndIgnoringCase("SETTINGS")))) and is descendant of a view matching (view.getId() is <2131296622/it.feio.android.omninotes.foss:id/left_drawer> and is descendant of a view matching (view.getId() is <2131296769/it.feio.android.omninotes.foss:id/navigation_drawer> and is descendant of a view matching view.getId() is <2131296469/it.feio.android.omninotes.foss:id/drawer_layout>)))'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at it.feio.android.omninotes.ui.SettingsActivityTest.settingsMenuItemsCheck(SettingsActivityTest.java:101)
+	... 36 trimmed
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.async.CategoryMenuTask.lambda$buildCategoryMenu$0$it-feio-android-omninotes-async-CategoryMenuTask(CategoryMenuTask.java:134)
+	at it.feio.android.omninotes.async.CategoryMenuTask$$ExternalSyntheticLambda1.onClick(Unknown Source:2)
+	at android.view.View.performClick(View.java:7448)
+	at android.view.View.performClickInternal(View.java:7425)
+	at android.view.View.access$3600(View.java:810)
+	at android.view.View$PerformClick.run(View.java:28305)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at it.feio.android.omninotes.utils.ClickWithoutDisplayConstraint.perform(ClickWithoutDisplayConstraint.java:142)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=settingsMenuItemsCheck
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 4.653
+There was 1 failure:
+1) settingsMenuItemsCheck(it.feio.android.omninotes.ui.SettingsActivityTest)
+androidx.test.espresso.PerformException: Error performing 'single click - At Coordinates: 559, 790 and precision: 16, 16' on view '(view.getId() is <2131296888/it.feio.android.omninotes.foss:id/settings_view> and view has effective visibility VISIBLE and has width and height greater than zero and (view is an instance of android.view.ViewGroup and has descendant matching (view.getId() is <2131296887/it.feio.android.omninotes.foss:id/settings> and (an instance of android.widget.TextView and view.getText() with or without transformation to match: equalToTrimmingAndIgnoringCase("SETTINGS") or an instance of android.widget.TextView and view.getHint() matching: equalToTrimmingAndIgnoringCase("SETTINGS")))) and is descendant of a view matching (view.getId() is <2131296622/it.feio.android.omninotes.foss:id/left_drawer> and is descendant of a view matching (view.getId() is <2131296769/it.feio.android.omninotes.foss:id/navigation_drawer> and is descendant of a view matching view.getId() is <2131296469/it.feio.android.omninotes.foss:id/drawer_layout>)))'.
+	at androidx.test.espresso.PerformException$Builder.build(PerformException.java:1)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:8)
+	at androidx.test.espresso.base.PerformExceptionHandler.handleSafely(PerformExceptionHandler.java:9)
+	at androidx.test.espresso.base.DefaultFailureHandler$TypedFailureHandler.handle(DefaultFailureHandler.java:4)
+	at androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:5)
+	at androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:8)
+	at androidx.test.espresso.ViewInteraction.desugaredPerform(ViewInteraction.java:11)
+	at androidx.test.espresso.ViewInteraction.perform(ViewInteraction.java:8)
+	at it.feio.android.omninotes.ui.SettingsActivityTest.settingsMenuItemsCheck(SettingsActivityTest.java:101)
+	... 36 trimmed
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.async.CategoryMenuTask.lambda$buildCategoryMenu$0$it-feio-android-omninotes-async-CategoryMenuTask(CategoryMenuTask.java:134)
+	at it.feio.android.omninotes.async.CategoryMenuTask$$ExternalSyntheticLambda1.onClick(Unknown Source:2)
+	at android.view.View.performClick(View.java:7448)
+	at android.view.View.performClickInternal(View.java:7425)
+	at android.view.View.access$3600(View.java:810)
+	at android.view.View$PerformClick.run(View.java:28305)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at androidx.test.espresso.base.Interrogator.loopAndInterrogate(Interrogator.java:14)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:8)
+	at androidx.test.espresso.base.UiControllerImpl.loopUntil(UiControllerImpl.java:1)
+	at androidx.test.espresso.base.UiControllerImpl.injectMotionEvent(UiControllerImpl.java:5)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:7)
+	at androidx.test.espresso.action.MotionEvents.sendUp(MotionEvents.java:1)
+	at androidx.test.espresso.action.Tap.sendSingleTap(Tap.java:5)
+	at androidx.test.espresso.action.Tap.-$$Nest$smsendSingleTap(Unknown Source:0)
+	at androidx.test.espresso.action.Tap$1.sendTap(Tap.java:3)
+	at it.feio.android.omninotes.utils.ClickWithoutDisplayConstraint.perform(ClickWithoutDisplayConstraint.java:142)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAction.perform(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction.doPerform(ViewInteraction.java:25)
+	at androidx.test.espresso.ViewInteraction.-$$Nest$mdoPerform(Unknown Source:0)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:7)
+	at androidx.test.espresso.ViewInteraction$1.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

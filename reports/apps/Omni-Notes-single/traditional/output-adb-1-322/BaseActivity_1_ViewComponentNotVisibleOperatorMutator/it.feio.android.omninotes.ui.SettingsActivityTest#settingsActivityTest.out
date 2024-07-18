@@ -1,0 +1,90 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.SettingsActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.ui.SettingsActivityTest:
+INSTRUMENTATION_STATUS: test=settingsActivityTest
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.SettingsActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.TextView.setVisibility(int)' on a null object reference
+	at it.feio.android.omninotes.BaseActivity.setActionBarTitle(BaseActivity.java:160)
+	at it.feio.android.omninotes.ListFragment.initTitle(ListFragment.java:308)
+	at it.feio.android.omninotes.ListFragment.init(ListFragment.java:252)
+	at it.feio.android.omninotes.ListFragment.onActivityCreated(ListFragment.java:241)
+	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:2717)
+	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:346)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1188)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1356)
+	at androidx.fragment.app.FragmentManager.moveFragmentToExpectedState(FragmentManager.java:1434)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1497)
+	at androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:447)
+	at androidx.fragment.app.FragmentManager.executeOps(FragmentManager.java:2169)
+	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1992)
+	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1947)
+	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1849)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2629)
+	at androidx.fragment.app.FragmentManager.dispatchResume(FragmentManager.java:2589)
+	at androidx.fragment.app.FragmentController.dispatchResume(FragmentController.java:269)
+	at androidx.fragment.app.FragmentActivity.onResumeFragments(FragmentActivity.java:478)
+	at androidx.fragment.app.FragmentActivity.onPostResume(FragmentActivity.java:467)
+	at androidx.appcompat.app.AppCompatActivity.onPostResume(AppCompatActivity.java:204)
+	at android.app.Activity.performResume(Activity.java:8154)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4434)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4476)
+	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing settingsActivityTest(it.feio.android.omninotes.ui.SettingsActivityTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.TextView.setVisibility(int)' on a null object reference
+	at it.feio.android.omninotes.BaseActivity.setActionBarTitle(BaseActivity.java:160)
+	at it.feio.android.omninotes.ListFragment.initTitle(ListFragment.java:308)
+	at it.feio.android.omninotes.ListFragment.init(ListFragment.java:252)
+	at it.feio.android.omninotes.ListFragment.onActivityCreated(ListFragment.java:241)
+	at androidx.fragment.app.Fragment.performActivityCreated(Fragment.java:2717)
+	at androidx.fragment.app.FragmentStateManager.activityCreated(FragmentStateManager.java:346)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1188)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1356)
+	at androidx.fragment.app.FragmentManager.moveFragmentToExpectedState(FragmentManager.java:1434)
+	at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1497)
+	at androidx.fragment.app.BackStackRecord.executeOps(BackStackRecord.java:447)
+	at androidx.fragment.app.FragmentManager.executeOps(FragmentManager.java:2169)
+	at androidx.fragment.app.FragmentManager.executeOpsTogether(FragmentManager.java:1992)
+	at androidx.fragment.app.FragmentManager.removeRedundantOperationsAndExecute(FragmentManager.java:1947)
+	at androidx.fragment.app.FragmentManager.execPendingActions(FragmentManager.java:1849)
+	at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2629)
+	at androidx.fragment.app.FragmentManager.dispatchResume(FragmentManager.java:2589)
+	at androidx.fragment.app.FragmentController.dispatchResume(FragmentController.java:269)
+	at androidx.fragment.app.FragmentActivity.onResumeFragments(FragmentActivity.java:478)
+	at androidx.fragment.app.FragmentActivity.onPostResume(FragmentActivity.java:467)
+	at androidx.appcompat.app.AppCompatActivity.onPostResume(AppCompatActivity.java:204)
+	at android.app.Activity.performResume(Activity.java:8154)
+	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:4434)
+	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:4476)
+	at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:52)
+	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=settingsActivityTest
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

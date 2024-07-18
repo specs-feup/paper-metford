@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.utils.ReminderHelperTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.utils.ReminderHelperTest:
+INSTRUMENTATION_STATUS: test=shouldRemoveReminder
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.utils.ReminderHelperTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:53)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:43)
+	at it.feio.android.omninotes.utils.ReminderHelperTest.shouldRemoveReminder(ReminderHelperTest.java:70)
+
+INSTRUMENTATION_STATUS: stream=
+Error in shouldRemoveReminder(it.feio.android.omninotes.utils.ReminderHelperTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:53)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:43)
+	at it.feio.android.omninotes.utils.ReminderHelperTest.shouldRemoveReminder(ReminderHelperTest.java:70)
+
+INSTRUMENTATION_STATUS: test=shouldRemoveReminder
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.012
+There was 1 failure:
+1) shouldRemoveReminder(it.feio.android.omninotes.utils.ReminderHelperTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:53)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:43)
+	at it.feio.android.omninotes.utils.ReminderHelperTest.shouldRemoveReminder(ReminderHelperTest.java:70)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

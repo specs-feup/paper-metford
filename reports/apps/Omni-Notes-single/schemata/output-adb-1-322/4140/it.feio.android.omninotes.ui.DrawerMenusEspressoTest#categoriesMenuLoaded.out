@@ -1,0 +1,77 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.DrawerMenusEspressoTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.ui.DrawerMenusEspressoTest:
+INSTRUMENTATION_STATUS: test=categoriesMenuLoaded
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.DrawerMenusEspressoTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IncompatibleClassChangeError: Class 'org.hamcrest.StringDescription' does not implement interface 'java.lang.Iterable' in call to 'java.util.Iterator java.lang.Iterable.iterator()' (declaration of 'org.hamcrest.BaseDescription' appears in /data/app/~~VDV208bD5wg-bNLEvQNReA==/it.feio.android.omninotes.foss.test-7KJCRHLy1aCbqY3bVf2ejQ==/base.apk)
+	at org.hamcrest.BaseDescription.appendValueList(BaseDescription.java:76)
+	at androidx.test.espresso.matcher.ViewMatchers.getMismatchDescriptionString(ViewMatchers.java:3)
+	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:5)
+	at androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:7)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:14)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: stream=
+Error in categoriesMenuLoaded(it.feio.android.omninotes.ui.DrawerMenusEspressoTest):
+java.lang.IncompatibleClassChangeError: Class 'org.hamcrest.StringDescription' does not implement interface 'java.lang.Iterable' in call to 'java.util.Iterator java.lang.Iterable.iterator()' (declaration of 'org.hamcrest.BaseDescription' appears in /data/app/~~VDV208bD5wg-bNLEvQNReA==/it.feio.android.omninotes.foss.test-7KJCRHLy1aCbqY3bVf2ejQ==/base.apk)
+	at org.hamcrest.BaseDescription.appendValueList(BaseDescription.java:76)
+	at androidx.test.espresso.matcher.ViewMatchers.getMismatchDescriptionString(ViewMatchers.java:3)
+	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:5)
+	at androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:7)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:14)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+INSTRUMENTATION_STATUS: test=categoriesMenuLoaded
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 4.099
+There was 1 failure:
+1) categoriesMenuLoaded(it.feio.android.omninotes.ui.DrawerMenusEspressoTest)
+java.lang.IncompatibleClassChangeError: Class 'org.hamcrest.StringDescription' does not implement interface 'java.lang.Iterable' in call to 'java.util.Iterator java.lang.Iterable.iterator()' (declaration of 'org.hamcrest.BaseDescription' appears in /data/app/~~VDV208bD5wg-bNLEvQNReA==/it.feio.android.omninotes.foss.test-7KJCRHLy1aCbqY3bVf2ejQ==/base.apk)
+	at org.hamcrest.BaseDescription.appendValueList(BaseDescription.java:76)
+	at androidx.test.espresso.matcher.ViewMatchers.getMismatchDescriptionString(ViewMatchers.java:3)
+	at androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:5)
+	at androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:7)
+	at androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:14)
+	at androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:223)
+	at android.app.ActivityThread.main(ActivityThread.java:7656)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

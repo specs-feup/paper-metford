@@ -1,0 +1,118 @@
+BUILDING APK PasswordActivity_6_ViewComponentNotVisibleOperatorMutator
+> Task :omniNotes:preBuild UP-TO-DATE
+> Task :omniNotes:preFossDebugBuild UP-TO-DATE
+> Task :omniNotes:mergeFossDebugNativeDebugMetadata NO-SOURCE
+> Task :omniNotes:compileFossDebugAidl NO-SOURCE
+> Task :omniNotes:compileFossDebugRenderscript NO-SOURCE
+> Task :omniNotes:dataBindingMergeDependencyArtifactsFossDebug UP-TO-DATE
+> Task :omniNotes:generateFossDebugResValues UP-TO-DATE
+> Task :omniNotes:generateFossDebugResources UP-TO-DATE
+> Task :omniNotes:mergeFossDebugResources UP-TO-DATE
+> Task :omniNotes:dataBindingGenBaseClassesFossDebug UP-TO-DATE
+> Task :omniNotes:generateFossDebugBuildConfig UP-TO-DATE
+> Task :omniNotes:checkFossDebugAarMetadata UP-TO-DATE
+> Task :omniNotes:mapFossDebugSourceSetPaths UP-TO-DATE
+> Task :omniNotes:createFossDebugCompatibleScreenManifests UP-TO-DATE
+> Task :omniNotes:extractDeepLinksFossDebug UP-TO-DATE
+> Task :omniNotes:processFossDebugMainManifest UP-TO-DATE
+> Task :omniNotes:processFossDebugManifest UP-TO-DATE
+> Task :omniNotes:processFossDebugManifestForPackage UP-TO-DATE
+> Task :omniNotes:processFossDebugResources UP-TO-DATE
+> Task :omniNotes:javaPreCompileFossDebug UP-TO-DATE
+> Task :omniNotes:mergeFossDebugShaders UP-TO-DATE
+> Task :omniNotes:compileFossDebugShaders NO-SOURCE
+> Task :omniNotes:generateFossDebugAssets UP-TO-DATE
+> Task :omniNotes:mergeFossDebugAssets UP-TO-DATE
+> Task :omniNotes:compressFossDebugAssets UP-TO-DATE
+> Task :omniNotes:checkFossDebugDuplicateClasses UP-TO-DATE
+> Task :omniNotes:desugarFossDebugFileDependencies UP-TO-DATE
+> Task :omniNotes:mergeExtDexFossDebug UP-TO-DATE
+> Task :omniNotes:generateFossDebugJacocoPropertiesFile UP-TO-DATE
+> Task :omniNotes:processFossDebugJavaRes NO-SOURCE
+> Task :omniNotes:mergeLibDexFossDebug UP-TO-DATE
+> Task :omniNotes:mergeFossDebugJniLibFolders UP-TO-DATE
+> Task :omniNotes:mergeFossDebugNativeLibs NO-SOURCE
+> Task :omniNotes:stripFossDebugDebugSymbols NO-SOURCE
+> Task :omniNotes:validateSigningFossDebug UP-TO-DATE
+> Task :omniNotes:writeFossDebugAppMetadata UP-TO-DATE
+> Task :omniNotes:writeFossDebugSigningConfigVersions UP-TO-DATE
+> Task :omniNotes:compileFossDebugKotlin
+
+> Task :omniNotes:compileFossDebugJavaWithJavac
+The following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
+Make sure all annotation processors are incremental to improve your build speed.
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+61 warnings
+
+> Task :omniNotes:mergeFossDebugJavaResource UP-TO-DATE
+> Task :omniNotes:jacocoFossDebug
+> Task :omniNotes:dexBuilderFossDebug
+> Task :omniNotes:mergeProjectDexFossDebug
+> Task :omniNotes:packageFossDebug
+> Task :omniNotes:createFossDebugApkListingFileRedirect UP-TO-DATE
+> Task :omniNotes:assembleFossDebug
+
+BUILD SUCCESSFUL in 3s
+34 actionable tasks: 6 executed, 28 up-to-date

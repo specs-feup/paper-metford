@@ -1,0 +1,59 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.RemindersLifecycleTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.ui.RemindersLifecycleTest:
+INSTRUMENTATION_STATUS: test=remindersLifecycle
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.RemindersLifecycleTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: test=remindersLifecycle
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.RemindersLifecycleTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.RuntimeException: An error occurred while executing doInBackground()
+	at android.os.AsyncTask$4.done(AsyncTask.java:415)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:383)
+	at java.util.concurrent.FutureTask.setException(FutureTask.java:252)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, byte[])' on a null object reference
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:53)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:43)
+	at it.feio.android.omninotes.async.notes.SaveNoteTask.doInBackground(SaveNoteTask.java:64)
+	at it.feio.android.omninotes.async.notes.SaveNoteTask.doInBackground(SaveNoteTask.java:34)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	... 3 more
+
+INSTRUMENTATION_STATUS: stream=
+Process crashed while executing remindersLifecycle(it.feio.android.omninotes.ui.RemindersLifecycleTest):
+java.lang.RuntimeException: An error occurred while executing doInBackground()
+	at android.os.AsyncTask$4.done(AsyncTask.java:415)
+	at java.util.concurrent.FutureTask.finishCompletion(FutureTask.java:383)
+	at java.util.concurrent.FutureTask.setException(FutureTask.java:252)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:271)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:923)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Intent android.content.Intent.putExtra(java.lang.String, byte[])' on a null object reference
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:53)
+	at it.feio.android.omninotes.utils.ReminderHelper.addReminder(ReminderHelper.java:43)
+	at it.feio.android.omninotes.async.notes.SaveNoteTask.doInBackground(SaveNoteTask.java:64)
+	at it.feio.android.omninotes.async.notes.SaveNoteTask.doInBackground(SaveNoteTask.java:34)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	... 3 more
+
+INSTRUMENTATION_STATUS: test=remindersLifecycle
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

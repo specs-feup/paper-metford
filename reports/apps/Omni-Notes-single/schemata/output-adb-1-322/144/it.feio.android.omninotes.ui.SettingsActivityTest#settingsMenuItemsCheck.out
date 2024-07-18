@@ -1,0 +1,11 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.ui.SettingsActivityTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.ui.SettingsActivityTest:
+INSTRUMENTATION_STATUS: test=settingsMenuItemsCheck
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_RESULT: longMsg=Input dispatching timed out (63e50fa it.feio.android.omninotes.foss/it.feio.android.omninotes.MainActivity (server) is not responding. Waited 5001ms for FocusEvent(hasFocus=false))
+INSTRUMENTATION_RESULT: shortMsg=keyDispatchingTimedOut
+INSTRUMENTATION_CODE: 0

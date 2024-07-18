@@ -1,0 +1,229 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :omniNotes:clean UP-TO-DATE
+> Task :omniNotes:preBuild UP-TO-DATE
+> Task :omniNotes:preFossDebugBuild UP-TO-DATE
+> Task :omniNotes:mergeFossDebugNativeDebugMetadata NO-SOURCE
+> Task :omniNotes:compileFossDebugAidl NO-SOURCE
+> Task :omniNotes:compileFossDebugRenderscript NO-SOURCE
+> Task :omniNotes:generateFossDebugResValues
+> Task :omniNotes:dataBindingMergeDependencyArtifactsFossDebug
+> Task :omniNotes:generateFossDebugResources
+> Task :omniNotes:generateFossDebugBuildConfig
+> Task :omniNotes:mapFossDebugSourceSetPaths
+> Task :omniNotes:checkFossDebugAarMetadata
+> Task :omniNotes:createFossDebugCompatibleScreenManifests
+> Task :omniNotes:extractDeepLinksFossDebug
+> Task :omniNotes:mergeFossDebugResources
+
+> Task :omniNotes:processFossDebugMainManifest
+/home/auri/feup/tools/Projects/android/Omni-Notes-traditional/omniNotes/src/main/AndroidManifest.xml:38:9-44:51 Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at AndroidManifest.xml:38 to replace other declarations but no other declaration present
+
+> Task :omniNotes:dataBindingGenBaseClassesFossDebug
+> Task :omniNotes:processFossDebugManifest
+> Task :omniNotes:javaPreCompileFossDebug
+> Task :omniNotes:mergeFossDebugShaders
+> Task :omniNotes:compileFossDebugShaders NO-SOURCE
+> Task :omniNotes:generateFossDebugAssets UP-TO-DATE
+> Task :omniNotes:mergeFossDebugAssets
+> Task :omniNotes:compressFossDebugAssets
+> Task :omniNotes:desugarFossDebugFileDependencies
+> Task :omniNotes:processFossDebugManifestForPackage
+> Task :omniNotes:generateFossDebugJacocoPropertiesFile
+> Task :omniNotes:checkFossDebugDuplicateClasses
+> Task :omniNotes:processFossDebugJavaRes NO-SOURCE
+> Task :omniNotes:mergeFossDebugJniLibFolders
+> Task :omniNotes:mergeLibDexFossDebug
+> Task :omniNotes:mergeFossDebugNativeLibs NO-SOURCE
+> Task :omniNotes:stripFossDebugDebugSymbols NO-SOURCE
+> Task :omniNotes:validateSigningFossDebug
+> Task :omniNotes:writeFossDebugAppMetadata
+> Task :omniNotes:writeFossDebugSigningConfigVersions
+> Task :omniNotes:preFossDebugAndroidTestBuild SKIPPED
+> Task :omniNotes:compileFossDebugAndroidTestAidl NO-SOURCE
+> Task :omniNotes:processFossDebugAndroidTestManifest
+> Task :omniNotes:compileFossDebugAndroidTestRenderscript NO-SOURCE
+> Task :omniNotes:dataBindingMergeDependencyArtifactsFossDebugAndroidTest
+> Task :omniNotes:generateFossDebugAndroidTestResValues
+> Task :omniNotes:generateFossDebugAndroidTestResources
+> Task :omniNotes:generateFossDebugAndroidTestBuildConfig
+> Task :omniNotes:mapFossDebugAndroidTestSourceSetPaths
+> Task :omniNotes:mergeFossDebugAndroidTestShaders
+> Task :omniNotes:compileFossDebugAndroidTestShaders NO-SOURCE
+> Task :omniNotes:generateFossDebugAndroidTestAssets UP-TO-DATE
+> Task :omniNotes:checkFossDebugAndroidTestAarMetadata
+> Task :omniNotes:javaPreCompileFossDebugAndroidTest
+> Task :omniNotes:mergeFossDebugAndroidTestAssets
+> Task :omniNotes:compressFossDebugAndroidTestAssets
+> Task :omniNotes:desugarFossDebugAndroidTestFileDependencies
+> Task :omniNotes:processFossDebugAndroidTestJavaRes NO-SOURCE
+> Task :omniNotes:checkFossDebugAndroidTestDuplicateClasses
+> Task :omniNotes:mergeFossDebugAndroidTestJniLibFolders
+> Task :omniNotes:mergeFossDebugAndroidTestResources
+> Task :omniNotes:dataBindingGenBaseClassesFossDebugAndroidTest
+> Task :omniNotes:mergeFossDebugAndroidTestNativeLibs NO-SOURCE
+> Task :omniNotes:mergeLibDexFossDebugAndroidTest
+> Task :omniNotes:validateSigningFossDebugAndroidTest
+> Task :omniNotes:writeFossDebugAndroidTestSigningConfigVersions
+> Task :omniNotes:processFossDebugAndroidTestResources
+> Task :omniNotes:processFossDebugResources
+> Task :omniNotes:mergeExtDexFossDebugAndroidTest
+> Task :omniNotes:mergeExtDexFossDebug
+
+> Task :omniNotes:compileFossDebugKotlin
+w: file:///home/auri/feup/tools/Projects/android/Omni-Notes-traditional/omniNotes/src/main/java/it/feio/android/omninotes/exceptions/checked/ContentSecurityException.kt:20:32 Parameter 'message' is never used
+w: file:///home/auri/feup/tools/Projects/android/Omni-Notes-traditional/omniNotes/src/main/java/it/feio/android/omninotes/utils/MiscUtils.kt:35:40 'getPackageInfo(String, Int): PackageInfo!' is deprecated. Deprecated in Java
+
+> Task :omniNotes:compileFossDebugJavaWithJavac
+The following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
+Make sure all annotation processors are incremental to improve your build speed.
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 warnings
+
+> Task :omniNotes:bundleFossDebugClassesToCompileJar
+> Task :omniNotes:jacocoFossDebug
+
+> Task :omniNotes:compileFossDebugAndroidTestKotlin
+w: file:///home/auri/feup/tools/Projects/android/Omni-Notes-traditional/omniNotes/src/androidTest/java/it/feio/android/omninotes/utils/MiscUtilsTest.kt:29:20 Check for instance is always 'true'
+
+> Task :omniNotes:mergeFossDebugJavaResource
+> Task :omniNotes:dexBuilderFossDebug
+> Task :omniNotes:mergeProjectDexFossDebug
+
+> Task :omniNotes:compileFossDebugAndroidTestJavaWithJavac
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+17 warnings
+
+> Task :omniNotes:mergeFossDebugAndroidTestJavaResource
+> Task :omniNotes:dexBuilderFossDebugAndroidTest
+> Task :omniNotes:mergeProjectDexFossDebugAndroidTest
+> Task :omniNotes:packageFossDebugAndroidTest
+> Task :omniNotes:createFossDebugAndroidTestApkListingFileRedirect
+> Task :omniNotes:assembleFossDebugAndroidTest
+> Task :omniNotes:packageFossDebug
+> Task :omniNotes:createFossDebugApkListingFileRedirect
+> Task :omniNotes:assembleFossDebug
+
+BUILD SUCCESSFUL in 52s
+63 actionable tasks: 62 executed, 1 up-to-date

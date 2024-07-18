@@ -1,0 +1,47 @@
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.helpers.IntentHelperTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+it.feio.android.omninotes.helpers.IntentHelperTest:
+INSTRUMENTATION_STATUS: test=getNotePendingIntent
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=it.feio.android.omninotes.helpers.IntentHelperTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.helpers.IntentHelper.getNoteIntent(IntentHelper.java:36)
+	at it.feio.android.omninotes.helpers.IntentHelper.getNotePendingIntent(IntentHelper.java:54)
+	at it.feio.android.omninotes.helpers.IntentHelperTest.getNotePendingIntent(IntentHelperTest.java:59)
+
+INSTRUMENTATION_STATUS: stream=
+Error in getNotePendingIntent(it.feio.android.omninotes.helpers.IntentHelperTest):
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.helpers.IntentHelper.getNoteIntent(IntentHelper.java:36)
+	at it.feio.android.omninotes.helpers.IntentHelper.getNotePendingIntent(IntentHelper.java:54)
+	at it.feio.android.omninotes.helpers.IntentHelperTest.getNotePendingIntent(IntentHelperTest.java:59)
+
+INSTRUMENTATION_STATUS: test=getNotePendingIntent
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 0.087
+There was 1 failure:
+1) getNotePendingIntent(it.feio.android.omninotes.helpers.IntentHelperTest)
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.String android.content.Context.getPackageName()' on a null object reference
+	at android.content.ComponentName.<init>(ComponentName.java:131)
+	at android.content.Intent.<init>(Intent.java:6858)
+	at it.feio.android.omninotes.helpers.IntentHelper.getNoteIntent(IntentHelper.java:36)
+	at it.feio.android.omninotes.helpers.IntentHelper.getNotePendingIntent(IntentHelper.java:54)
+	at it.feio.android.omninotes.helpers.IntentHelperTest.getNotePendingIntent(IntentHelperTest.java:59)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1
