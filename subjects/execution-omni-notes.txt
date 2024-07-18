@@ -1,0 +1,8 @@
+# Omni-Notes Traditional
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-traditional-single-emulator.sh /home/auri/feup/tools/Projects/android/Omni-Notes-traditional /home/auri/feup/tools/Projects/output-omni-notes-traditional/mutated_project assembleFossDebug omniNotes/build/outputs/apk/foss/debug/OmniNotes-fossDebug-6.2.8.apk assembleFossDebugAndroidTest omniNotes/build/outputs/apk/androidTest/foss/debug/omniNotes-foss-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt it.feio.android.omninotes.foss.test/androidx.test.runner.AndroidJUnitRunner fullFail Pixel_6_Pro_API_30 omniNotes 2 1 322
+
+
+# Omni-Notes Schemata
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-schemata-single-emulator.sh /home/auri/feup/tools/Projects/android/Omni-Notes-schemata assembleFossDebug omniNotes/build/outputs/apk/foss/debug/OmniNotes-fossDebug-6.2.8.apk assembleFossDebugAndroidTest omniNotes/build/outputs/apk/androidTest/foss/debug/omniNotes-foss-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt it.feio.android.omninotes.foss.test/androidx.test.runner.AndroidJUnitRunner fullFail Pixel_6_Pro_API_30 2 1 322

@@ -1,0 +1,8 @@
+# Simplenote Traditional
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-traditional-single-emulator.sh /home/auri/feup/tools/Projects/android/simplenote-android-traditional /home/auri/feup/tools/Projects/output-simplenote-traditional/mutated_project :Simplenote:assembleDebug Simplenote/build/outputs/apk/debug/Simplenote-debug.apk assembleDebugAndroidTest Simplenote/build/outputs/apk/androidTest/debug/Simplenote-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt com.automattic.simplenote.debug.test/com.automattic.simplenote.SimplenoteAppRunner fullFail Pixel_6_Pro_API_30 Simplenote 2 1 809
+
+
+# Simplenote Schemata
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-schemata-single-emulator.sh /home/auri/feup/tools/Projects/android/simplenote-android-schemata :Simplenote:assembleDebug Simplenote/build/outputs/apk/debug/Simplenote-debug.apk assembleDebugAndroidTest Simplenote/build/outputs/apk/androidTest/debug/Simplenote-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt com.automattic.simplenote.debug.test/com.automattic.simplenote.SimplenoteAppRunner fullFail Pixel_6_Pro_API_30 2 1 809

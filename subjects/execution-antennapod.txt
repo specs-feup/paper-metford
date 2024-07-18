@@ -1,0 +1,8 @@
+# AntennaPod Traditional
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-traditional-emulator.sh /home/auri/feup/tools/Projects/android/AntennaPod-traditional /home/auri/feup/tools/Projects/output-antennapod-traditional/mutated_project assembleFreeDebug app/build/outputs/apk/free/debug/app-free-debug.apk assembleAndroidTest app/build/outputs/apk/androidTest/free/debug/app-free-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt de.danoeh.antennapod.core.tests/androidx.test.runner.AndroidJUnitRunner fullFail Pixel_6_Pro_API_30 app 2 1 1217
+
+
+# AntennaPod Schemata
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-schemata-emulator.sh /home/auri/feup/tools/Projects/android/AntennaPod-schemata assembleFreeDebug app/build/outputs/apk/free/debug/app-free-debug.apk assembleAndroidTest app/build/outputs/apk/androidTest/free/debug/app-free-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt de.danoeh.antennapod.core.tests/androidx.test.runner.AndroidJUnitRunner fullFail Pixel_6_Pro_API_30 2 1 1217

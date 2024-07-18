@@ -1,0 +1,47 @@
+App: simplenote-android
+Link: https://github.com/Automattic/simplenote-android
+Java: 17
+Configuração: Adicionei o código no arquivo build.gradle (app) para compilar a aplicação:
+
+android {
+	...
+
+	buildFeatures {
+        buildConfig = true
+    }
+}
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+App: keepassdroid
+Link: https://github.com/bpellin/keepassdroid/tree/master
+Java: 11
+Comentário: Adicionei o código no arquivo gradle.properties para compilar a aplicação:
+
+org.gradle.daemon=true
+org.gradle.jvmargs=-Xmx2560m
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+App: CameraView
+Link: https://github.com/natario1/CameraView
+Java: 17
+Comentário: Adicionei o código no build.gradle (app) para compilar a aplicação:
+
+android {
+	...
+	lintOptions.isAbortOnError = false
+}
+
+// Exportar as dependências .jar -- formato build.gradle.kts
+configurations {
+    create("resolvedImplementation") {
+        extendsFrom(configurations.getByName("implementation"))
+        isCanBeResolved = true
+    }
+}
+
+tasks.register<Copy>("downloadDependencies") {
+    from(configurations.getByName("resolvedImplementation"))
+    into(file("./dependenciesDirectory"))
+}

@@ -1,0 +1,8 @@
+# AmazeFileManager Traditional
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-traditional-emulator.sh /home/auri/feup/tools/Projects/android/AmazeFileManager-traditional /home/auri/feup/tools/Projects/output-amazefilemanager-traditional/mutated_project assembleFdroidDebug app/build/outputs/apk/fdroid/debug/app-fdroid-debug.apk assembleFdroidDebugAndroidTest app/build/outputs/apk/androidTest/fdroid/debug/app-fdroid-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt com.amaze.filemanager.debug.test/androidx.test.runner.AndroidJUnitRunner fullFail Pixel_6_Pro_API_30 app 2 1 1041
+
+
+# AmazeFileManager Schemata
+
+~/feup/tools/scripts-kadabra/05-adb-mutant-exec-schemata-emulator.sh /home/auri/feup/tools/Projects/android/AmazeFileManager-schemata assembleFdroidDebug app/build/outputs/apk/fdroid/debug/app-fdroid-debug.apk assembleFdroidDebugAndroidTest app/build/outputs/apk/androidTest/fdroid/debug/app-fdroid-debug-androidTest.apk ids.txt sequence.txt test-case-names.txt com.amaze.filemanager.debug.test/androidx.test.runner.AndroidJUnitRunner fullFail Pixel_6_Pro_API_30 2 1 1041
