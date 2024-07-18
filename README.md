@@ -4,6 +4,7 @@ This repository contains the artifacts used in the METFORD's paper. The high-lev
 
 ```
 paper-metford/
+├── AndroidMicroBenchmark
 ├── bin
 ├── kadabra-config
 ├── kadabra-output
@@ -16,6 +17,10 @@ paper-metford/
 ```
 
 Below, we briefly describe each subdirectory's content. On entering a subdirectory, there is another README.md better explaining its content.
+
+## `AndroidMicroBenchmark` directory
+
+This directory contains a Gradle project with the micro-benchmark we used to evaluate alternative approaches to implementing mutant schemata. 
 
 ## `bin` directory
 
