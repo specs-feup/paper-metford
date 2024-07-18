@@ -1,0 +1,237 @@
+
+> Task :app:externalNativeBuildCleanGeneralDebug
+Clean argon2-armeabi-v7a, final-key-armeabi-v7a
+Clean argon2-arm64-v8a, final-key-arm64-v8a
+Clean argon2-x86, final-key-x86
+Clean argon2-x86_64, final-key-x86_64
+
+> Task :app:externalNativeBuildCleanGeneralRelease
+
+> Task :app:externalNativeBuildCleanPlayDebug
+Clean argon2-armeabi-v7a, final-key-armeabi-v7a
+Clean argon2-arm64-v8a, final-key-arm64-v8a
+Clean argon2-x86, final-key-x86
+Clean argon2-x86_64, final-key-x86_64
+
+> Task :app:externalNativeBuildCleanPlayRelease
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preGeneralDebugBuild UP-TO-DATE
+> Task :app:mergeGeneralDebugNativeDebugMetadata NO-SOURCE
+> Task :app:compileGeneralDebugAidl NO-SOURCE
+> Task :app:compileGeneralDebugRenderscript NO-SOURCE
+> Task :app:generateGeneralDebugBuildConfig
+> Task :app:javaPreCompileGeneralDebug
+> Task :app:generateGeneralDebugResValues
+> Task :app:checkGeneralDebugAarMetadata
+> Task :app:mapGeneralDebugSourceSetPaths
+> Task :app:generateGeneralDebugResources
+> Task :app:createGeneralDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksGeneralDebug
+> Task :app:processGeneralDebugMainManifest
+> Task :app:processGeneralDebugManifest
+> Task :app:mergeGeneralDebugShaders
+> Task :app:compileGeneralDebugShaders NO-SOURCE
+> Task :app:generateGeneralDebugAssets UP-TO-DATE
+> Task :app:mergeGeneralDebugAssets
+> Task :app:desugarGeneralDebugFileDependencies
+> Task :app:compressGeneralDebugAssets
+> Task :app:processGeneralDebugJavaRes
+> Task :app:checkGeneralDebugDuplicateClasses
+> Task :app:configureCMakeDebug[arm64-v8a]
+> Task :app:mergeGeneralDebugResources
+
+> Task :app:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/.cxx/Debug/404f305j/arm64-v8a'
+C/C++: /home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:438:10: warning: cast to 'void *' from smaller integer type 'uint32_t' (aka 'unsigned int') [-Wint-to-void-pointer-cast]
+C/C++: /home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:501:12: warning: cast to smaller integer type 'uint32_t' (aka 'unsigned int') from 'void *' [-Wvoid-pointer-to-int-cast]
+
+> Task :app:configureCMakeDebug[armeabi-v7a]
+> Task :app:buildCMakeDebug[armeabi-v7a]
+> Task :app:configureCMakeDebug[x86]
+> Task :app:mergeGeneralDebugJavaResource
+> Task :app:buildCMakeDebug[x86]
+> Task :app:configureCMakeDebug[x86_64]
+
+> Task :app:buildCMakeDebug[x86_64]
+C/C++: ninja: Entering directory `/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/.cxx/Debug/404f305j/x86_64'
+C/C++: /home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:438:10: warning: cast to 'void *' from smaller integer type 'uint32_t' (aka 'unsigned int') [-Wint-to-void-pointer-cast]
+C/C++: /home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/jni/final_key/kpd_jni.c:501:12: warning: cast to smaller integer type 'uint32_t' (aka 'unsigned int') from 'void *' [-Wvoid-pointer-to-int-cast]
+
+> Task :app:externalNativeBuildGeneralDebug
+> Task :app:mergeGeneralDebugJniLibFolders
+> Task :app:validateSigningGeneralDebug
+> Task :app:writeGeneralDebugAppMetadata
+> Task :app:writeGeneralDebugSigningConfigVersions
+> Task :app:mergeGeneralDebugNativeLibs
+> Task :app:processGeneralDebugManifestForPackage
+> Task :app:stripGeneralDebugDebugSymbols
+> Task :app:processGeneralDebugResources
+
+> Task :app:compileGeneralDebugJavaWithJavac FAILED
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/org/apache/commons/collections/map/AbstractReferenceMap.java:424: error: non-static variable data cannot be referenced from a static context
+        index = hashIndex(hash, org.apache.commons.collections.map.AbstractHashedMap.data.length);
+                                                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/org/apache/commons/collections/map/AbstractReferenceMap.java:1084: error: non-static variable data cannot be referenced from a static context
+        out.writeInt(org.apache.commons.collections.map.AbstractHashedMap.data.length);
+                                                                         ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/org/apache/commons/collections/map/AbstractReferenceMap.java:1133: error: non-static variable data cannot be referenced from a static context
+        threshold = calculateThreshold(org.apache.commons.collections.map.AbstractHashedMap.data.length, loadFactor);
+                                                                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/GroupActivity.java:378: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+com.keepassdroid.GroupEditActivity.Launch(this);
+                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/GroupActivity.java:436: error: no suitable method found for Launch(<anonymous OnClickListener>,PwGroup)
+com.keepassdroid.EntryEditActivity.Launch(this, mGroup);
+                                  ^
+    method EntryEditActivity.Launch(Activity,PwEntry) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Activity)
+    method EntryEditActivity.Launch(Activity,PwGroup) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Activity)
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/dialog/WarningDialog.java:61: error: reference to setButton is ambiguous
+                setButton(android.app.AlertDialog.BUTTON1, ctx.getText(android.R.string.ok), null);
+                ^
+  both method setButton(int,CharSequence,Message) in AlertDialog and method setButton(int,CharSequence,OnClickListener) in AlertDialog match
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/dialog/WarningDialog.java:92: error: reference to setButton is ambiguous
+        setButton(android.app.AlertDialog.BUTTON2, ctx.getText(com.android.keepass.R.string.beta_dontask), null);
+        ^
+  both method setButton(int,CharSequence,Message) in AlertDialog and method setButton(int,CharSequence,OnClickListener) in AlertDialog match
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/EntryActivity.java:267: error: no suitable method found for Launch(<anonymous OnClickListener>,PwEntry)
+com.keepassdroid.EntryEditActivity.Launch(this, mEntry);
+                                  ^
+    method EntryEditActivity.Launch(Activity,PwEntry) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Activity)
+    method EntryEditActivity.Launch(Activity,PwGroup) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Activity)
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/EntryEditActivity.java:396: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+com.keepassdroid.IconPickerActivity.Launch(this);
+                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/EntryEditActivity.java:452: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+com.keepassdroid.GeneratePasswordActivity.Launch(this);
+                                                 ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/BrowserDialog.java:109: error: cannot find symbol
+                    this.cancel();
+                        ^
+  symbol: method cancel()
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/BrowserDialog.java:165: error: cannot find symbol
+        this.cancel();
+            ^
+  symbol: method cancel()
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/BrowserDialog.java:224: error: cannot find symbol
+this.cancel();
+    ^
+  symbol: method cancel()
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:306: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+            fileName = com.keepassdroid.utils.Util.getEditText(this, com.android.keepass.R.id.file_filename);
+                                                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:308: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+                com.keepassdroid.PasswordActivity.Launch(this, fileName);
+                                                         ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:310: error: no suitable method found for makeText(<anonymous OnClickListener>,int,int)
+                android.widget.Toast.makeText(this, com.android.keepass.R.string.file_not_found_content, android.widget.Toast.LENGTH_LONG).show();
+                                    ^
+    method Toast.makeText(Context,CharSequence,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+    method Toast.makeText(Context,int,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:312: error: no suitable method found for makeText(<anonymous OnClickListener>,int,int)
+                android.widget.Toast.makeText(this, com.android.keepass.R.string.FileNotFound, android.widget.Toast.LENGTH_LONG).show();
+                                    ^
+    method Toast.makeText(Context,CharSequence,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+    method Toast.makeText(Context,int,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:496: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+filename = com.keepassdroid.utils.Util.getEditText(this, com.android.keepass.R.id.file_filename);
+                                                   ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:499: error: no suitable method found for makeText(<anonymous OnClickListener>,int,int)
+android.widget.Toast.makeText(this, com.android.keepass.R.string.error_filename_required, android.widget.Toast.LENGTH_LONG).show();
+                    ^
+    method Toast.makeText(Context,CharSequence,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+    method Toast.makeText(Context,int,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:502: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+if (com.keepassdroid.utils.PermissionUtil.checkAndRequest(this, com.keepassdroid.fileselect.FileSelectActivity.PERMISSION_REQUEST_ID)) {
+                                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:719: error: incompatible types: <anonymous OnClickListener> cannot be converted to Context
+if (com.keepassdroid.compat.StorageAF.useStorageFramework(this)) {
+                                                          ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:886: error: incompatible types: <anonymous OnClickListener> cannot be converted to Context
+if (com.keepassdroid.utils.Interaction.isIntentAvailable(this, com.keepassdroid.intents.Intents.OPEN_INTENTS_FILE_BROWSE)) {
+                                                         ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/fileselect/FileSelectActivity.java:889: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+i.setData(android.net.Uri.parse("file://" + com.keepassdroid.utils.Util.getEditText(this, com.android.keepass.R.id.file_filename)));
+                                                                                    ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/database/PwDatabaseV4.java:474: error: non-static variable rootGroup cannot be referenced from a static context
+return com.keepassdroid.database.PwDatabase.rootGroup.childGroups;
+                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/utils/DateUtil.java:48: error: cannot assign a value to final variable epochOffset
+                com.keepassdroid.utils.DateUtil.epochOffset = (com.keepassdroid.utils.DateUtil.javaEpoch.getMillis() - com.keepassdroid.utils.DateUtil.dotNetEpoch.getMillis()) * 1000L;
+                                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/utils/DateUtil.java:55: error: cannot assign a value to final variable epochOffset
+                    com.keepassdroid.utils.DateUtil.epochOffset = (com.keepassdroid.utils.DateUtil.javaEpoch.getMillis() + com.keepassdroid.utils.DateUtil.dotNetEpoch.getMillis()) / 1000L;
+                                                   ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/utils/DateUtil.java:59: error: cannot assign a value to final variable epochOffset
+                com.keepassdroid.utils.DateUtil.epochOffset = (com.keepassdroid.utils.DateUtil.javaEpoch.getMillis() - com.keepassdroid.utils.DateUtil.dotNetEpoch.getMillis()) / 1000L;
+                                               ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/GroupEditActivity.java:139: error: incompatible types: <anonymous OnClickListener> cannot be converted to Activity
+                com.keepassdroid.IconPickerActivity.Launch(this);
+                                                           ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/GroupEditActivity.java:229: error: no suitable method found for makeText(<anonymous OnClickListener>,int,int)
+    android.widget.Toast.makeText(this, com.android.keepass.R.string.error_no_name, android.widget.Toast.LENGTH_LONG).show();
+                        ^
+    method Toast.makeText(Context,CharSequence,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+    method Toast.makeText(Context,int,int) is not applicable
+      (argument mismatch; <anonymous OnClickListener> cannot be converted to Context)
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/compat/ClipDataCompat.java:63: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                clip = ((android.content.ClipData) (com.keepassdroid.compat.ClipDataCompat.getClipDataFromIntent.invoke(i, null)));
+                                                                                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/compat/KeyGenParameterSpecCompat.java:71: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            return ((java.security.spec.AlgorithmParameterSpec) (com.keepassdroid.compat.KeyGenParameterSpecCompat.builderBuild.invoke(inst, null)));
+                                                                                                                                             ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/compat/KeyguardManagerCompat.java:50: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            return ((boolean) (com.keepassdroid.compat.KeyguardManagerCompat.isKeyguardSecure.invoke(inst, null)));
+                                                                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/EntryEditActivityV3.java:46: error: non-static variable mEntry cannot be referenced from a static context
+                newEntry.icon = com.keepassdroid.EntryEditActivity.mEntry.icon;
+                                                                  ^
+/home/auri/insync/Documentos/feup/tools/Projects/android/keepassdroid-schemata/app/src/main/java/com/keepassdroid/search/SearchResults.java:86: error: mGroup has protected access in GroupBaseActivity
+    if ((mGroup == null) || (com.keepassdroid.GroupBaseActivity.mGroup.childEntries.size() < 1)) {
+                                                               ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+31 errors
+3 warnings
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileGeneralDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 4s
+40 actionable tasks: 40 executed
