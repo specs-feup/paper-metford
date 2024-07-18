@@ -1,0 +1,28 @@
+# Nodes with values to reuse in the pipeline.
+common_params:
+  # Common plugin settings to use with the `plugins` key.
+  - &common_plugins
+    - automattic/a8c-ci-toolkit#2.13.0
+
+# This is the default pipeline – it will build and test the app
+steps:
+  - label: "Gradle Wrapper Validation"
+    command: |
+      validate_gradle_wrapper
+    plugins: *common_plugins
+
+  # Wait for Gradle Wrapper to be validated before running any other jobs
+  - wait
+
+  - label: "🛠 Build and Test"
+    command: ./gradlew --stacktrace testRelease
+    plugins: *common_plugins
+
+  - label: "🔬 Lint"
+    command: ./gradlew --stacktrace lintRelease
+    plugins: *common_plugins
+
+  - label: "🛠 Installable Build"
+    command: .buildkite/commands/build-prototype.sh
+    plugins: *common_plugins
+    if: "build.pull_request.id != null || build.pull_request.draft"
