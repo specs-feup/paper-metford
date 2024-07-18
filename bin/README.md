@@ -5,7 +5,7 @@ This directory contains the `kadabra.zip` file with the Kadabra version used in 
 Directory structure:
 
 ```
-tools/
+bin/
 ├── kadabra.z01
 ├── kadabra.z02
 ├── kadabra.z03
