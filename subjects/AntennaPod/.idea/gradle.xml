@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/app" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/core" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/event" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/model" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/common" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/discovery" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/download" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/download/service-interface" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/ssl" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/sync" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/sync/gpoddernet" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/net/sync/model" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/parser" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/parser/feed" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/parser/media" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/playback" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/playback/base" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/playback/cast" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/storage" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/storage/database" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/storage/preferences" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/ui" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/ui/app-start-intent" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/ui/common" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/ui/glide" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/ui/i18n" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/ui/png-icons" />
+            <option value="$USER_HOME$/insync/Documentos/feup/tools/Projects/android/AntennaPod/ui/statistics" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
