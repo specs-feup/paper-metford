@@ -1,0 +1,86 @@
+[code]
+System:
+  Kernel: 5.15.0-97-generic x86_64 bits: 64 compiler: gcc v: 11.4.0 Desktop: Cinnamon 6.0.4
+    tk: GTK 3.24.33 wm: muffin vt: 7 dm: LightDM 1.30.0 Distro: Linux Mint 21.3 Virginia
+    base: Ubuntu 22.04 jammy
+Machine:
+  Type: Desktop System: Hewlett-Packard product: HP EliteDesk 800 G1 TWR v: N/A
+    serial: <superuser required> Chassis: type: 6 serial: <superuser required>
+  Mobo: Hewlett-Packard model: 18E4 serial: <superuser required> UEFI: Hewlett-Packard
+    v: L01 v02.33 date: 07/15/2014
+CPU:
+  Info: quad core model: Intel Core i7-4790 bits: 64 type: MT MCP smt: enabled arch: Haswell
+    rev: 3 cache: L1: 256 KiB L2: 1024 KiB L3: 8 MiB
+  Speed (MHz): avg: 3890 high: 3984 min/max: 800/4000 cores: 1: 3919 2: 3795 3: 3984 4: 3832
+    5: 3888 6: 3932 7: 3960 8: 3812 bogomips: 57467
+  Flags: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+Graphics:
+  Device-1: Intel Xeon E3-1200 v3/4th Gen Core Processor Integrated Graphics
+    vendor: Hewlett-Packard driver: i915 v: kernel ports: active: DP-1,VGA-1
+    empty: DP-2,HDMI-A-1,HDMI-A-2 bus-ID: 00:02.0 chip-ID: 8086:0412 class-ID: 0300
+  Display: x11 server: X.Org v: 1.21.1.4 driver: X: loaded: modesetting unloaded: fbdev,vesa
+    gpu: i915 display-ID: :0 screens: 1
+  Screen-1: 0 s-res: 3600x1080 s-dpi: 96 s-size: 952x285mm (37.5x11.2") s-diag: 994mm (39.1")
+  Monitor-1: DP-1 pos: right model: Dell P2311H serial: <filter> res: 1920x1080 hz: 60 dpi: 96
+    size: 509x286mm (20.0x11.3") diag: 584mm (23") modes: max: 1920x1080 min: 720x400
+  Monitor-2: VGA-1 pos: primary,left model: Dell P2210 serial: <filter> res: 1680x1050 hz: 60
+    dpi: 90 size: 474x296mm (18.7x11.7") diag: 559mm (22") modes: max: 1680x1050 min: 720x400
+  OpenGL: renderer: Mesa Intel HD Graphics 4600 (HSW GT2) v: 4.6 Mesa 23.2.1-1ubuntu3.1~22.04.2
+    direct render: Yes
+Audio:
+  Device-1: Intel Xeon E3-1200 v3/4th Gen Core Processor HD Audio vendor: Hewlett-Packard
+    driver: snd_hda_intel v: kernel bus-ID: 00:03.0 chip-ID: 8086:0c0c class-ID: 0403
+  Device-2: Intel 8 Series/C220 Series High Definition Audio vendor: Hewlett-Packard
+    driver: snd_hda_intel v: kernel bus-ID: 00:1b.0 chip-ID: 8086:8c20 class-ID: 0403
+  Sound Server-1: ALSA v: k5.15.0-97-generic running: yes
+  Sound Server-2: PulseAudio v: 15.99.1 running: yes
+  Sound Server-3: PipeWire v: 0.3.48 running: yes
+Network:
+  Device-1: Intel Ethernet I217-LM vendor: Hewlett-Packard driver: e1000e v: kernel port: f080
+    bus-ID: 00:19.0 chip-ID: 8086:153a class-ID: 0200
+  IF: eno1 state: up speed: 1000 Mbps duplex: full mac: <filter>
+Drives:
+  Local Storage: total: 931.51 GiB used: 91.88 GiB (9.9%)
+  ID-1: /dev/sda vendor: Samsung model: SSD 870 QVO 1TB size: 931.51 GiB speed: 6.0 Gb/s
+    type: SSD serial: <filter> rev: 2B6Q scheme: GPT
+Partition:
+  ID-1: / size: 915.32 GiB used: 91.88 GiB (10.0%) fs: ext4 dev: /dev/sda2
+  ID-2: /boot/efi size: 511 MiB used: 6.1 MiB (1.2%) fs: vfat dev: /dev/sda1
+Swap:
+  ID-1: swap-1 type: file size: 2 GiB used: 0 KiB (0.0%) priority: -2 file: /swapfile
+USB:
+  Hub-1: 1-0:1 info: Full speed or root hub ports: 3 rev: 2.0 speed: 480 Mb/s chip-ID: 1d6b:0002
+    class-ID: 0900
+  Hub-2: 1-1:2 info: Intel Integrated Rate Matching Hub ports: 6 rev: 2.0 speed: 480 Mb/s
+    chip-ID: 8087:8008 class-ID: 0900
+  Hub-3: 2-0:1 info: Full speed or root hub ports: 3 rev: 2.0 speed: 480 Mb/s chip-ID: 1d6b:0002
+    class-ID: 0900
+  Hub-4: 2-1:2 info: Intel Integrated Rate Matching Hub ports: 8 rev: 2.0 speed: 480 Mb/s
+    chip-ID: 8087:8000 class-ID: 0900
+  Hub-5: 3-0:1 info: Hi-speed hub with single TT ports: 15 rev: 2.0 speed: 480 Mb/s
+    chip-ID: 1d6b:0002 class-ID: 0900
+  Device-1: 3-3:2 info: Logitech Optical Wheel Mouse type: Mouse driver: hid-generic,usbhid
+    interfaces: 1 rev: 2.0 speed: 1.5 Mb/s power: 100mA chip-ID: 046d:c018 class-ID: 0301
+  Device-2: 3-4:3 info: HP Slim Keyboard type: Keyboard,HID driver: hid-generic,usbhid
+    interfaces: 2 rev: 2.0 speed: 1.5 Mb/s power: 100mA chip-ID: 03f0:304a class-ID: 0300
+  Hub-6: 3-12:4 info: Microchip (formerly SMSC) USB 2.0 Hub ports: 4 rev: 2.0 speed: 480 Mb/s
+    power: 2mA chip-ID: 0424:2514 class-ID: 0900
+  Hub-7: 4-0:1 info: Super-speed hub ports: 6 rev: 3.0 speed: 5 Gb/s chip-ID: 1d6b:0003
+    class-ID: 0900
+Sensors:
+  System Temperatures: cpu: 29.8 C mobo: 27.8 C
+  Fan Speeds (RPM): N/A
+Repos:
+  Packages: apt: 2496
+  No active apt repos in: /etc/apt/sources.list
+  Active apt repos in: /etc/apt/sources.list.d/official-package-repositories.list
+    1: deb https: //mirrors.up.pt/linuxmint-packages virginia main upstream import backport
+    2: deb https: //labs.eif.urjc.es/mirror/ubuntu jammy main restricted universe multiverse
+    3: deb https: //labs.eif.urjc.es/mirror/ubuntu jammy-updates main restricted universe multiverse
+    4: deb https: //labs.eif.urjc.es/mirror/ubuntu jammy-backports main restricted universe multiverse
+    5: deb http: //security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+Info:
+  Processes: 242 Uptime: 36m wakeups: 0 Memory: 15.53 GiB used: 1.3 GiB (8.4%) Init: systemd
+  v: 249 runlevel: 5 Compilers: gcc: 11.4.0 alt: 11/12 Client: Unknown python3.10 client
+  inxi: 3.3.13
+[/code]

@@ -1,0 +1,13 @@
+LengthyGUICreationOperatorMutator;16
+NullIntentOperatorMutator;10
+InvalidKeyIntentOperatorMutator;13
+RandomActionIntentDefinitionOperatorMutator;32
+InvalidViewFocusOperatorMutator;75
+ViewComponentNotVisibleOperatorMutator;75
+FindViewByIdReturnsNullOperatorMutator;5
+InvalidIDFindViewOperatorMutator;5
+Arithmetic Operator;132
+BuggyGUIListenerOperatorMutator;14
+LengthyGUIListenerOperatorMutator;17
+NullValueIntentPutExtraOperatorMutator;6
+IntentPayloadReplacementOperatorMutator;6
