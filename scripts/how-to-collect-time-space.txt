@@ -1,0 +1,40 @@
+/usr/bin/time -o aegis-schemata.time --quiet -v -p java -jar ../../bin/kadabra.jar -c aeges-schemata.kadabra 
+/usr/bin/time -o aegis-traditional.time --quiet -v -p java -jar ../../bin/kadabra.jar -c aeges-traditional.kadabra 
+du ~/feup/tools/Projects/output-aeges-schemata > aegis-schemata.space
+du ~/feup/tools/Projects/output-aeges-traditional > aegis-traditional.space
+du /home/auri/feup/tools/Projects/android/Aegis/app/src/main/java > /home/auri/feup/tools/Projects/android/aegis-src.space
+
+
+/usr/bin/time -o amazefilemanager-schemata.time --quiet -v -p java -jar ../../bin/kadabra.jar -c amazefilemanager-schemata.kadabra 
+/usr/bin/time -o amazefilemanager-traditional.time --quiet -v -p java -jar ../../bin/kadabra.jar -c amazefilemanager-traditional.kadabra 
+du ~/feup/tools/Projects/output-amazefilemanager-schemata > amazefilemanager-schemata.space
+du ~/feup/tools/Projects/output-amazefilemanager-traditional > amazefilemanager-traditional.space
+du /home/auri/insync/Documentos/feup/tools/Projects/android/AmazeFileManager/app/src/main/java > /home/auri/feup/tools/Projects/android/amazefilemanager-src.space
+
+
+/usr/bin/time -o antennapod-schemata.time --quiet -v -p java -jar ../../bin/kadabra.jar -c antennapod-schemata.kadabra 
+/usr/bin/time -o antennapod-traditional.time --quiet -v -p java -jar ../../bin/kadabra.jar -c antennapod-traditional.kadabra 
+du ~/feup/tools/Projects/output-antennapod-schemata > antennapod-schemata.space
+du ~/feup/tools/Projects/output-antennapod-traditional > antennapod-traditional.space
+du /home/auri/insync/Documentos/feup/tools/Projects/android/AntennaPod/app/src/main/java > /home/auri/feup/tools/Projects/android/antennapod-src.space
+
+
+/usr/bin/time -o keepassdroid-schemata.time --quiet -v -p java -jar ../../bin/kadabra.jar -c keepassdroid-schemata.kadabra 
+/usr/bin/time -o keepassdroid-traditional.time --quiet -v -p java -jar ../../bin/kadabra.jar -c keepassdroid-traditional.kadabra 
+du ~/feup/tools/Projects/output-keepassdroid-schemata > keepassdroid-schemata.space
+du ~/feup/tools/Projects/output-keepassdroid-traditional > keepassdroid-traditional.space
+du /home/auri/feup/tools/Projects/android/keepassdroid/app/src/main/java > /home/auri/feup/tools/Projects/android/keepassdroid-src.space
+
+
+/usr/bin/time -o omni-notes-schemata.time --quiet -v -p java -jar ../../bin/kadabra.jar -c omni-notes-schemata.kadabra 
+/usr/bin/time -o omni-notes-traditional.time --quiet -v -p java -jar ../../bin/kadabra.jar -c omni-notes-traditional.kadabra 
+du ~/feup/tools/Projects/output-omni-notes-schemata > omni-notes-schemata.space
+du ~/feup/tools/Projects/output-omni-notes-traditional > omni-notes-traditional.space
+du /home/auri/feup/tools/Projects/android/Omni-Notes/omniNotes/src/main/java > /home/auri/feup/tools/Projects/android/omni-notes-src.space
+
+
+/usr/bin/time -o simplenote-schemata.time --quiet -v -p java -jar ../../bin/kadabra.jar -c simplenote-schemata.kadabra 
+/usr/bin/time -o simplenote-traditional.time --quiet -v -p java -jar ../../bin/kadabra.jar -c simplenote-traditional.kadabra 
+du ~/feup/tools/Projects/output-simplenote-schemata > simplenote-schemata.space
+du ~/feup/tools/Projects/output-simplenote-traditional > simplenote-traditional.space
+du /home/auri/feup/tools/Projects/android/simplenote-android/Simplenote/src/main/java > /home/auri/feup/tools/Projects/android/simplenote-src.space
