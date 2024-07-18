@@ -1,0 +1,393 @@
+> Task :omniNotes:clean
+> Task :omniNotes:preBuild UP-TO-DATE
+> Task :omniNotes:preAlphaDebugBuild UP-TO-DATE
+> Task :omniNotes:mergeAlphaDebugNativeDebugMetadata NO-SOURCE
+> Task :omniNotes:compileAlphaDebugAidl NO-SOURCE
+> Task :omniNotes:compileAlphaDebugRenderscript NO-SOURCE
+> Task :omniNotes:dataBindingMergeDependencyArtifactsAlphaDebug
+> Task :omniNotes:generateAlphaDebugResValues
+> Task :omniNotes:generateAlphaDebugResources
+> Task :omniNotes:generateAlphaDebugBuildConfig
+> Task :omniNotes:mapAlphaDebugSourceSetPaths
+> Task :omniNotes:createAlphaDebugCompatibleScreenManifests
+> Task :omniNotes:extractDeepLinksAlphaDebug
+> Task :omniNotes:checkAlphaDebugAarMetadata
+
+> Task :omniNotes:processAlphaDebugMainManifest
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/AndroidManifest.xml:38:9-44:51 Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at AndroidManifest.xml:38 to replace other declarations but no other declaration present
+
+> Task :omniNotes:processAlphaDebugManifest
+> Task :omniNotes:javaPreCompileAlphaDebug
+> Task :omniNotes:mergeAlphaDebugShaders
+> Task :omniNotes:compileAlphaDebugShaders NO-SOURCE
+> Task :omniNotes:generateAlphaDebugAssets UP-TO-DATE
+> Task :omniNotes:mergeAlphaDebugAssets
+> Task :omniNotes:processAlphaDebugJavaRes NO-SOURCE
+> Task :omniNotes:generateAlphaDebugJacocoPropertiesFile
+> Task :omniNotes:compressAlphaDebugAssets
+> Task :omniNotes:desugarAlphaDebugFileDependencies
+> Task :omniNotes:processAlphaDebugManifestForPackage
+> Task :omniNotes:mergeAlphaDebugJniLibFolders
+> Task :omniNotes:checkAlphaDebugDuplicateClasses
+> Task :omniNotes:mergeAlphaDebugNativeLibs NO-SOURCE
+> Task :omniNotes:stripAlphaDebugDebugSymbols NO-SOURCE
+> Task :omniNotes:validateSigningAlphaDebug
+> Task :omniNotes:mergeLibDexAlphaDebug
+> Task :omniNotes:mergeAlphaDebugResources
+> Task :omniNotes:writeAlphaDebugAppMetadata
+> Task :omniNotes:dataBindingGenBaseClassesAlphaDebug
+> Task :omniNotes:writeAlphaDebugSigningConfigVersions
+> Task :omniNotes:preBetaDebugBuild UP-TO-DATE
+> Task :omniNotes:mergeBetaDebugNativeDebugMetadata NO-SOURCE
+> Task :omniNotes:compileBetaDebugAidl NO-SOURCE
+> Task :omniNotes:compileBetaDebugRenderscript NO-SOURCE
+> Task :omniNotes:dataBindingMergeDependencyArtifactsBetaDebug
+> Task :omniNotes:generateBetaDebugResValues
+> Task :omniNotes:generateBetaDebugResources
+> Task :omniNotes:processAlphaDebugResources
+> Task :omniNotes:generateBetaDebugBuildConfig
+> Task :omniNotes:checkBetaDebugAarMetadata
+> Task :omniNotes:mapBetaDebugSourceSetPaths
+> Task :omniNotes:createBetaDebugCompatibleScreenManifests
+> Task :omniNotes:extractDeepLinksBetaDebug
+
+> Task :omniNotes:processBetaDebugMainManifest
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/AndroidManifest.xml:38:9-44:51 Warning:
+	provider#org.acra.attachment.AcraContentProvider@android:authorities was tagged at AndroidManifest.xml:38 to replace other declarations but no other declaration present
+
+> Task :omniNotes:processBetaDebugManifest
+> Task :omniNotes:javaPreCompileBetaDebug
+> Task :omniNotes:mergeBetaDebugShaders
+> Task :omniNotes:compileBetaDebugShaders NO-SOURCE
+> Task :omniNotes:generateBetaDebugAssets UP-TO-DATE
+> Task :omniNotes:mergeBetaDebugAssets
+> Task :omniNotes:processBetaDebugJavaRes NO-SOURCE
+> Task :omniNotes:generateBetaDebugJacocoPropertiesFile
+> Task :omniNotes:desugarBetaDebugFileDependencies
+> Task :omniNotes:mergeBetaDebugResources
+> Task :omniNotes:mergeBetaDebugJniLibFolders
+> Task :omniNotes:checkBetaDebugDuplicateClasses
+> Task :omniNotes:compressBetaDebugAssets
+> Task :omniNotes:dataBindingGenBaseClassesBetaDebug
+> Task :omniNotes:mergeBetaDebugNativeLibs NO-SOURCE
+> Task :omniNotes:stripBetaDebugDebugSymbols NO-SOURCE
+> Task :omniNotes:validateSigningBetaDebug
+> Task :omniNotes:mergeLibDexBetaDebug
+> Task :omniNotes:writeBetaDebugAppMetadata
+> Task :omniNotes:writeBetaDebugSigningConfigVersions
+> Task :omniNotes:preFossDebugBuild UP-TO-DATE
+> Task :omniNotes:mergeFossDebugNativeDebugMetadata NO-SOURCE
+> Task :omniNotes:compileFossDebugAidl NO-SOURCE
+> Task :omniNotes:compileFossDebugRenderscript NO-SOURCE
+> Task :omniNotes:dataBindingMergeDependencyArtifactsFossDebug
+> Task :omniNotes:generateFossDebugResValues
+> Task :omniNotes:generateFossDebugResources
+
+> Task :omniNotes:compileAlphaDebugKotlin
+w: file:///home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/exceptions/checked/ContentSecurityException.kt:20:32 Parameter 'message' is never used
+w: file:///home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/utils/MiscUtils.kt:35:40 'getPackageInfo(String, Int): PackageInfo!' is deprecated. Deprecated in Java
+
+> Task :omniNotes:mergeFossDebugResources
+> Task :omniNotes:mergeExtDexAlphaDebug
+
+> Task :omniNotes:compileAlphaDebugJavaWithJavac
+The following annotation processors are not incremental: compiler-4.8.0.jar (com.github.bumptech.glide:compiler:4.8.0).
+Make sure all annotation processors are incremental to improve your build speed.
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+
+> Task :omniNotes:mergeExtDexBetaDebug
+
+> Task :omniNotes:compileAlphaDebugJavaWithJavac FAILED
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+warning: unknown enum constant Scope.LIBRARY_GROUP_PREFIX
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/upgrade/UpgradeProcessor.java:74: error: cannot infer type for local variable methodsToLaunch
+            var methodsToLaunch;
+                ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/upgrade/UpgradeProcessor.java:211: error: cannot infer type for local variable attachmentsDir
+var attachmentsDir;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/upgrade/UpgradeProcessor.java:213: error: cannot infer type for local variable dbHelper
+var dbHelper;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/upgrade/UpgradeProcessor.java:216: error: cannot infer type for local variable fileName
+    var fileName;
+        ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/upgrade/UpgradeProcessor.java:228: error: cannot infer type for local variable file
+var file;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/DataBackupIntentService.java:107: error: cannot infer type for local variable backupDir
+        var backupDir;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/DataBackupIntentService.java:111: error: cannot infer type for local variable readableBackupFolder
+        var readableBackupFolder;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/async/DataBackupIntentService.java:119: error: cannot infer type for local variable backupDir
+        var backupDir;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/notifications/NotificationsHelper.java:269: error: cannot infer type for local variable mNotification
+var mNotification;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/notifications/NotificationsHelper.java:272: error: cannot infer type for local variable emptyExplicitIntent
+var emptyExplicitIntent;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/notifications/NotificationsHelper.java:294: error: cannot infer type for local variable pendingIntent
+var pendingIntent;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/db/DbHelper.java:336: error: cannot infer type for local variable noteId
+    var noteId;
+        ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/db/DbHelper.java:346: error: cannot infer type for local variable valuesAttachments
+    var valuesAttachments;
+        ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/db/DbHelper.java:801: error: cannot infer type for local variable attachment
+                var attachment;
+                    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/listeners/RecyclerViewItemClickSupport.java:48: error: cannot infer type for local variable holder
+                        var holder;
+                            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/listeners/RecyclerViewItemClickSupport.java:57: error: cannot infer type for local variable holder
+                    var holder;
+                        ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/listeners/RecyclerViewItemClickSupport.java:72: error: cannot infer type for local variable holder
+            var holder;
+                ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/listeners/RecyclerViewItemClickSupport.java:109: error: cannot infer type for local variable item
+    var item;
+        ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java:88: error: cannot infer type for local variable category
+        var category;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java:181: error: cannot infer type for local variable img
+var img;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java:183: error: cannot infer type for local variable cf
+var cf;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java:202: error: cannot infer type for local variable navigationListCodes
+var navigationListCodes;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java:205: error: cannot infer type for local variable navigationTmpLocal
+var navigationTmpLocal;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryBaseAdapter.java:208: error: cannot infer type for local variable navigation
+var navigation;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java:81: error: cannot infer type for local variable category
+        var category;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java:93: error: cannot infer type for local variable img
+            var img;
+                ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java:95: error: cannot infer type for local variable cf
+            var cf;
+                ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java:121: error: cannot infer type for local variable navigationListCodes
+        var navigationListCodes;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java:124: error: cannot infer type for local variable navigationTmpLocal
+        var navigationTmpLocal;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/models/adapters/CategoryRecyclerViewAdapter.java:127: error: cannot infer type for local variable navigation
+        var navigation;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/utils/ShortcutHelper.java:295: error: cannot find symbol
+addIntent.putExtra(android.content.Intent.EXTRA_SHORTCUT_ICON_RESOURCE, (ShortcutIconResource) null);
+                                                                         ^
+  symbol:   class ShortcutIconResource
+  location: class ShortcutHelper
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/utils/FileProviderHelper.java:50: error: cannot infer type for local variable uri
+        var uri;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:83: error: cannot infer type for local variable noteFile
+        var noteFile;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:152: error: cannot infer type for local variable destinationAttachment
+            var destinationAttachment;
+                ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:210: error: cannot infer type for local variable backupAttachmentsDir
+        var backupAttachmentsDir;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:219: error: cannot infer type for local variable BackupedAttachments
+        var BackupedAttachments;
+            ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:241: error: cannot infer type for local variable backupedAttachment
+            var backupedAttachment;
+                ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:361: error: cannot infer type for local variable context
+var context;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:366: error: cannot infer type for local variable currentlySelected
+var currentlySelected;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:373: error: cannot infer type for local variable childFolder
+var childFolder;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:413: error: cannot infer type for local variable backupFolder
+var backupFolder;
+    ^
+  (cannot use 'var' on variable without initializer)
+/home/auri/insync/Documentos/feup/tools/Projects/android/Omni-Notes-schemata/omniNotes/src/main/java/it/feio/android/omninotes/helpers/BackupHelper.java:415: error: cannot infer type for local variable paths
+var paths;
+    ^
+  (cannot use 'var' on variable without initializer)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+42 errors
+100 warnings
+
+> Task :omniNotes:processBetaDebugManifestForPackage
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':omniNotes:compileAlphaDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 9s
+57 actionable tasks: 57 executed
