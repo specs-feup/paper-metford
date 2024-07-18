@@ -1,0 +1,16 @@
+AboutActivity_10_ViewComponentNotVisibleOperatorMutator
+        > Task :app:compileDebugJavaWithJavac FAILED
+        /home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-traditional/app/src/main/java/com/beemdevelopment/aegis/ui/AboutActivity.java:71: error: ';' expected
+                btnThirdPartyLicenses.setVisibility(android.view.View.INVISIBLE)
+
+AboutActivity_14_InvalidViewFocusOperatorMutator
+
+        > Task :app:compileDebugJavaWithJavac FAILED
+        /home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-traditional/app/src/main/java/com/beemdevelopment/aegis/ui/AboutActivity.java:78: error: ';' expected
+                appVersion.requestFocus()
+
+AboutActivity_59_RandomActionIntentDefinitionOperatorMutator
+
+        > Task :app:compileDebugJavaWithJavac FAILED
+        /home/auri/insync/Documentos/feup/tools/Projects/android/Aegis-traditional/app/src/main/java/com/beemdevelopment/aegis/ui/AboutActivity.java:166: error: ';' expected
+                new android.content.Intent(android.content.Intent.ACTION_SEND)
